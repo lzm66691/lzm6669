@@ -1,0 +1,28 @@
+﻿obra/superpowers	288584	2026-09-19	MIT	False	5134KB	main	An agentic skills framework & software development methodology that works.
+jnMetaCode/superpowers-zh	8150	2026-09-17	MIT	False	4150KB	main	🦸 AI 编程超能力 · 中文增强版 — superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI / Qoder 等 26 款 AI 编程工具真正会干活
+anthropics/skills	177060	2026-09-10	none	False	4697KB	main	Public repository for Agent Skills
+anthropics/claude-cookbooks	52812	2026-09-18	MIT	False	216617KB	main	A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
+anthropics/claude-plugins-official	36482	2026-09-18	Apache-2.0	False	11784KB	main	Official, Anthropic-managed directory of high quality Claude Code Plugins.
+anthropics/claude-agent-sdk-python	8129	2026-09-19	MIT	False	1933KB	main	
+wshobson/agents	39789	2026-09-19	MIT	False	6530KB	main	Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi
+VoltAgent/awesome-agent-skills	34581	2026-09-15	MIT	False	791KB	main	A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
+VoltAgent/awesome-claude-code-subagents	25190	2026-09-14	MIT	False	870KB	main	A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases
+addyosmani/agent-skills	96496	2026-09-18	MIT	False	1126KB	main	Production-grade engineering skills for AI coding agents.
+travisvn/awesome-claude-skills	15111	2026-04-28	none	False	41KB	main	A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code
+ComposioHQ/awesome-claude-skills	75302	2026-09-18	none	False	3663KB	master	A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+hesreallyhim/awesome-claude-code	54287	2026-09-19	NOASSERTION	False	35633KB	main	A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins
+github/awesome-copilot	39151	2026-09-18	MIT	False	112902KB	main	Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.
+mattpocock/skills	265356	2026-09-18	MIT	False	1785KB	main	Skills for Real Engineers. Straight from my .agents directory.
+Fission-AI/OpenSpec	69427	2026-09-18	MIT	False	9549KB	main	Spec-driven development (SDD) for AI coding assistants.
+bmad-code-org/BMAD-METHOD	53198	2026-09-18	NOASSERTION	False	52606KB	main	Breakthrough Method for Agile Ai Driven Development
+The-Pocket/PocketFlow	11179	2026-07-26	MIT	False	51822KB	main	Pocket Flow: 100-line LLM framework. Let Agents build Agents!
+bytedance/deer-flow	82666	2026-09-19	MIT	False	67187KB	main	An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
+Untrivial-ai/agent-orchestrator	12176	2026-09-18	Apache-2.0	False	287854KB	main	Run and supervise teams of coding agents from planning to merge. Any harness (Claude code, codex, +25 more). Desktop, web, mobile, and cloud agents.
+cobusgreyling/loop-engineering	11253	2026-09-19	MIT	False	5308KB	main	Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.
+OthmanAdi/planning-with-files	26985	2026-09-18	MIT	False	14513KB	master	Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.
+Q00/ouroboros	6033	2026-09-15	MIT	False	53629KB	main	Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budgeted evolution loop. MCP server, 14 runtimes: Claude Code, Codex CLI, Gemini CLI, OpenCode, Copilot, Kiro and more.
+huangruiteng/loopx	5894	2026-09-19	Apache-2.0	False	86124KB	main	Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses.
+open-gsd/gsd-core	9603	2026-09-19	MIT	False	69984KB	next	Git. Ship. Done - Core
+openai/openai-agents-python	29554	2026-09-18	MIT	False	58388KB	main	A lightweight, powerful framework for multi-agent workflows
+vercel/ai	26834	2026-09-19	NOASSERTION	False	392894KB	main	The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents 
+openai/openai-cookbook	76064	2026-09-18	MIT	False	971710KB	main	Examples and guides for using the OpenAI API

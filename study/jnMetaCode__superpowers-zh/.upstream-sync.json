@@ -1,0 +1,15 @@
+{
+  "$comment": [
+    "记录本 fork 上一次完成上游同步时对齐到的 upstream commit。",
+    "为什么需要它：audit 对已翻译文件只比「标题数」，正文改多少行都看不见 ——",
+    "上游 v6.3.0 给 subagent-driven-development 加了 113 行，我们这边一声不吭。",
+    "有了基线，audit 才能算出「自上次同步以来上游改了哪些文件、各多少行」。",
+    "同步完成后更新 commit / version / date 三个字段。"
+  ],
+  "upstream": "https://github.com/obra/superpowers",
+  "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+  "version": "v6.3.0",
+  "date": "2026-09-08",
+  "evidence": "上游 v6.3.0 对齐完成：brainstorming（Three Paths）、codex/hermes tools 参考、finishing-a-development-branch 拒绝删除分支、writing-plans Spec 字段、3 份子智能体提示词的「你不派发子智能体」契约、subagent-driven-development 的「做裁决，不要停摆」（控制者自行裁决 + 账本记录，只留 4 类硬停止）。唯一有意保留的分歧是 skills/writing-skills/render-graphs.js —— 上游把它从 CJS 改成 ESM，我们的 hook 链按 CJS 加载，跟着改会直接断，故不同步。",
+  "trackedPaths": ["skills", "hooks"]
+}

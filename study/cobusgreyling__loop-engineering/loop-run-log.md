@@ -1,0 +1,46 @@
+# Loop Run Log — loop-engineering
+
+Append one entry per run. Prune entries older than 30 days.
+
+## Format
+
+```json
+{
+  "run_id": "2026-06-09T08:15:00Z",
+  "pattern": "daily-triage",
+  "duration_s": 45,
+  "items_found": 4,
+  "actions_taken": 1,
+  "escalations": 0,
+  "tokens_estimate": 52000,
+  "outcome": "report-only | fix-proposed | escalated | no-op"
+}
+```
+
+## Recent Runs
+
+<!-- Loop appends below this line -->
+
+{"run_id":"2026-08-19T08:19:20Z","pattern":"daily-triage","duration_s":7,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"32232016707"}
+{"run_id":"2026-08-20T08:20:17Z","pattern":"daily-triage","duration_s":8,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"32348286854"}
+{"run_id":"2026-08-21T08:22:14Z","pattern":"daily-triage","duration_s":13,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"32462842883"}
+{"run_id":"2026-08-24T08:12:09Z","pattern":"daily-triage","duration_s":9,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"32705076526"}
+{"run_id":"2026-08-25T08:11:16Z","pattern":"daily-triage","duration_s":16,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"32825297283"}
+{"run_id":"2026-08-26T08:11:11Z","pattern":"daily-triage","duration_s":9,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"32946442597"}
+{"run_id":"2026-08-27T11:15:21Z","pattern":"daily-triage","duration_s":13,"items_found":7,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"33066540729"}
+{"run_id":"2026-08-28T11:41:47Z","pattern":"daily-triage","duration_s":10,"items_found":4,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"33168109381"}
+{"run_id":"2026-08-31T08:00:56Z","pattern":"daily-triage","duration_s":11,"items_found":8,"actions_taken":1,"escalations":3,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"33370889725"}
+{"run_id":"2026-09-01T08:00:40Z","pattern":"daily-triage","duration_s":8,"items_found":6,"actions_taken":1,"escalations":2,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"33484857980"}
+{"run_id":"2026-09-02T08:00:41Z","pattern":"daily-triage","duration_s":8,"items_found":9,"actions_taken":1,"escalations":2,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"33606428461"}
+{"run_id":"2026-09-03T08:00:46Z","pattern":"daily-triage","duration_s":11,"items_found":9,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"33731028165"}
+{"run_id":"2026-09-04T08:03:05Z","pattern":"daily-triage","duration_s":158,"items_found":8,"actions_taken":1,"escalations":1,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"33851327595"}
+{"run_id":"2026-09-07T08:00:46Z","pattern":"daily-triage","duration_s":11,"items_found":9,"actions_taken":1,"escalations":4,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"34098301292"}
+{"run_id":"2026-09-08T08:00:35Z","pattern":"daily-triage","duration_s":8,"items_found":9,"actions_taken":1,"escalations":4,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"34202173754"}
+{"run_id":"2026-09-09T08:00:50Z","pattern":"daily-triage","duration_s":13,"items_found":10,"actions_taken":1,"escalations":4,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"34326780740"}
+{"run_id":"2026-09-10T08:00:47Z","pattern":"daily-triage","duration_s":11,"items_found":13,"actions_taken":1,"escalations":4,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"34452848468"}
+{"run_id":"2026-09-11T08:00:52Z","pattern":"daily-triage","duration_s":14,"items_found":10,"actions_taken":1,"escalations":5,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"34577051146"}
+{"run_id":"2026-09-14T08:00:35Z","pattern":"daily-triage","duration_s":8,"items_found":10,"actions_taken":1,"escalations":4,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"34820507070"}
+{"run_id":"2026-09-15T08:00:39Z","pattern":"daily-triage","duration_s":10,"items_found":9,"actions_taken":1,"escalations":2,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"34944606213"}
+{"run_id":"2026-09-16T08:00:48Z","pattern":"daily-triage","duration_s":16,"items_found":13,"actions_taken":1,"escalations":4,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"35071437397"}
+{"run_id":"2026-09-17T08:00:46Z","pattern":"daily-triage","duration_s":9,"items_found":10,"actions_taken":1,"escalations":4,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"35197386151"}
+{"run_id":"2026-09-18T08:00:54Z","pattern":"daily-triage","duration_s":14,"items_found":10,"actions_taken":1,"escalations":4,"tokens_estimate":52000,"readiness_score":100,"outcome":"escalated","workflow_run":"35322186125"}
