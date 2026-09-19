@@ -4,7 +4,7 @@
 
 ### Issue tracker
 
-本地 Markdown 后端，票据落在 `.scratch/<feature>/issues/`。见 `docs/agents/issue-tracker.md`。
+本地 Markdown 后端，票据落在 `.scratch/<feature-slug>/issues/`。见 `docs/agents/issue-tracker.md`。
 
 ### Triage labels
 
