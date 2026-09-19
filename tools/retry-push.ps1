@@ -1,12 +1,16 @@
-# 定期试推：本地领先远端时尝试 git push，成功即止。
+﻿# 定期试推：本地领先远端时尝试 git push，成功即止。
 # 由计划任务 DSH-GitHub-RetryPush 每 15 分钟调用一次。
-# 只推送【已有提交】—— 绝不自动 commit，避免把半成品提交上去。
+# 只推送【已有提交】——绝不自动 commit，避免把半成品提交上去。
+#
+# !! 本文件必须保存为 UTF-8 with BOM !!
+#    PowerShell 5.1 读【无 BOM】的 UTF-8 脚本时按 ANSI 解码，中文会变乱码，
+#    导致路径字面量失效、脚本静默提前退出。已在此踩过坑。
 
-$repo   = 'D:\桌面\deepseek'
+# 从脚本自身位置推导仓库根目录，避免硬编码中文路径
+$repo   = Split-Path -Parent $PSScriptRoot
 $logDir = Join-Path $env:APPDATA 'dsh-desktop\harness\logs'
 $log    = Join-Path $logDir 'push-retry.log'
 
-if (-not (Test-Path $repo)) { exit 0 }
 New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 
 $utf8 = New-Object System.Text.UTF8Encoding($false)
@@ -14,6 +18,8 @@ function Write-Log([string]$msg) {
   $line = "[{0}] {1}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $msg
   [System.IO.File]::AppendAllText($log, $line + "`r`n", $utf8)
 }
+
+if (-not (Test-Path $repo)) { Write-Log ("ERROR repo not found: " + $repo); exit 0 }
 
 Set-Location $repo
 $env:GIT_TERMINAL_PROMPT = '0'
@@ -24,7 +30,7 @@ try {
   if ($raw) { $ahead = [int]$raw }
 } catch { $ahead = 0 }
 
-# 没有待推送的提交 -> 静默退出，不写日志（保持日志干净）
+# 无待推送提交 -> 静默退出（保持日志干净）
 if ($ahead -le 0) { exit 0 }
 
 $out = & git push 2>&1
