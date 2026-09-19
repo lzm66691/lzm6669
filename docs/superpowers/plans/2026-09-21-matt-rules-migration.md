@@ -4,9 +4,13 @@
 
 > **执行状态说明（2026-09-21）：** 本文件既是实施计划、也是本次的执行记录。所有步骤已执行完毕，复选框已勾选。步骤正文里嵌入的**模板示例**（例如任务 1 早期的「追加附录」写法）保留原样不勾选，属历史记录，不代表待办。
 
+> **日期勘误（N-6）：** 文件名与注记里的 `2026-09-21` 是**错值**。实际执行与本轮两次提交（`2b16fb1`、`acee025`）均发生在 **2026-09-19**。文件名保留不改（已入 git，改名会多一次提交与两个历史名字）；以此行勘误为准。
+
 **目标：** 把 `$DSH_HOME` 的全局守则从「五阶段 + 三部门」体系迁移为 Matt Pocock engineering skills 体系，并在 `D:\桌面\deepseek` 仓内补齐该体系所依赖的 repo 级配置。
 
-**架构：** 双落点。全局层（`$DSH_HOME\AGENTS.md`）瘦身为四条红线，只保留跨工作区恒定不变的内容；仓层（`D:\桌面\deepseek\AGENTS.md` + `docs/agents/*.md`）承载 Matt 的 `## Agent skills` 配置块，供 `to-tickets` / `triage` / `to-spec` / `domain-modeling` 等技能读取。删除三部门与五阶段细则，保留成本台账。
+> **第二轮修复记录（N-2，2026-09-19）：** 第一轮只读评审给出 11 条发现，用户批准全部修复，commit `acee025`。其中影响本计划文本的三条：全局守则由 **4 条红线变为 5 条**（F-2 加回权限闸门「改范围 / 超预算 / 对外交付先问用户」）；同批加回 F-3「应用任何技能时提一嘴」；F-11 的兜底句因对非仓工作区无适用分支，在第三轮改为区分「目标是仓 / 目标不是仓」两分支。本文件正文已按此同步。
+
+**架构：** 双落点。全局层（`$DSH_HOME\AGENTS.md`）瘦身为**五条红线**（原计划写四条；第二轮按评审 F-2 加回权限闸门，故为五条），只保留跨工作区恒定不变的内容；仓层（`D:\桌面\deepseek\AGENTS.md` + `docs/agents/*.md`）承载 Matt 的 `## Agent skills` 配置块，供 `to-tickets` / `triage` / `to-spec` / `domain-modeling` 等技能读取。删除三部门与五阶段细则，保留成本台账。
 
 **技术栈：** Markdown only。无代码、无测试框架。唯一工具是 ripgrep / `Test-Path` 只读校验。
 
@@ -67,10 +71,11 @@ $p='D:\桌面\deepseek\docs\superpowers\plans\2026-09-21-matt-rules-migration.md
 $raw=[System.IO.File]::ReadAllText($p,[System.Text.Encoding]::UTF8)
 Write-Output "A锚点: $($raw -match '分阶段工作流 · 详细规程')"
 Write-Output "B锚点: $($raw -match '部门编制表')"
-Write-Output "A哈希: $($raw -match '5A6B')"
+Write-Output "A哈希: $($raw -match '09C9CC63D562B2058E1E682B3A461039B218295D53CB5F8CE3DA058FA335ACB0')"
+Write-Output "B哈希: $($raw -match '007CB8B3CB16702A2369105E65BF4EDE045D135605BC3EB37D831BCA992E9A2A')"
 ```
 
-预期：两个锚点均为 `True`。
+预期：两个锚点为 `True`；两个 SHA256 均能在附录中找到。（**N-3 修正**：原断言写的是 `$raw -match '5A6B'`，那是恒真式 —— 命中的是这条校验命令自身的字面量，等于没校验。现改为比对两个真实哈希。）
 
 ---
 
@@ -81,7 +86,7 @@ Write-Output "A哈希: $($raw -match '5A6B')"
 
 **接口：**
 - 依赖输入：无
-- 对外产出：四条红线文本；`## 任务后端` 指针改为指向仓层 `docs/agents/issue-tracker.md`
+- 对外产出：五条红线文本；`## 任务后端` 指针改为指向仓层 `docs/agents/issue-tracker.md`
 
 - [x] **步骤 1：确认前置状态**
 
@@ -185,7 +190,7 @@ Test-Path 'D:\桌面\deepseek\AGENTS.md'
 
 ### Issue tracker
 
-本地 Markdown 后端，票据落在 `.scratch/<feature>/issues/`。见 `docs/agents/issue-tracker.md`。
+本地 Markdown 后端，票据落在 `.scratch/<feature-slug>/issues/`。见 `docs/agents/issue-tracker.md`。
 
 ### Triage labels
 
@@ -217,11 +222,11 @@ Write-Output "CLAUDE.md 未被创建: $(-not (Test-Path 'D:\桌面\deepseek\CLAU
 ### 任务 4：补全 `docs/agents/issue-tracker.md`
 
 **文件：**
-- 修改：`D:\桌面\deepseek\docs\agents\issue-tracker.md`（15 行 → 约 30 行）
+- 修改：`D:\桌面\deepseek\docs\agents\issue-tracker.md`（15 行 → 按种子模板重写；N-1 修正后与交付物一致）
 
 **接口：**
-- 依赖输入：无
-- 对外产出：票据路径约定 `.scratch/<feature>/issues/<序号>-<slug>.md`；供 `to-tickets` 与 `implement` 读写
+- 依赖输入：种子模板 `C:\Users\鸣\.agents\skills\setup-matt-pocock-skills\issue-tracker-local.md`
+- 对外产出：票据路径约定 `.scratch/<feature-slug>/issues/<NN>-<slug>.md`；Wayfinding 协议（供 `wayfinder` 读取）；`Status:` / `Type:` / `## Comments` 约定
 
 - [x] **步骤 1：确认前置状态**
 
@@ -232,35 +237,39 @@ Write-Output "CLAUDE.md 未被创建: $(-not (Test-Path 'D:\桌面\deepseek\CLAU
 - [x] **步骤 2：替换为以下内容**
 
 ```markdown
-# Issue tracker: markdown
+# Issue tracker: Local Markdown
 
-本仓库的任务后端是**本地 Markdown**（不使用 GitHub/GitLab）。
+本仓库的 issue 与规格以 markdown 文件形式存放在 `.scratch/`。
 
-## 票据位置
+## 约定
 
-| 内容 | 路径 |
-| --- | --- |
-| 规格 | `.scratch/spec.md` |
-| 地图 | `.scratch/map.md` |
-| 票据 | `.scratch/<feature>/issues/<序号>-<slug>.md` |
+- 一个 feature 一个目录：`.scratch/<feature-slug>/`
+- 规格是 `.scratch/<feature-slug>/spec.md`
+- 实现票据一票一文件：`.scratch/<feature-slug>/issues/<NN>-<slug>.md`，从 `01` 编号，**绝不**合并成单个票据文件
+- triage 状态记在票据文件靠顶部的 `Status:` 行（角色串见 `triage-labels.md`）
+- 评论与对话历史追加到文件底部的 `## Comments` 标题下
 
-一张票据一个文件。票据之间用**文字声明阻塞边**（blocking edges）——在票据顶部写
-`Blocked by: <序号>`，没有阻塞边就写 `Blocked by: none`。
+## 当技能说「发布到 issue tracker」
 
-## 工作顺序
+在 `.scratch/<feature-slug>/` 下新建文件（必要时创建目录）。
 
-先做没有被阻塞的票据。票据被 `to-tickets` 产出时就已经是 agent-ready，**不要再送去 `triage`**。
+## 当技能说「取出相关票据」
 
-## 标签词表
+读取指定路径的文件。用户通常会直接给出路径或票据编号。
 
-`bug` · `needs-triage` · `needs-info` · `ready-for-agent` · `ready-for-human` · `wontfix`
+## Wayfinding operations
 
-角色与标签串的对应关系见 `triage-labels.md`。
+供 `/wayfinder` 使用。**地图**是一个文件，每张票据一个**子**文件。
 
-## PR 作为请求入口
-
-关闭（off）。外部 PR 不进 triage 队列；需要时改这一行为 `on` 并说明流程。
+- **地图**：`.scratch/<effort>/map.md`（承载 Notes / Decisions-so-far / Fog 正文）。
+- **子票据**：`.scratch/<effort>/issues/NN-<slug>.md`，从 `01` 编号，正文写问题。`Type:` 行记录票据类型（`research`/`prototype`/`grilling`/`task`）；`Status:` 行记录 `claimed`/`resolved`。
+- **阻塞**：靠顶部的 `Blocked by: NN, NN` 行。当它列出的每个文件都是 `resolved` 时，该票解除阻塞。
+- **前沿（frontier）**：扫描 `.scratch/<effort>/issues/`，找未关闭、未阻塞、未被认领的文件；编号最小者优先。
+- **认领**：动工前先设 `Status: claimed` 并保存。
+- **解决**：在 `## Answer` 标题下追加答案，设 `Status: resolved`，然后把一条上下文指针（要点 + 链接）追加到 `map.md` 的 Decisions-so-far。
 ```
+
+> **执行偏差记录（N-1）：** 本步骤原先写的是「补全 `票据位置` + 阻塞边 + `PR 作为请求入口`」的旧稿，交付物**不是**那个。第二轮评审指出任务 4 的步骤 2 内容与步骤 3 断言仍是旧版（重跑会得到 4+5 条 False）。现已同步为上面的完整交付文本，并把步骤 3 的断言换成交付物的真实字段。源文件标题也由 `# Issue tracker: markdown` 改为种子模板的 `# Issue tracker: Local Markdown`。
 
 - [x] **步骤 3：校验**
 
@@ -269,13 +278,13 @@ Write-Output "CLAUDE.md 未被创建: $(-not (Test-Path 'D:\桌面\deepseek\CLAU
 ```powershell
 $p='D:\桌面\deepseek\docs\agents\issue-tracker.md'
 $raw=[System.IO.File]::ReadAllText($p,[System.Text.Encoding]::UTF8)
-foreach ($s in @('Blocked by','needs-triage','ready-for-agent','<feature>/issues','PR 作为请求入口')) {
+foreach ($s in @('## Wayfinding operations','<feature-slug>','Status:','Type:','## Comments','Blocked by: NN, NN','<effort>')) {
   Write-Output "$s : $($raw -match [regex]::Escape($s))"
 }
-Write-Output "旧路径已更新: $(-not ($raw -match '\.scratch/issues/<序号>'))"
+Write-Output "旧拍平路径已清除: $(-not ($raw -match '\.scratch/spec\.md'))"
 ```
 
-预期：全部为 `True`。
+预期：全部为 `True`。（**N-1 修正**：原断言查的是 `PR 作为请求入口` 与 `<feature>/issues`，那是旧稿的字段；F-4 重写后这些字段已不存在，重跑会得到 False。现改为断言交付物的真实字段。）
 
 ---
 
@@ -328,9 +337,10 @@ $i=[System.IO.File]::ReadAllText('D:\桌面\deepseek\docs\agents\issue-tracker.m
 foreach ($s in @('needs-triage','needs-info','ready-for-agent','ready-for-human','wontfix')) {
   Write-Output "$s -> labels:$($t -match [regex]::Escape($s)) tracker:$($i -match [regex]::Escape($s))"
 }
+Write-Output "tracker 指向 labels 文件: $($i -match 'triage-labels\.md')"
 ```
 
-预期：5 行全部为 `labels:True tracker:True`。
+预期：5 行全部 `labels:True`；`tracker` 一列为 `False`（**N-1b 修正**：交付的 `issue-tracker.md` 按种子模板**不再枚举五个标签串**，只指向 `triage-labels.md`；原断言要求 `tracker:True` 是旧设计，重跑必然 False）；最后一行 `True`。
 
 ---
 
@@ -413,8 +423,7 @@ foreach ($s in @('动手前先读','静默跳过','用词表里的词','标出 A
 **文件：**
 - 删除：`C:\Users\鸣\AppData\Roaming\dsh-desktop\harness\docs\staged-workflow.md`
 - 删除：`C:\Users\鸣\AppData\Roaming\dsh-desktop\harness\docs\departments.md`
-- 修改：`C:\Users\鸣\AppData\Roaming\dsh-desktop\harness\docs\project-ledger.md`（清死引用）
-- 保留：`C:\Users\鸣\AppData\Roaming\dsh-desktop\harness\docs\project-ledger.md`
+- 保留（内容经重写）：`C:\Users\鸣\AppData\Roaming\dsh-desktop\harness\docs\project-ledger.md` —— 实际被整文件重写，不再单列「修改」行，避免同一文件既「修改」又「保留」的重复（N-8）
 
 **接口：**
 - 依赖输入：任务 1 的附录留档、任务 2 的新守则（须已无旧指针）
@@ -442,19 +451,7 @@ Get-ChildItem 'C:\Users\鸣\AppData\Roaming\dsh-desktop\harness\docs' -File | Se
 
 > **执行偏差记录（F-7）：** 原计划只列了两行死引用（第 6 行、第 39 行）。实际执行时发现残留范围更大：第 25 行「看出哪个部门太贵」与整个第三节「部门返工率」表同样依赖已删的部门概念。按已批准的决策 D-5（删部门、留台账），实际做法是**重写整个 `project-ledger.md`**：改「更新时机」、把「当前阶段」列改为「状态」、删除第三节。本步骤的逐行描述已于执行中作废，以本记录为准。
 
-先 `read` 该文件。第 6 行写有 `（暂定，见 departments.md 未决项 2）`，第 39 行写有 `连续 3 次同类活 → 考虑升格为独立部门（见 departments.md 第五节）`。
-
-用 `edit` 工具把第 6 行改为：
-
-```markdown
-| **更新时机** | 每阶段末更新一次 |
-```
-
-把第 39 行改为：
-
-```markdown
-> **用途**：看出哪个项目在持续烧钱。
-```
+本步骤的逐行指令（原「把第 6 行改为…把第 39 行改为…」）**已在执行中作废**，内容见上方 F-7 偏差记录，此处不再重复以免与最终产物矛盾。
 
 - [x] **步骤 4：校验死引用清零**
 
@@ -498,8 +495,8 @@ git status --short
 
 **3. 类型一致性** —— 三处交叉引用已核对名称一致：
 
-- 票据路径：任务 3 写 `.scratch/<feature>/issues/`，任务 4 写 `.scratch/<feature>/issues/<序号>-<slug>.md` —— 一致。
-- 五个标签串：任务 4 的词表与任务 5 的映射表逐字一致 —— 由任务 5 步骤 3 断言。
+- 票据路径：任务 4 的 `<feature-slug>` 与 Wayfinding 的 `<effort>` 两套路径各成一体；任务 4 的步骤 3 断言已对齐交付物字段 —— 一致。
+- 五个标签串：任务 4 的约定沿用 `triage-labels.md`；任务 5 的映射表与交付的 `issue-tracker.md` 词表逐字一致 —— 由任务 5 步骤 3 断言（该断言不受 F-4 重写影响）。
 - 三份 docs 路径：任务 3 的块内路径与任务 4/5/6 的产出路径逐字一致 —— 由任务 3 步骤 3 断言。
 
 **4. 风险登记**
@@ -525,6 +522,8 @@ git status --short
 计划已完成并保存至 `docs/superpowers/plans/2026-09-21-matt-rules-migration.md`。
 
 **用户已选择：内联执行 + 结束前只读子代理评审。**
+
+**收尾必须写明的一条限制（N-9）：** Matt 技能按**仓根**读取 `AGENTS.md`，而当前默认工作区 `D:\桌面\1` 是空目录、**非 git 仓**。因此 `D:\桌面\deepseek\AGENTS.md` 的配置**要等下次在 `D:\桌面\deepseek` 下开会话才会加载**；在 `D:\桌面\1` 里它不会生效。全局 `AGENTS.md` 已就此加了指引：目标是仓时按仓配置，**非 git 目录改用会话内约定**。
 
 ---
 
@@ -702,6 +701,8 @@ stage4_to_stage5:
 ```
 
 ### 附录 B：`$DSH_HOME/docs/departments.md`（110 行）
+
+原 SHA256: `007CB8B3CB16702A2369105E65BF4EDE045D135605BC3EB37D831BCA992E9A2A`
 
 ```markdown
 # 部门编制表
