@@ -2,6 +2,8 @@
 
 > **面向 Agent 执行者：** 必需子技能：使用 superpower-subagent-driven-development（推荐）或 superpower-executing-plans 按任务逐项执行本计划。步骤使用复选框（`- [ ]`）语法进行跟踪。
 
+> **执行状态说明（2026-09-21）：** 本文件既是实施计划、也是本次的执行记录。所有步骤已执行完毕，复选框已勾选。步骤正文里嵌入的**模板示例**（例如任务 1 早期的「追加附录」写法）保留原样不勾选，属历史记录，不代表待办。
+
 **目标：** 把 `$DSH_HOME` 的全局守则从「五阶段 + 三部门」体系迁移为 Matt Pocock engineering skills 体系，并在 `D:\桌面\deepseek` 仓内补齐该体系所依赖的 repo 级配置。
 
 **架构：** 双落点。全局层（`$DSH_HOME\AGENTS.md`）瘦身为四条红线，只保留跨工作区恒定不变的内容；仓层（`D:\桌面\deepseek\AGENTS.md` + `docs/agents/*.md`）承载 Matt 的 `## Agent skills` 配置块，供 `to-tickets` / `triage` / `to-spec` / `domain-modeling` 等技能读取。删除三部门与五阶段细则，保留成本台账。
@@ -54,7 +56,7 @@
 
 - [x] **步骤 1：留档已内联在本文末尾**
 
-两份原文（`staged-workflow.md` 138 行、`departments.md` 110 行）逐字保存在「附录」章节，随本文件一同提交。不再使用单独的追加步骤。
+两份原文（`staged-workflow.md` 161 行、`departments.md` 110 行）逐字保存在「附录」章节，随本文件一同提交。不再使用单独的追加步骤。
 
 - [x] **步骤 2：校验留档完整性**
 
@@ -81,13 +83,13 @@ Write-Output "A哈希: $($raw -match '5A6B')"
 - 依赖输入：无
 - 对外产出：四条红线文本；`## 任务后端` 指针改为指向仓层 `docs/agents/issue-tracker.md`
 
-- [ ] **步骤 1：确认前置状态**
+- [x] **步骤 1：确认前置状态**
 
 用 `read` 工具读取 `C:\Users\鸣\AppData\Roaming\dsh-desktop\harness\AGENTS.md`。
 
 预期：73 行，含 `## 分阶段工作流`（第 5 行）与 `## 部门与调度`（第 23 行）。若不符，停下报告。
 
-- [ ] **步骤 2：整文件替换为以下内容**
+- [x] **步骤 2：整文件替换为以下内容**
 
 ```markdown
 # 工程守则
@@ -120,7 +122,7 @@ Write-Output "A哈希: $($raw -match '5A6B')"
 跨工作区的项目进度与花费见 `$DSH_HOME/docs/project-ledger.md`。
 ```
 
-- [ ] **步骤 3：校验新守则**
+- [x] **步骤 3：校验新守则**
 
 运行：
 
@@ -138,7 +140,7 @@ foreach ($good in @('结论跟着证据走','状态如实','先只读不写','�
 
 预期：总行数在 25–40 之间；**8 个 BAD 全部为 `False`**；**6 个 GOOD 全部为 `True`**。
 
-- [ ] **步骤 4：确认无 BOM 且中文未损坏**
+- [x] **步骤 4：确认无 BOM 且中文未损坏**
 
 运行：
 
@@ -163,7 +165,7 @@ Write-Output "中文完好: $($raw -match '结论跟着证据走')"
 - 依赖输入：任务 4、5、6 产出的三份配置文件路径
 - 对外产出：`## Agent skills` 块，供 `to-tickets` / `triage` / `to-spec` 定位 tracker、标签词表与领域文档规则
 
-- [ ] **步骤 1：确认前置状态**
+- [x] **步骤 1：确认前置状态**
 
 运行：
 
@@ -174,7 +176,7 @@ Test-Path 'D:\桌面\deepseek\AGENTS.md'
 
 预期：两个都是 `False`。若 `CLAUDE.md` 为 `True`，**立即停下并报告** —— 按 setup 技能规定必须改 `CLAUDE.md`，不得新建 `AGENTS.md`。
 
-- [ ] **步骤 2：写入以下内容**
+- [x] **步骤 2：写入以下内容**
 
 ```markdown
 # deepseek
@@ -194,7 +196,7 @@ Test-Path 'D:\桌面\deepseek\AGENTS.md'
 单上下文（single-context）：根 `CONTEXT.md` + `docs/adr/`。见 `docs/agents/domain.md`。
 ```
 
-- [ ] **步骤 3：校验配置块**
+- [x] **步骤 3：校验配置块**
 
 运行：
 
@@ -221,13 +223,13 @@ Write-Output "CLAUDE.md 未被创建: $(-not (Test-Path 'D:\桌面\deepseek\CLAU
 - 依赖输入：无
 - 对外产出：票据路径约定 `.scratch/<feature>/issues/<序号>-<slug>.md`；供 `to-tickets` 与 `implement` 读写
 
-- [ ] **步骤 1：确认前置状态**
+- [x] **步骤 1：确认前置状态**
 
 用 `read` 工具读取 `D:\桌面\deepseek\docs\agents\issue-tracker.md`。
 
 预期：15 行，含 `票据位置` 与 `标签词表` 两节。
 
-- [ ] **步骤 2：替换为以下内容**
+- [x] **步骤 2：替换为以下内容**
 
 ```markdown
 # Issue tracker: markdown
@@ -260,7 +262,7 @@ Write-Output "CLAUDE.md 未被创建: $(-not (Test-Path 'D:\桌面\deepseek\CLAU
 关闭（off）。外部 PR 不进 triage 队列；需要时改这一行为 `on` 并说明流程。
 ```
 
-- [ ] **步骤 3：校验**
+- [x] **步骤 3：校验**
 
 运行：
 
@@ -286,7 +288,7 @@ Write-Output "旧路径已更新: $(-not ($raw -match '\.scratch/issues/<序号>
 - 依赖输入：任务 4 的标签词表（两处角色名必须一致）
 - 对外产出：角色 → 标签串 映射表，供 `triage` 技能写入标签
 
-- [ ] **步骤 1：确认种子模板可读**
+- [x] **步骤 1：确认种子模板可读**
 
 运行：
 
@@ -296,7 +298,7 @@ Test-Path 'C:\Users\鸣\.agents\skills\setup-matt-pocock-skills\triage-labels.md
 
 预期：`True`。
 
-- [ ] **步骤 2：写入以下内容**
+- [x] **步骤 2：写入以下内容**
 
 ```markdown
 # Triage Labels
@@ -316,7 +318,7 @@ Test-Path 'C:\Users\鸣\.agents\skills\setup-matt-pocock-skills\triage-labels.md
 本仓沿用默认词表，无覆盖项。
 ```
 
-- [ ] **步骤 3：校验一致性**
+- [x] **步骤 3：校验一致性**
 
 运行：
 
@@ -341,7 +343,7 @@ foreach ($s in @('needs-triage','needs-info','ready-for-agent','ready-for-human'
 - 依赖输入：无
 - 对外产出：领域文档消费规则（读什么、怎么用词、ADR 冲突怎么办）
 
-- [ ] **步骤 1：确认布局为单上下文**
+- [x] **步骤 1：确认布局为单上下文**
 
 运行：
 
@@ -352,7 +354,7 @@ Write-Output "pnpm-workspace.yaml: $(Test-Path 'D:\桌面\deepseek\pnpm-workspac
 
 预期：均为 `False`（无 monorepo 信号 → 单上下文，按 setup 技能直接写、无需询问）。
 
-- [ ] **步骤 2：写入以下内容**
+- [x] **步骤 2：写入以下内容**
 
 ```markdown
 # Domain Docs
@@ -390,7 +392,7 @@ Write-Output "pnpm-workspace.yaml: $(Test-Path 'D:\桌面\deepseek\pnpm-workspac
 > _与 ADR-0007（event-sourced orders）矛盾，但值得重开，因为……_
 ```
 
-- [ ] **步骤 3：校验**
+- [x] **步骤 3：校验**
 
 运行：
 
@@ -418,13 +420,13 @@ foreach ($s in @('动手前先读','静默跳过','用词表里的词','标出 A
 - 依赖输入：任务 1 的附录留档、任务 2 的新守则（须已无旧指针）
 - 对外产出：干净的全局 docs 目录，仅剩 `project-ledger.md`
 
-- [ ] **步骤 1：删除前确认无活引用**
+- [x] **步骤 1：删除前确认无活引用**
 
 用 `grep` 工具搜索 `staged-workflow\.md|departments\.md`，范围 `C:\Users\鸣\AppData\Roaming\dsh-desktop\harness`，`include` 为 `*.md`。
 
 预期：命中数 **0**（排除 `node_modules` 后）。若非 0，停下并报告是哪一处。
 
-- [ ] **步骤 2：删除两份文件**
+- [x] **步骤 2：删除两份文件**
 
 运行：
 
@@ -436,7 +438,9 @@ Get-ChildItem 'C:\Users\鸣\AppData\Roaming\dsh-desktop\harness\docs' -File | Se
 
 预期：输出仅一行 `project-ledger.md`。
 
-- [ ] **步骤 3：改掉 `project-ledger.md` 里指向已删文件的死引用**
+- [x] **步骤 3：改掉 `project-ledger.md` 里指向已删文件的死引用**
+
+> **执行偏差记录（F-7）：** 原计划只列了两行死引用（第 6 行、第 39 行）。实际执行时发现残留范围更大：第 25 行「看出哪个部门太贵」与整个第三节「部门返工率」表同样依赖已删的部门概念。按已批准的决策 D-5（删部门、留台账），实际做法是**重写整个 `project-ledger.md`**：改「更新时机」、把「当前阶段」列改为「状态」、删除第三节。本步骤的逐行描述已于执行中作废，以本记录为准。
 
 先 `read` 该文件。第 6 行写有 `（暂定，见 departments.md 未决项 2）`，第 39 行写有 `连续 3 次同类活 → 考虑升格为独立部门（见 departments.md 第五节）`。
 
@@ -452,24 +456,24 @@ Get-ChildItem 'C:\Users\鸣\AppData\Roaming\dsh-desktop\harness\docs' -File | Se
 > **用途**：看出哪个项目在持续烧钱。
 ```
 
-- [ ] **步骤 4：校验死引用清零**
+- [x] **步骤 4：校验死引用清零**
 
 用 `grep` 工具搜索 `departments`，范围 `C:\Users\鸣\AppData\Roaming\dsh-desktop\harness\docs`。
 
 预期：命中数 **0**。
 
-- [ ] **步骤 5：全库范围终检**
+- [x] **步骤 5：全库范围终检**
 
 用 `grep` 工具搜索 `staged-workflow|departments\.md|研究部|工程部|质检部`，范围 `C:\Users\鸣\AppData\Roaming\dsh-desktop\harness`，`include` 为 `*.md`。
 
 预期：命中数 **0**（`node_modules` 与 `profiles` 内的第三方技能不计）。
 
-- [ ] **步骤 6：提交仓侧改动**
+- [x] **步骤 6：提交仓侧改动**
 
 ```powershell
 cd 'D:\桌面\deepseek'
 git add AGENTS.md docs/agents docs/superpowers/plans
-git commit -m "docs: migrate agent rules to Matt Pocock engineering skills"
+git commit -m "docs: 守则迁移到 Matt Pocock engineering skills"
 git status --short
 ```
 
@@ -529,7 +533,7 @@ git status --short
 迁移会删除以下两份文件。此处逐字留存其原始内容，作为回滚锚点。
 回滚方式：把对应代码块内容写回原路径即可。
 
-### 附录 A：`$DSH_HOME/docs/staged-workflow.md`（138 行）
+### 附录 A：`$DSH_HOME/docs/staged-workflow.md`（161 行）
 
 原 SHA256: `09C9CC63D562B2058E1E682B3A461039B218295D53CB5F8CE3DA058FA335ACB0`
 
