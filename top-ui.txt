@@ -1,0 +1,241 @@
+﻿total=3921 candidates=648
+archify#integrations/deepseek-harness [docs] | stars=66211 dl=17415 | npm=@tt-a1i/archify-dsh | install=dsh plugin --profile web add @tt-a1i/archify-dsh
+   EN: Generate validated, self-contained interactive architecture, workflow, sequence, data-flow, and lifecycle diagrams from repositories or system descriptions.
+   ZH: 从仓库或系统描述生成经过校验的自包含交互式架构图、流程图、时序图、数据流图和生命周期图。
+dsh-web#packages/dsh-task-board [ui] | stars=7725 dl=249082 | npm=@linxin666/dsh-client-ui-task-board | install=dsh plugin --profile web add @linxin666/dsh-client-ui-task-board
+   EN: Task board for the dsh web GUI: a sidebar multi-column kanban whose cards run in real DSH agent sessions and can also be scheduled with cron expressions, executed host-side even with the browser close
+   ZH: 侧边栏多列任务看板：卡片交给真实 DSH 智能体会话执行，支持 cron 定时（Host 侧到点执行，关浏览器也生效）。
+dsh-web#packages/dsh-web-all [ui] | stars=7725 dl=88416 | npm=@linxin666/dsh-web-all | install=dsh plugin --profile web add @linxin666/dsh-web-all
+   EN: Plugin and skin collection for the DSH Web UI: task board, Git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center.
+   ZH: DSH Web UI 插件与皮肤合集：任务看板、git 图、右侧面板、远程移动端 UI、桌宠、实时 token 统计与皮肤中心。
+dsh-web-ui#packages/dsh-tool-describe-image [vision] | stars=7725 dl=- | npm=- | install=dsh plugin --profile web add github:zhu1090093659/dsh-web-ui#path:/packages/dsh-tool-describe-image
+   EN: A `describe_image` vision tool for text-only models: images (local path, URL, attachment) go to a configurable OpenAI-compatible vision endpoint and only the returned text enters the session.
+   ZH: 给纯文本模型补视觉：describe_image 把本地路径/URL/附件图片交给可配置的 OpenAI 兼容视觉端点，进会话的只有返回文本。
+modlens [vision] | stars=3985 dl=132931 | npm=@liustack/modlens | install=dsh plugin --profile web add @liustack/modlens
+   EN: Vision bridge for text-only models: paste an image, get structured JSON evidence (OCR, layout, semantics).
+   ZH: 为纯文本模型架起视觉桥梁：粘贴图片，输出结构化 JSON 证据（OCR、版面、语义）。
+DSH-better-sidebar [ui] | stars=3648 dl=339588 | npm=dsh-better-sidebar | install=dsh plugin --profile web add dsh-better-sidebar
+   EN: Full sidebar workbench with file rendering and editing, terminal, Git, and subagents; third-party plugins can register new tabs.
+   ZH: 侧边栏完整工作台：内置文件渲染编辑、终端、Git 与子代理，支持三方插件注册新 Tab。
+dsh-TUI [ui] | stars=3086 dl=46278 | npm=@deepseek-harness-tui/dsh-tui | install=dsh plugin --profile web add @deepseek-harness-tui/dsh-tui
+   EN: Claude Code-style full-screen terminal UI: pixel-whale header, live status line, and streaming thought expansion.
+   ZH: Claude Code 风格全屏终端 UI：像素鲸鱼顶栏、实时工作状态行、思考流式展开。
+DeepSeek-Balance-Whale-Widget [ui] | stars=2641 dl=29992 | npm=dsh-whale-widget | install=dsh plugin --profile web add dsh-whale-widget
+   EN: A fixed-corner whale widget for the DSH web GUI — balance, today's usage and per-turn cost with peak/off-peak pricing, editable balance-alert and daily-budget bubbles, a module-based custom bubble que
+   ZH: 右下角常驻的小鲸鱼挂件：余额、今日已用与每轮对话消耗（含峰谷价），余额预警与今日预算的泡泡内容都可编辑；泡泡点击序列模块化自定义，支持并列加权 A/B、随机台词与随机图片；内置 30+ 厂商模板（OpenAI / OpenRouter / Kimi / 硅基流动 / 方舟 / 智谱 / MiniMax 等），按模型查余额与订阅额度；另有任务结束音效、导入音频、自定义角色与资源管理。数据全在本机，无
+dsh-context [usage] | stars=1429 dl=110640 | npm=dsh-context | install=dsh plugin --profile web add dsh-context
+   EN: DSH context insight panel: Context dashboard + /context command + Context browser — one-stop context lifecycle management with categorized composition, content details, evolution trends, compaction/in
+   ZH: DSH 上下文洞察面板：Context 仪表盘 + /context命令 + Context 浏览器，查看 Context的分类组成、内容详情、演进趋势、压缩/注入事件、统计等一站式 Context 全生命周期管理。
+dsh-im [notify] | stars=1382 dl=47794 | npm=@xmanrui/dsh-im | install=dsh plugin --profile web add @xmanrui/dsh-im
+   EN: Connect IM bots to DeepSeek Harness via QR codes or bot credentials (9 channels: Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, and WhatsApp).
+   ZH: 通过二维码或机器人凭据将 IM 机器人接入 DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord 和 WhatsApp 共 9 种渠道）。
+deepseek-design#deepseek-idesign [ui] | stars=1316 dl=- | npm=- | install=dsh plugin --profile web add github:Devin-AXIS/deepseek-design#path:/packages/deepseek-idesign
+   EN: Visual design studio for websites, app prototypes, posters, cards, reports, and magazines, with templates, direct element editing, selection-aware AI draft handoff, and export.
+   ZH: 可视化设计工作室，支持网站、App 原型、海报、信息卡、报告和杂志的模板创建、元素编辑、选区级 AI 草稿衔接与导出。
+deepseek-design#deepseek-ivideo [ui] | stars=1316 dl=- | npm=- | install=dsh plugin --profile web add github:Devin-AXIS/deepseek-design#path:/packages/deepseek-ivideo
+   EN: Visual video studio with an editable timeline, animation and media controls, 27 templates, whole-video and selection-aware AI draft handoff, validation, preview, and export.
+   ZH: 可视化视频工作室，支持可编辑时间线、动画和素材控制、27 个模板、整段与选区级 AI 草稿衔接、校验、预览和导出。
+openpets#dsh [notify] | stars=1208 dl=251 | npm=@open-pets/dsh | install=dsh plugin --profile web add @open-pets/dsh
+   EN: Bridges DeepSeek Harness lifecycle status, errors, and approval requests to a locally running OpenPets desktop companion.
+   ZH: 将 DeepSeek Harness 的生命周期状态、错误与审批请求，桥接到本地运行的 OpenPets 桌面伙伴。
+dsh-pocket [notify] | stars=1199 dl=32306 | npm=dsh-pocket | install=dsh plugin --profile web add dsh-pocket
+   EN: Remote phone access to the DSH Web UI: scan a QR code for LAN or public (cloudflared tunnel) access with real-time sync, a mobile-adaptive layout, and a settings tab.
+   ZH: 手机远程访问 DSH Web 界面：扫码即用局域网或公网（cloudflared 隧道）访问，实时同屏、移动端适配布局，带设置页管理。
+dsh-vision-router [vision] | stars=1106 dl=49640 | npm=dsh-vision-router | install=dsh plugin --profile web add dsh-vision-router
+   EN: Free vision for text-only agents: built-in keyless vision chain plus pixel tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots); paste an image to use it.
+   ZH: 为纯文本 Agent 提供视觉能力：内置免 Key 视觉链 + 像素级视觉工具（看图问答、定位、裁剪、像素对比、取色、OCR、矢量化、抠图、截图）；粘贴图片即可用。
+dsh-vision-toolkit [vision] | stars=882 dl=30332 | npm=@anionex/dsh-vision-toolkit | install=dsh plugin --profile web add @anionex/dsh-vision-toolkit
+   EN: Vision for text-only models: paste an image and the model switches to a Vision Toolkit variant for image Q&A, multi-image comparison, long-screenshot OCR, screenshot-to-UI reproduction, element ground
+   ZH: 让纯文本模型处理视觉任务：粘贴图片后自动切换到 Vision Toolkit 变体，支持图片问答、多图比较、长截图 OCR、截图还原前端 UI、元素定位与像素对比。默认无需 API Key——图片经作者自建的免费服务处理，每台机器每天 100 张；也可改为指向自己的服务商。
+api-relay-audit [security] | stars=838 dl=- | npm=- | install=dsh plugin --profile web add github:toby-bridges/api-relay-audit
+   EN: Runs local security audits of AI API relays and LLM proxies from DeepSeek Harness, producing Markdown reports for prompt injection, model substitution signals, tool-call rewriting, error leakage, stre
+   ZH: 从 DeepSeek Harness 对 AI API 中转站和 LLM 代理运行本地安全审计，生成 Markdown 报告，覆盖提示词注入、模型替换信号、工具调用改写、错误泄漏、流完整性和按 profile 启用的 Web3 风险。
+Avernet#deepseek-harness-channel-bcn [notify] | stars=555 dl=115 | npm=@avernet-plugin/deepseek-harness-channel-bcn | install=dsh plugin --profile web add @avernet-plugin/deepseek-harness-channel-bcn
+   EN: Connects DeepSeek Harness to Avernet's Bot Collaboration Network over WebSocket V2, with automatic onboarding, isolated agent sessions, tool-call events, and multi-bot routing tools.
+   ZH: 通过 WebSocket V2 将 DeepSeek Harness 接入 Avernet Bot 协作网络，支持自动注册、Agent 会话隔离、工具调用事件和多 Bot 路由工具。
+dsh-at-file [ui] | stars=513 dl=- | npm=- | install=dsh plugin --profile web add github:omdsh-dev/dsh-at-file
+   EN: Codex-style `@file` mentions: search workspace files in the composer and attach their contents to prompts.
+   ZH: Codex 风格的 `@file` 文件引用，输入框里直接搜索并引用工作区文件。
+dsh-pentest [security] | stars=502 dl=- | npm=- | install=dsh plugin --profile web add github:howmp/dsh-pentest
+   EN: Authorized pentest mode for DeepSeek Harness — exploration chain, assets and findings with a Web view.
+   ZH: 面向 DeepSeek Harness 的授权渗透模式：以探索链路记录目标、线索、资产与漏洞，并在 Web 中可视化展示。
+dsh-redteam-model [security] | stars=502 dl=- | npm=- | install=dsh plugin --profile web add github:SeaOf0/dsh-redteam-model
+   EN: Authorized-security DSH collection: nine work modes (redteam coordinator, pentest, code audit, binary analysis, attack-defense, AV evasion, incident response, cloud security, CTF solving) and fifteen 
+   ZH: 面向授权安全研究的 DSH 合集：九个工作模式（redteam 总控、渗透测试、代码审计、二进制分析、攻防评估、免杀对抗、应急溯源、云安全攻防、CTF 解题）与十五个运行时插件，设置页管理台支持一键部署、安装、更新与卸载。
+thoughtdag#dsh [ui] | stars=468 dl=1040 | npm=dsh-thoughtdag | install=dsh plugin --profile web add dsh-thoughtdag
+   EN: Adds an editable conversation canvas to DeepSeek Harness, where graph connections select context for canvas requests, with branching, merging, and local agent session imports.
+   ZH: 在 DeepSeek Harness 中嵌入可编辑对话画布，通过连线选择画布请求的上下文，支持分支、合并与本地 Agent 会话导入。
+dsh-genui [ui] | stars=463 dl=19177 | npm=@changfenhuang/dsh-genui | install=dsh plugin --profile web add @changfenhuang/dsh-genui
+   EN: Interactive UI components rendered inline in replies: layout, charts, forms, quizzes, mermaid, 3D scenes, and an action event loop back to the model.
+   ZH: 助手回复内渲染交互式 UI 组件：布局、图表、表单、测验、mermaid、3D 场景与回传事件循环。
+dsh-plugin-subscriptions [model] | stars=371 dl=10600 | npm=dsh-plugin-subscriptions | install=dsh plugin --profile web add dsh-plugin-subscriptions
+   EN: Use ChatGPT (Codex), Claude, and Grok subscriptions as DeepSeek Harness LLM providers, with Settings login, model catalogs, usage, plus image_generate, video_generate, and x_search tools.
+   ZH: 把 ChatGPT（Codex）、Claude、Grok 订阅当作 DeepSeek Harness 的 LLM 提供方：设置页登录、模型目录、用量展示，以及 image_generate、video_generate 与 x_search 工具。
+dsh-univer-office [docs] | stars=361 dl=81324 | npm=dsh-univer-office | install=dsh plugin --profile web add dsh-univer-office
+   EN: Give DeepSeek Harness a real office environment. Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versi
+   ZH: 为 DeepSeek Harness 打造一个真正的办公环境。Univer Office 插件将电子表格、文档、幻灯片、画布、多维表格等汇聚到同一个运行时——数据互联、修改经过校验、变更按版本管理，并以隔离工作树支持多 Agent 协作。
+dsh-cost-meter [usage] | stars=310 dl=75176 | npm=dsh-cost-meter | install=dsh plugin --profile web add dsh-cost-meter
+   EN: Per-session and daily API cost, budget with usage %, official balance, history dashboard, and one-click official price sync with peak/off-peak pricing.
+   ZH: 会话与当日 API 费用统计、预算图框（已用%）、官方余额、历史看板，支持峰谷计价与官方价格一键同步。
+dsh-tianshu-tui [ui] | stars=280 dl=5574 | npm=@huiliyi37/dsh-tianshu-tui | install=dsh plugin --profile web add @huiliyi37/dsh-tianshu-tui
+   EN: A terminal UI (TUI) for DeepSeek Harness.
+   ZH: DeepSeek Harness 的终端 UI（TUI）。
+dsh-commandcode-provider [model] | stars=277 dl=10532 | npm=@mars-sea/dsh-commandcode-provider | install=dsh plugin --profile web add @mars-sea/dsh-commandcode-provider
+   EN: Unofficial Command Code LLM provider: registers a `commandcode` route with a live model catalog and reasoning-effort support.
+   ZH: 非官方 Command Code 模型接入插件：注册 `commandcode` 路由，带实时模型目录与推理强度支持。
+dsh-visualize [ui] | stars=262 dl=- | npm=- | install=dsh plugin --profile web add github:Nagi-ovo/dsh-visualize
+   EN: In-conversation generative UI: the model renders interactive HTML cards into the chat stream, with streaming preview and sandboxed rendering.
+   ZH: 对话内生成式 UI：模型把交互式 HTML 卡片直接画进会话流，带流式预览与沙箱渲染。
+dsh-popout-sidebar [ui] | stars=210 dl=1019 | npm=dsh-popout-sidebar | install=dsh plugin --profile web add dsh-popout-sidebar
+   EN: Pop-out sidebar: lists artifacts and a file tree with multiple preview formats, pops out into a separate browser tab you can drag to another monitor, and coexists with other sidebar plugins simultaneo
+   ZH: 可弹出式侧边栏：侧边栏展示产物与文件树，支持多种文件预览形式；并可弹出为独立浏览器标签页（可拖至另一显示器）；兼容其他sidebar插件，可以同时显示。
+TokenLedger [usage] | stars=201 dl=1787 | npm=dsh-tokenledger | install=dsh plugin --profile web add dsh-tokenledger
+   EN: Sidebar usage panel that attributes tokens to the relay site that served each request, read from your existing provider config: today/month/all-time totals, per-site and per-model breakdowns, a year a
+   ZH: 侧边栏用量面板：把 Token 归属到实际服务该请求的中转站，站点从已有的 provider 配置中读出，无需额外配置；含今日/本月/累计三窗口、按站点与模型下钻、一年活跃度热力图，以及 New API / Sub2API / DeepSeek 余额。
+seektty [ui] | stars=198 dl=387 | npm=seektty | install=dsh plugin --profile web add seektty
+   EN: Terminal workspace for DeepSeek Harness with local VS Code JSON/JSONC theme import, inherited terminal background effects, mouse text selection, structured tool and diff views, Session/Profile/plugin 
+   ZH: 面向 DeepSeek Harness 的终端工作区，支持导入本地 VS Code JSON／JSONC 主题、继承终端背景效果、鼠标文本选择、结构化工具与 Diff 视图、Session／Profile／插件管理，以及 Skill／MCP 浏览。
+dsh-auto-review [security] | stars=181 dl=4685 | npm=dsh-auto-review | install=dsh plugin --profile web add dsh-auto-review
+   EN: Second-model auto-review on the approval answerer chain: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default.
+   ZH: 审批链上的第二模型自动审查：只读审查子代理返回带理由的 allow/deny 结构化裁决，默认 fail-closed。
+dsh-damage-pulse [usage] | stars=180 dl=1999 | npm=dsh-damage-pulse | install=dsh plugin --profile web add dsh-damage-pulse
+   EN: Tracks DeepSeek token usage, per-call and session costs, and account balance with cache-aware charge animations in the DSH Web UI.
+   ZH: 在 DSH Web 界面追踪 DeepSeek Token 用量、单次与会话费用及账户余额，并显示缓存感知的扣费动画。
+dsh-openpencil [ui] | stars=173 dl=3903 | npm=@zseven-w/dsh-openpencil | install=dsh plugin --profile web add @zseven-w/dsh-openpencil
+   EN: OpenPencil design preview and editing plugin.
+   ZH: OpenPencil 设计预览与编辑插件。
+dsh-auto-mode [security] | stars=160 dl=3623 | npm=@nanmicoder/dsh-auto-mode | install=dsh plugin --profile web add @nanmicoder/dsh-auto-mode
+   EN: Adds an Auto permission preset between Workspace Write and Full access: routine work stays in the official workspace-write sandbox while the current session model reviews escalation and destructive ca
+   ZH: 在 Workspace Write 与 Full access 之间增加 Auto 权限档：日常操作留在官方 workspace-write 沙箱内，由当前会话模型复核升权与破坏性调用，精确的越界访问按次放行一次，意图不明时询问，命中关键路径则拒绝。
+dsh-usage-stats [usage] | stars=159 dl=8509 | npm=@ychris12138/dsh-usage-stats | install=dsh plugin --profile web add @ychris12138/dsh-usage-stats
+   EN: Multi-provider usage dashboard with provider/model token breakdowns, calendar drill-downs, account balances, and OpenCode Go / Z.ai subscription quota tracking.
+   ZH: 多供应商用量看板：按供应商/模型统计 Token 与日期下钻，统一展示账户余额，并追踪 OpenCode Go / Z.ai 订阅额度。
+ark-cli#ark-plan-api [model] | stars=132 dl=447 | npm=@volcengine/ark-plan-api | install=dsh plugin --profile web add @volcengine/ark-plan-api
+   EN: Registers Ark Agent Plan, Coding Plan and postpaid model routes in the native DSH model picker.
+   ZH: 在 DSH 原生模型选择器中注册方舟 Agent Plan、Coding Plan 与后付费模型路由。
+dsh-workbuddy-connect [model] | stars=127 dl=4238 | npm=dsh-workbuddy-connect | install=dsh plugin --profile web add dsh-workbuddy-connect
+   EN: Brings the models in the WorkBuddy desktop app straight into DeepSeek Harness — zero configuration in the DSH chat.
+   ZH: 将 WorkBuddy 桌面 App 包含的模型自动接入 DeepSeek Harness，在 DSH 对话窗口里零配置使用。
+dsh-annotation [ui] | stars=124 dl=3213 | npm=@changfenhuang/dsh-annotation | install=dsh plugin --profile web add @changfenhuang/dsh-annotation
+   EN: Select text → annotate → send with your message; replies map back to each annotation.
+   ZH: 选中文字→批注→随消息发送，回复按批注逐条对照。
+dsh-industry-research [docs] | stars=124 dl=2960 | npm=dsh-industry-research | install=dsh plugin --profile web add dsh-industry-research
+   EN: Deterministic industry research reports for DeepSeek Harness — company and industry research flows produce structured, verifiable reports from staged evidence.
+   ZH: 面向 DeepSeek Harness 的确定性行业研究报告：公司与行业研究流程基于分阶段证据产出结构化、可核验的报告。
+dsh-recall-unread [ui] | stars=126 dl=452 | npm=dsh-recall-unread | install=dsh plugin --profile web add dsh-recall-unread
+   EN: Adds a strip above the composer to recall sent-but-unread (steering) text messages before the model reads them.
+   ZH: 在输入框上方提供「未读消息」条带，可在模型读取前撤回已发送但尚未被读取的文字消息。
+dsh-personal-center [usage] | stars=120 dl=1460 | npm=dsh-personal-center | install=dsh plugin --profile web add dsh-personal-center
+   EN: Personal center for DeepSeek Harness: cross-session usage statistics, per-model cost estimation, global custom instructions, a global font-size adjuster, a data-driven desktop pet with bitmap & vector
+   ZH: DeepSeek Harness 个人中心：跨会话用量统计、按模型成本估算、全局自定义指令、外观全局字号、数据驱动的桌面宠物（位图/矢量皮肤）与会话状态概览，纯本地离线运行。
+dsh-codex-connect [model] | stars=112 dl=13882 | npm=dsh-codex-connect | install=dsh plugin --profile web add dsh-codex-connect
+   EN: Connect ChatGPT OAuth and OpenAI Codex models to DeepSeek Harness, with opt-in search and image tools.
+   ZH: 通过 ChatGPT OAuth 将 OpenAI Codex 模型接入 DeepSeek Harness，并提供可选的搜索与图片工具。
+dsh-permission-rules [security] | stars=112 dl=6446 | npm=dsh-permission-rules | install=dsh plugin --profile web add dsh-permission-rules
+   EN: Claude Code-style declarative permission rules: ordered allow/deny/ask YAML rules matching tool names, arguments, workspace paths, and agent identity on the tools/pre-execute waterfall, with full sess
+   ZH: Claude Code 风格的声明式权限规则：按序 allow/deny/ask 的 YAML 规则，在 tools/pre-execute 瀑布上匹配工具名、参数、工作区路径与 agent 身份，带完整会话日志审计、干跑模式与热重载。
+deepseek-harness-genui [ui] | stars=112 dl=2788 | npm=dsh-plugin-genui | install=dsh plugin --profile web add dsh-plugin-genui
+   EN: Code-first React and TypeScript task apps rendered inline, in Canvas, full screen, or on localhost, with interaction state available to later agent turns and approval-gated MCP and API access.
+   ZH: Code-first React + TypeScript 任务应用，支持 Inline、Canvas、全屏与 localhost；交互状态可供 Agent 后续轮次读取，MCP 和 API 访问在用户授权后执行。
+dsh-strata [ui] | stars=102 dl=8078 | npm=dsh-strata | install=dsh plugin --profile web add dsh-strata
+   EN: Session minimap in the scrollbar gutter: to-scale bands coloured by event kind, anchor dots for user messages and failures, auto-loading history at the top, a hover wall of every prompt in the session
+   ZH: 滚动条槽位里的会话缩略图：按事件类型着色的等比色块、用户与失败锚点、滚到顶自动补载历史、悬停线索墙铺开全部发言，附近/中/全三档地图尺度切换。
+dsh-auto-continue [ui] | stars=101 dl=11807 | npm=dsh-client-auto-continue | install=dsh plugin --profile web add dsh-client-auto-continue
+   EN: Auto-resumes interrupted DSH Web requests: sends a queued 「继续」 after network, timeout or host-crash failures, with error classification, adaptive backoff, templated continue text and browser notificat
+   ZH: DSH Web 请求中断自动续跑：网络、超时或宿主崩溃等非人为失败后自动发送「继续」，支持错误分类、自适应退避、模板化继续文本与浏览器通知。
+dsh-AuthInOne [model] | stars=104 dl=- | npm=- | install=dsh plugin --profile web add "https://github.com/Stormycry-cryp/dsh-AuthInOne/releases/download/v0.2.0-alpha.4/dsh-auth-in-one-0.2.0-alpha.4.tgz"
+   EN: Adds account login, API and custom Provider setup, model switching, image fallback for text-only models, and token/cost attribution to DeepSeek Harness 47f.
+   ZH: 为 DeepSeek Harness 47f 提供账号登录、API 与自定义 Provider 配置、模型切换、纯文本模型图片兜底，以及 Token 与费用归因。
+dsh-secure-audit [security] | stars=86 dl=2140 | npm=dsh-secure-audit | install=dsh plugin --profile web add dsh-secure-audit
+   EN: Read-only security and compliance plugin for DeepSeek Harness: prompt-injection detection, Chinese-PII redaction, and a local configuration audit with redacted, reproducible reports.
+   ZH: DSH 只读安全合规插件：提示注入检测、中文 PII 脱敏、本机配置安全审计，输出脱敏且可复现的报告。
+dsh-codex-ui [ui] | stars=81 dl=19575 | npm=@michengai/dsh-codex-ui | install=dsh plugin --profile web add @michengai/dsh-codex-ui
+   EN: Rebuilds the DeepSeek Harness web sidebar, workspace tree, search, and turn navigation in a Codex-style layout.
+   ZH: 为 DeepSeek Harness 网页端重构 Codex 风格侧栏、工作区会话树、全局搜索和轮次导航。
+dsh-status-rotator [ui] | stars=82 dl=7163 | npm=dsh-status-rotator | install=dsh plugin --profile web add dsh-status-rotator
+   EN: Rotates the dsh turn-status label through 1059 bilingual phrases with typewriter output, an animated rainbow gradient, danmaku, 12 toggleable theme packs, live placeholders and tab-title rotation. Two
+   ZH: 把 dsh 回合状态行换成 1059 条中英文案的轮播：打字机输出、流动彩虹渐变、弹幕、12 个可开关的主题词库包、实时占位符与标签页标题轮换。两个 star 包默认关闭；星标者包每位星标者一条文案，由工作流每周刷新。
+dsh-imagegen [vision] | stars=78 dl=9882 | npm=@dickpy/dsh-imagegen | install=dsh plugin --profile web add @dickpy/dsh-imagegen
+   EN: AI image generation for the DSH Web GUI: text-to-image and image-to-image through a configurable OpenAI-compatible endpoint (gpt-image-2 / gpt-image-1 / dall-e-3), with an api_url/api_key settings car
+   ZH: 面向 DSH Web GUI 的 AI 生图插件：通过可配置的 OpenAI 兼容端点（gpt-image-2 / gpt-image-1 / dall-e-3）实现文生图与图生图，提供 api_url/api_key 设置卡片与侧边栏分栏生图工作台。
+dsh-watcher [ui] | stars=86 dl=- | npm=dsh-watcher | install=dsh plugin --profile web add dsh-watcher
+   EN: Read-only session work-path observer: fold turns into stage, run, duration and tok/s summaries, then expand parallel branches, tool results and vendor-visible reasoning.
+   ZH: 只读会话工作路径观察器：收起轮次看阶段数、执行数、耗时与 tok/s，展开看并行分支、工具结果与供应商可见推理。
+dsh-codex-subscription [model] | stars=75 dl=14649 | npm=dsh-codex-subscription | install=dsh plugin --profile web add dsh-codex-subscription
+   EN: ChatGPT OAuth provider for Codex models with subscription web search, quota and safe reset, image tools, Fast mode, and model-aware context; no API key or Codex CLI.
+   ZH: 通过 ChatGPT OAuth 在 DSH 中使用 Codex 模型，提供订阅联网搜索、额度与安全重置、图片工具、高速模式和模型感知上下文；无需 API Key 或 Codex CLI。
+Martty#npm [ui] | stars=76 dl=2722 | npm=@openma/deepseek-harness-tui | install=dsh plugin --profile web add @openma/deepseek-harness-tui
+   EN: A DSH-first Rust/ratatui agent TUI with streamed tool calls, subagents, durable sessions, and a Cordis-extensible client UI.
+   ZH: 面向 DeepSeek Harness 的 Rust/ratatui Agent TUI，支持流式工具调用、子代理、持久会话和可扩展的 Cordis 客户端界面。
+dsh-notification [notify] | stars=83 dl=- | npm=- | install=dsh plugin --profile web add github:omdsh-dev/dsh-notification
+   EN: Desktop notifications for turn completions, with per-outcome controls and keyword rules.
+   ZH: 回合完成桌面通知，按结果分控 + 关键词过滤。
+deepseek-harness-control-center [usage] | stars=72 dl=13728 | npm=deepseek-harness-wallet | install=dsh plugin --profile web add deepseek-harness-wallet
+   EN: DeepSeek Harness control center for official balance monitoring, per-session costs and tokens, third-party token totals, completion alerts, official recharge, flexible layouts, and agent-assisted sess
+   ZH: DeepSeek Harness 监控、提醒、充值与会话控制中心：查看官方余额、本会话花费与 token、第三方 token 合计，提供完成提醒、官方充值、灵活布局及 Agent 辅助的会话控制。
+dsh-approval-gate [security] | stars=73 dl=3346 | npm=dsh-approval-gate | install=dsh plugin --profile web add dsh-approval-gate
+   EN: Risk-gated approval automation for DeepSeek Harness: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (f
+   ZH: DeepSeek Harness 自动审批门控：Flash 预判写入/命令是否不可回补，安全操作自动批准、危险操作转人工（fail-safe）。另含文件改动对比（unified diff）与一键撤销、按会话隔离的快照管理（v0.5.1：通过工具调用参数回溯精确保存快照，覆盖人工审批场景）。
+opencode2dsh [model] | stars=73 dl=1596 | npm=@opencode2dsh/dsh-plugin | install=dsh plugin --profile web add @opencode2dsh/dsh-plugin
+   EN: Exposes OpenCode Zen free models to DeepSeek Harness, with no API key.
+   ZH: 将 OpenCode Zen 免费模型接入 DeepSeek Harness，无需 API Key。
+dsh-smooth-stream [ui] | stars=71 dl=5125 | npm=dsh-smooth-stream | install=dsh plugin --profile web add dsh-smooth-stream
+   EN: Fluid streaming rendering and smooth scrolling for the DeepSeek Harness Web UI.
+   ZH: 为 DeepSeek Harness Web UI 提供流畅流式渲染和丝滑滚动。
+dsh-agy-link [model] | stars=70 dl=8740 | npm=dsh-agy-link | install=dsh plugin --profile web add dsh-agy-link
+   EN: Google Antigravity (agy CLI) models for DSH — streaming chat with Gemini/Claude/GPT-OSS subscriptions, native tool cards, thinking turns, and in-GUI Google OAuth login.
+   ZH: 将 Google Antigravity (agy CLI) 接入 DSH：无 API Key 使用 Gemini/Claude/GPT-OSS 订阅模型，支持流式对话、原生工具卡片、思考轮次注记及 Web 界面 Google OAuth 扫码登录。
+dsh-comfyui [vision] | stars=71 dl=2982 | npm=dsh-comfyui | install=dsh plugin --profile web add dsh-comfyui
+   EN: Drive a local or remote ComfyUI server from DeepSeek Harness: comfyui_run / comfyui_object_info / comfyui_workflow tools generate and edit images and videos, with a workflow library (graph extraction:
+   ZH: 让 DeepSeek Harness 的 Agent 直接驱动本地或远程 ComfyUI：comfyui_run / comfyui_object_info / comfyui_workflow 工具生成与编辑图像、视频，附带工作流库（图工作流提取：按分量 / 主流程 / 整体）、加载区分辨率自动匹配、实时队列、SDXL 与 Wan 2.1 模板、配套 skill 与同源媒体代理。
+dsh-deepseek-web-login [model] | stars=77 dl=- | npm=- | install=dsh plugin --profile web add github:cv-superding/dsh-deepseek-web-login
+   EN: Adds a deepseek-web provider that uses chat.deepseek.com web models in DSH, with browser login capture, PoW request signing, SSE streaming, and prompting-based tool calls.
+   ZH: 新增 deepseek-web provider，把 chat.deepseek.com 网页端模型接入 DSH：浏览器登录抓取、PoW 请求签名、SSE 流式传输与基于提示词的工具调用。
+dsh-remote [security] | stars=65 dl=3490 | npm=@xgone/dsh-remote | install=dsh plugin --profile web add @xgone/dsh-remote
+   EN: Secure remote access for the DeepSeek Harness Web UI: a login gate, MFA/TOTP, signed session cookies, optional admin/user/guest roles, in-browser workspace selection, and allowlisted remote file previ
+   ZH: 为 DeepSeek Harness Web UI 提供安全远程访问：登录门禁、MFA/TOTP、签名会话 Cookie、可选的 admin/user/guest 角色、浏览器内工作区选择和按允许目录限制的远程文件预览。
+dsh-passwords [security] | stars=61 dl=5608 | npm=dsh-passwords | install=dsh plugin --profile web add dsh-passwords
+   EN: Turns DeepSeek Harness into a server-grade multi-tenant platform: remote access + auto HTTPS, subuser permissions & token/daily quotas, sandbox enforcement, encrypted auth & audit log.
+   ZH: 让 DeepSeek Harness 变成服务器级多租户平台：远程访问 + 自动 HTTPS、子用户权限与配额、沙盒强制、加密认证与审计日志。
+dsh-auto-collapse [ui] | stars=61 dl=2404 | npm=dsh-auto-collapse | install=dsh plugin --profile web add dsh-auto-collapse
+   EN: Codex-style workflow auto-collapse: finished turns fold into a single "processed in Xs" row leaving only the final answer; tool calls and think blocks collapse into live-summary chips that follow stre
+   ZH: Codex 风格工作流自动折叠：回合完成收成一行「已处理 X秒」只留最终正文，工具/思考块折叠成实时摘要 chip（运行中跟随流式滚动），逐级点击展开；卸载完整还原。
+dsh-raw-html [ui] | stars=67 dl=- | npm=- | install=dsh plugin --profile web add github:plolpl789/dsh-raw-html
+   EN: Renders agent HTML output as real UI in the DeepSeek Harness web GUI, with visual cards, KaTeX math, Mermaid diagrams, built-in open-source fonts, and design-spec injection.
+   ZH: 让 DeepSeek Harness Web GUI 把 agent 输出的 HTML 渲染成真实界面，支持视觉卡片、KaTeX 公式、Mermaid 图表与内置开源字体，并向 agent 注入设计规范。
+dsh-ui-usage-billing [usage] | stars=53 dl=22399 | npm=@kenz1117/dsh-ui-usage-billing | install=dsh plugin --profile web add @kenz1117/dsh-ui-usage-billing
+   EN: Sidebar billing dashboard: real usage aggregated from session logs (per-model and per-day calls/tokens/cache), cost estimated in CNY from a current multi-provider pricing catalog, subscription-plan (c
+   ZH: 侧边栏计费仪表盘：从会话日志聚合真实用量（按模型/按日统计调用、Token、缓存），按最新多厂商官方价格估算人民币费用，订阅套餐（coding/token/agent）通道豁免计费，并带各厂商健康状态圆点。
+dsh-lark [notify] | stars=54 dl=2937 | npm=dsh-lark-channel | install=dsh plugin --profile web add dsh-lark-channel
+   EN: Lark/Feishu bot channel for DeepSeek Harness: each chat drives its own agent, and tool approvals, model questions, and plan reviews return as cards answered by a button or a reply. Switch workspace an
+   ZH: DeepSeek Harness 的飞书/Lark 机器人渠道：每个会话驱动独立 agent，工具审批、模型提问与计划审阅都以卡片回到聊天，点按钮或直接回复即可作答；聊天里用 `/cd`、`/model`、`/new` 切工作区、换模型、重开会话，多个机器人各自独立并可在同群交接回合。
+dsh-token-pet [usage] | stars=55 dl=661 | npm=dsh-token-pet | install=dsh plugin --profile web add dsh-token-pet
+   EN: Floating DSH desktop pet with 12 authored state animations for requests, tools, compaction, archive and prompt enhancement; live context occupancy; a persistent cross-session Lifetime Ledger; per-prov
+   ZH: DSH 悬浮桌面用量小宠物：用 12 个正式状态动作反馈请求、工具、上下文压缩、归档和提示词增强，展示实时上下文占用、跨会话终身用量账本、服务商/模型统计与小时 Token 趋势，通过纯快照面板读取和后台增量索引避免打开面板时扫描历史，并提供用户主动触发、可编辑预览和直接发送的提示词增强。
+dsh-navbar [ui] | stars=53 dl=1000 | npm=@vlln/dsh-navbar | install=dsh plugin --profile web add @vlln/dsh-navbar
+   EN: Conversation node navigation bar for quick jumps between user messages.
+   ZH: 对话节点导航条，右缘节点串快速跳转 user 消息。
+dsh-openbiliclaw [ui] | stars=59 dl=- | npm=- | install=dsh plugin --profile web add github:whiteguo233/dsh-openbiliclaw
+   EN: OpenBiliClaw consumer panel for DSH: recommendations, saved lists, Socratic dialogue, profile views, and Agent Bridge tools.
+   ZH: OpenBiliClaw 的 DSH 消费侧插件：提供推荐、收藏列表、苏格拉底式对话、画像面板和 Agent Bridge 工具。
+dsh-notifier [notify] | stars=49 dl=5175 | npm=dsh-notifier | install=dsh plugin --profile web add dsh-notifier
+   EN: Multi-channel notifications and phone control for DSH: one `notify()` API across 27 channels, event-driven pushes, phone approvals and questions, phone task takeover (`/tasks` `/use`), images into the
+   ZH: DSH 多渠道通知与手机控制插件：一个 `notify()` API 接入 27 个渠道，支持事件推送、手机审批与提问、手机任务接管（`/tasks` · `/use`）、图片入会话、六条入站控制通道、本机 Web 管理台、双语消息（`lang` 切换 zh/en）、多 agent 路由和零运行时依赖。
+dsh-better-display [ui] | stars=58 dl=- | npm=dsh-better-display | install=dsh plugin --profile web add dsh-better-display
+   EN: A calmer reading view for DeepSeek Harness: native process details, live reasoning, and clean final answers.
+   ZH: 更安静的 DeepSeek Harness 阅读视图：原生过程细节、实时推理，以及干净的最终回答。
+opencues#integrations-dsh [ui] | stars=51 dl=426 | npm=@opencues/dsh | install=dsh plugin --profile web add @opencues/dsh
+   EN: Word alternatives and underscore-gated fill-ins in the composer. End a line with _ and it is filled; misspellings are flagged as you type. Routes through the model dsh is already configured with, so i
+   ZH: 在输入框内提供同义词替换与以下划线触发的补全：一行以 _ 结尾即自动补全，拼写错误在输入时即时标出。它走 dsh 已配置好的模型，因此无需额外的 API key。
+helm-d#helmd [security] | stars=57 dl=- | npm=- | install=dsh plugin --profile web add "https://github.com/ADWMC/helm-d/releases/latest/download/helmd.tgz"
+   EN: Single-bundle reverse-engineering and pentest security plugin: first-turn tool narrowing, domain routing, and 33 tools covering APK, web, native binary, protocol, malware and LLM samples — with unpack
+   ZH: 单包逆向与渗透测试安全分析插件：首轮工具收敛、领域路由与 33 个工具，覆盖 APK、Web、原生二进制、协议、恶意样本与 LLM 场景的逆向分析、加壳脱壳与 License 破解绕过；内置 H-CoT 评估引擎（语义路由、/hcot 命令）、账本驱动的 Web 工作台与工具货架、磁盘案件工作区（证据链自动存证、E 编号结论校验、上下文压缩后恢复）、GitHub 工具检索与 361 篇按需参考文档
+dsh-suite#plugin-notify [notify] | stars=55 dl=- | npm=- | install=dsh plugin --profile web add github:whyihaveyou/dsh-suite#path:/packages/plugins/plugin-notify
+   EN: IM webhook and local notifications on turn completion, errors, or approval (Feishu/WeCom/DingTalk/Slack/Discord/custom).
+   ZH: 回合完成、错误或待审批时推送 IM webhook（飞书/企微/钉钉/Slack/Discord/自定义）与本地通知。
+dsh-meow-smooth [ui] | stars=46 dl=2643 | npm=meow-smooth | install=dsh plugin --profile web add meow-smooth
+   EN: Mobile-first UX polish for the DSH Web UI: composer auto-fold, enter-as-newline on phones, compact sidebar/header/settings, zoom and overscroll lock, plus approval/question/completion notifications vi
+   ZH: 手机优先的 DSH 前端体验优化：输入框自动折叠、手机回车换行、侧边栏/顶部栏/设置页压缩、禁缩放回弹，以及审批/提问/任务完成通知（页面卡片、Web Push、webhook）；零 dsh 本体改动。
+dsh-open-in-vscode [notify] | stars=53 dl=- | npm=- | install=dsh plugin --profile web add github:omdsh-dev/dsh-open-in-vscode
+   EN: Open DSH workspace directories in VS Code directly from the web GUI.
+   ZH: 从 Web GUI 一键在 VS Code 中打开工作区目录。

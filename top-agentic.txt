@@ -1,0 +1,241 @@
+﻿total=3921 candidates=650
+OpenViking#examples/dsh-memory-plugin [memory] | stars=37940 dl=22103 | npm=@openviking/dsh-memory-plugin | install=dsh plugin --profile web add @openviking/dsh-memory-plugin
+   EN: OpenViking memory and context bundle for DeepSeek Harness: pre-step auto-recall and profile injection, session capture, `viking://` URI guarding, and recall/write memory tools backed by an OpenViking 
+   ZH: 面向 DeepSeek Harness 的 OpenViking 记忆与上下文插件：pre-step 自动召回与画像注入、会话捕获、`viking://` URI 防护，以及对接 OpenViking 服务端的 recall/write 记忆工具。
+WeKnora#dsh-weknora [tools] | stars=26618 dl=3734 | npm=@wxg-prc-cpg/dsh-weknora | install=dsh plugin --profile web add @wxg-prc-cpg/dsh-weknora
+   EN: Four read-only tools over a WeKnora knowledge base: list knowledge bases, hybrid passage search, reassemble one document's chunks in order, and WeKnora's own cited RAG or ReAct-agent answer with a res
+   ZH: 把 WeKnora 知识库接入 dsh 的四个只读工具：列出知识库、混合检索原文片段、按顺序还原单篇文档，以及直接取用 WeKnora 自己带引用的 RAG 或 ReAct agent 回答（含可续聊的 session id）。
+hindsight#coding-agents [memory] | stars=23874 dl=58958 | npm=@vectorize-io/hindsight-coding-agents | install=dsh plugin --profile web add @vectorize-io/hindsight-coding-agents
+   EN: Hindsight, agent memory that learns: long-term project memory with auto recall and retain, knowledge pages, deep reflection, and per-repo memory banks.
+   ZH: Hindsight：会学习的 Agent 长期记忆系统，自动召回/保存、知识页、深度反思与按仓库隔离的记忆银行。
+dsh-web#packages/dsh-git-graph [git] | stars=7725 dl=239521 | npm=@linxin666/dsh-client-ui-git-graph | install=dsh plugin --profile web add @linxin666/dsh-client-ui-git-graph
+   EN: Git branch selector and Git graph for the dsh web GUI: switch branches and explore branch-lane and commit history from the conversation header.
+   ZH: 输入框上方提供 Git 分支选择器，并把分支泳道与提交历史画成图谱，沿着时间线找到任意变更。
+dsh-routing-suite [dev] | stars=7194 dl=- | npm=- | install=dsh plugin --profile web add github:yjh051108/dsh-routing-suite
+   EN: One repository, three parts: a runtime injector for DSH plugin packages (inject, hot-reload, unload, promote a dev staging tool to the front, route self-heal, plus a settings-page plugin manager that 
+   ZH: 一个仓库三件套：DSH 插件包的运行时注入器（注入、热重载、卸载、开发侧挂区一键转正、路由自愈，外带设置页插件管理：列出、卸载、拖入文件夹内化）、任务感知的思维模式路由 agent 预设（router-standard / router-spec / router-react）、以及分级两级任务协议（commit_star / lock_stage / revise_do / edit_plan 
+ouroboros#integrations/dsh-plugin [workflow] | stars=6016 dl=- | npm=- | install=dsh plugin --profile web add github:Q00/ouroboros#path:/integrations/dsh-plugin
+   EN: Config-only bundle that mounts Ouroboros through the DSH MCP client, exposing 36 interview, Seed, execution, evaluation, and evolution workflow tools in DSH.
+   ZH: 通过 DSH MCP 客户端挂载 Ouroboros 的纯配置包，在 DSH 中提供 36 个涵盖需求访谈、Seed、执行、评估与演化流程的工具。
+loopx#dsh-loopx-plugin [workflow] | stars=5891 dl=- | npm=- | install=dsh plugin --profile web add "https://github.com/huangruiteng/loopx/releases/download/dsh-loopx-plugin-v0.1.1-beta.5/dsh-loopx-plugin-0.1.1-beta.5.tgz"
+   EN: LoopX, a provider-neutral, local-first state kernel and control plane for long-horizon agents: keeps Goal, Todo, gate, evidence, quota, recovery, and handoff state above DeepSeek Harness, while the pl
+   ZH: LoopX——面向长周期 Agent 的提供商中立、本地优先状态内核与控制平面：在 DeepSeek Harness 执行层之上持久化 Goal、Todo、门禁、证据、配额、恢复与交接状态；插件负责引导安装 CLI 与技能、准入有界的同会话续跑，并为精确绑定的工作循环提供本地 GoalBar。
+mirage#dsh [dev] | stars=3641 dl=914 | npm=@struktoai/mirage-dsh | install=dsh plugin --profile web add @struktoai/mirage-dsh
+   EN: Swaps the filesystem and bash providers for a mirage virtual workspace: file tools and shell commands run over mounted resources (RAM, S3, Redis, Slack, Gmail, Notion, Postgres) instead of the host di
+   ZH: 把文件系统与 bash 提供者换成 mirage 虚拟工作区：文件工具与 shell 命令作用于挂载的资源（RAM、S3、Redis、Slack、Gmail、Notion、Postgres）而非宿主磁盘，支持按挂载点设置读/写/执行模式、按命令选择沙箱（进程内 monty、pyodide、quickjs；远程 docker、e2b、daytona），并可在虚拟终端中安装 CLI（git、gh、sl
+ReMe#dsh [memory] | stars=3487 dl=142 | npm=@agentscope-ai/reme-dsh-plugin | install=dsh plugin --profile web add @agentscope-ai/reme-dsh-plugin
+   EN: Connects DeepSeek Harness to ReMe's local-first, self-evolving personal knowledge base: automatically captures completed main-agent conversations as user-owned Markdown memory, searches conversations 
+   ZH: 将 DeepSeek Harness 接入 ReMe 本地优先、自进化的个人知识库：自动把已完成的主 Agent 对话沉淀为用户掌控的 Markdown 记忆，通过 reme_search 结合 BM25、可选向量检索和 wikilink 展开搜索对话与资料，并按日整理长期记忆。
+dashi-taskboard#deepseek-harness [workflow] | stars=3138 dl=- | npm=- | install=dsh plugin --profile web add github:chuspeeism/dashi-taskboard#path:/integrations/deepseek-harness
+   EN: Embeds the active installed Codex Taskboard runtime in the DeepSeek Harness sidebar, using its launcher runtime descriptor instead of a fixed port.
+   ZH: 把当前已安装并运行中的 Codex Taskboard 嵌入 DeepSeek Harness 侧边栏，并通过 Launcher 运行时描述文件连接，而不是使用固定端口。
+memsearch#MemSearch [memory] | stars=2623 dl=1880 | npm=@zilliz/memsearch-dsh | install=dsh plugin --profile web add @zilliz/memsearch-dsh
+   EN: Shared Markdown memory for DSH and other coding agents, with automatic capture, pre-step context injection, searchable recall, and memory-to-skill self-evolution through a review panel.
+   ZH: 供 DSH 与其他编程 Agent 共享的 Markdown 记忆，支持自动捕获、步骤前上下文注入、搜索召回，以及通过审阅面板实现 memory-to-skill 自进化。
+dsh-agent-teams [workflow] | stars=1720 dl=69694 | npm=@nanmicoder/dsh-agent-teams | install=dsh plugin --profile web add @nanmicoder/dsh-agent-teams
+   EN: AgentTeams multi-agent teams.
+   ZH: AgentTeams 多智能体团队。
+dsh-infinite-gen-3 [session] | stars=1706 dl=- | npm=- | install=dsh plugin --profile web add github:Minglink/dsh-infinite-gen-3
+   EN: System-prompt armor plugin for DeepSeek models: appends an unconditional-compliance prompt section at order 100, exposes a profile tool with calibration metadata, and shows a realtime armor-status bad
+   ZH: DeepSeek 专用破甲插件：以 order 100 追加无条件服从的系统提示词段，提供带校准元数据的 profile 工具，并通过会话投影在输入框上方显示实时破甲状态徽标。
+treg [tools] | stars=1627 dl=- | npm=- | install=dsh plugin --profile web add github:superdesigndev/treg
+   EN: Tool catalog for agents: search ~2,600 external endpoints (SEO and SERP, backlinks, social, people and company enrichment, ad libraries, scraping) by the task you want done, read each one's parameters
+   ZH: 给 Agent 的工具目录：按「要做的事」检索约 2,600 个外部接口（SEO 与 SERP、外链、社交、人物与公司信息补全、广告库、抓取），查看参数与单次调用价格后直接调用，凭据由服务端注入。附带技能，MCP 行在未设置 TREG_TOKEN 前保持禁用。
+CloudBase-AI-Toolkit#dsh-plugin [tools] | stars=1114 dl=414 | npm=@cloudbase/dsh-plugin | install=dsh plugin --profile web add @cloudbase/dsh-plugin
+   EN: Tencent CloudBase backend for DeepSeek Harness — scaffold and deploy full-stack apps from chat, render query results as table cards with paging, sorting and CSV export, preview a deployment on its dom
+   ZH: 把腾讯云 CloudBase 后端接入 DeepSeek Harness——在对话里搭好并部署全栈应用，查询结果渲染为表格卡片（分页、排序、导出 CSV），部署后可预览真实域名，并提供 CloudBase MCP 工具集（`mcp__cloudbase__*`），登录走 device-code 流程。
+tongflow#dsh-tongflow [workflow] | stars=1018 dl=2536 | npm=dsh-tongflow | install=dsh plugin --profile web add dsh-tongflow
+   EN: TongFlow film-crew studio for image, voice, music and video production: the agent writes per-asset TongFlow workflow files (.tongflow.json) that run through TongFlow plugins, with an embedded workflow
+   ZH: 基于 TongFlow 的“片场”插件，用于图片、配音、音乐与视频制作：agent 为每个资产生成 TongFlow 工作流文件（.tongflow.json）并通过 TongFlow 插件执行，内嵌工作流画布，按镜头/角色/take 组织项目，附漫剧模板；以 @tongflow 开头的会话进入 Studio 界面。
+AI-Novel-Writer#dsh-ai-novel-writer [workflow] | stars=972 dl=1210 | npm=@ethanyoq/dsh-ai-novel-writer | install=dsh plugin --profile web add @ethanyoq/dsh-ai-novel-writer
+   EN: Installs a dedicated AI novel-writing preset and workbench: revisioned local project assets, a compact side drawer, and native approval-gated single-file changes.
+   ZH: 安装专用 AI 小说创作预设与工作台：提供带修订号的本地项目资产、紧凑侧边工作台，以及需要原生审批的逐文件变更。
+deja-vu#extensions/dsh [memory] | stars=829 dl=3045 | npm=dsh-deja | install=dsh plugin --profile web add dsh-deja
+   EN: Reads the session files twenty-two other coding agents on this machine already wrote — Claude Code, Codex, Cursor, VS Code Copilot Chat, opencode, OpenClaw, Hermes, Kimi, Cline, Zed and more — includi
+   ZH: 读取本机上其他二十二个编程智能体已经写下的会话文件——Claude Code、Codex、Cursor、VS Code Copilot Chat、opencode、OpenClaw、Hermes、Kimi、Cline、Zed 等，包括安装之前的历史：提供 deja_recall、deja_session、deja_blame、deja_fix、deja_how、deja_remember 六个工具
+Openwrite [workflow] | stars=742 dl=817 | npm=dsh-openwrite | install=dsh plugin --profile web add dsh-openwrite
+   EN: Novel-writing workbench for DSH with an authoring preset, outline and character management, manuscript annotations, review workflows, and a managed local Python backend.
+   ZH: 面向 DSH 的小说创作工作台，提供创作预设、大纲与人物管理、正文批注、审稿流程和受管理的本地 Python 后端。
+sandbase-harness [workflow] | stars=646 dl=- | npm=- | install=dsh plugin --profile web add github:sandbaseai/sandbase-harness
+   EN: Connects dsh to a local SandBase Harness runtime over stdio MCP for managing agents and sessions, streaming turns, inspecting artifacts and cancelling work.
+   ZH: 通过 stdio MCP 将 dsh 连接到本地 SandBase Harness 运行时，用于管理代理与会话、流式执行任务、检查产物和取消工作。
+graph-memory [memory] | stars=626 dl=- | npm=- | install=dsh plugin --profile web add github:adoresever/graph-memory
+   EN: Traceable, searchable cross-session memory for DeepSeek Harness — conversation knowledge as typed graph nodes (TASK/SKILL/EVENT) and typed edges.
+   ZH: DeepSeek Harness 的可追溯、可检索跨会话记忆：把对话知识沉淀为带类型的图节点（任务/技能/事件）与关系边。
+MisakaNet [memory] | stars=493 dl=454 | npm=misakanet | install=dsh plugin --profile web add misakanet
+   EN: Failure-recovery memory: search and record failure-recovery lessons from real engineering sessions, with BM25 + semantic RAG retrieval and a lessons knowledge base.
+   ZH: 失败恢复记忆库：从真实工程会话中搜索和记录失败恢复教训，支持 BM25 + 语义 RAG 检索和知识库管理。
+postiz-agent#dsh-postiz [tools] | stars=470 dl=201 | npm=dsh-postiz | install=dsh plugin --profile web add dsh-postiz
+   EN: Connects DeepSeek Harness to Postiz over MCP: list connected social media channels, fetch per-platform posting rules, and schedule, draft, or publish posts to X, LinkedIn, Instagram, Facebook, Threads
+   ZH: 通过 MCP 将 DeepSeek Harness 连接到 Postiz：列出已连接的社交媒体渠道、获取各平台发帖规则，并向 X、LinkedIn、Instagram、Facebook、Threads、TikTok、YouTube、Reddit、Bluesky、Mastodon、Discord、Slack、Telegram 等平台排期、存草稿或发布帖子；附带 postiz 工作流技能。
+dsh-image-gen [workflow] | stars=436 dl=10502 | npm=dsh-image-gen | install=dsh plugin --profile web add dsh-image-gen
+   EN: Native conversational image generation for DeepSeek Harness: ask the agent to create an image, and it handles generation and keeps the result directly in the conversation.
+   ZH: 为 DeepSeek Harness 提供原生对话生图能力：直接让 Agent 画图，插件自动完成生成并把结果保留在当前会话中。
+anysearch-dsh [tools] | stars=419 dl=5660 | npm=@anysearch/anysearch-dsh | install=dsh plugin --profile web add @anysearch/anysearch-dsh
+   EN: AnySearch-powered real-time web and vertical search provider for DeepSeek Harness.
+   ZH: 基于 AnySearch 的实时网页与垂直搜索插件，为 DeepSeek Harness 提供搜索工具。
+Invoice-Downloader#dsh-invoice-downloader [tools] | stars=421 dl=564 | npm=@ethanyoq/dsh-invoice-downloader | install=dsh plugin --profile web add @ethanyoq/dsh-invoice-downloader
+   EN: Local IMAP invoice download, OCR, archive, and Excel reimbursement summaries for DeepSeek Harness.
+   ZH: 面向 DeepSeek Harness 的本地 IMAP 发票下载、OCR 识别、归档与 Excel 报销汇总。
+flowix#dsh-flowix-memory [memory] | stars=414 dl=- | npm=- | install=dsh plugin --profile web add github:text2future/flowix#path:/dsh-flowix-memory
+   EN: Registers the local flowix-cli MCP server so the agent can search, read, create, and edit Flowix memos and mind-map artifacts.
+   ZH: 将本地 flowix-cli 注册为 MCP 服务，让 agent 可以搜索、读取、创建和编辑 Flowix 备忘与思维导图产物。
+dsh-synapse [session] | stars=404 dl=- | npm=- | install=dsh plugin --profile web add github:liangmianya/dsh-synapse
+   EN: Visual, non-linear conversation workspace for DeepSeek Harness — sessions, follow-ups and branches become a browsable conversation map.
+   ZH: DeepSeek Harness 的可视化非线性对话工作区：把会话、追问与分支变成可浏览、可拖拽的对话地图。
+dsh-mnemon [memory] | stars=383 dl=37357 | npm=dsh-mnemon | install=dsh plugin --profile web add dsh-mnemon
+   EN: Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime memory, searchable project doc
+   ZH: 由 Mnemon 驱动的 DeepSeek Harness（DSH）跨 Agent、本地优先的持久记忆插件。它可在支持 Mnemon 的 Agent 之间共享长期记忆，并提供运行时记忆、可检索项目档案、语义召回、知识图谱和 Sidebar UI。
+DSH-taskboard [workflow] | stars=325 dl=- | npm=- | install=dsh plugin --profile web add github:shengsheng90/DSH-taskboard
+   EN: Local SQLite taskboard as a native overlay page: projects, tasks, comments, relations, attachments and workflow automation, with backlog → todo → in_progress → in_review → done statuses, `taskboard_*`
+   ZH: 本地 SQLite 任务板，以原生覆盖页呈现：项目、任务、评论、关联、附件与工作流自动化，状态流转 backlog → todo → in_progress → in_review → done；提供 `taskboard_*` Agent 工具（Agent 只能提交到 in_review，验收需人工）、无头 JSON CLI 与打包 skill。
+oh-dsh [dev] | stars=318 dl=- | npm=- | install=dsh plugin --profile web add github:hust-open-atom-club/oh-dsh
+   EN: Community distribution: TUI, desktop, and Web UI as one bundle with layered installation.
+   ZH: 社区发行版：TUI、桌面端与 Web UI 统一体验，分层安装、一步到位。
+pi2dsh [dev] | stars=196 dl=7357 | npm=pi2dsh | install=dsh plugin --profile web add pi2dsh
+   EN: Pi Host ABI compatibility engine: after one install, unmodified Pi extensions from npm mount as native DSH plugins with `dsh plugin add <pi-package>`. Verified end to end on stock DSH with pi-mcp-adap
+   ZH: Pi Host ABI 兼容引擎：装一次之后，npm 上的 Pi 扩展原包经 `dsh plugin add <pi-package>` 直接作为 DSH 原生插件挂载。已在官方 DSH 上端到端验证 pi-mcp-adapter（完整 MCP 管理面：OAuth、resources、prompts、MCP Apps、elicitation、sampling）、@tintinweb/pi-suba
+dsh-data-agent [tools] | stars=194 dl=5083 | npm=@yejiming/dsh-data-agent | install=dsh plugin --profile web add @yejiming/dsh-data-agent
+   EN: Let the AI connect to databases and write SQL for you.
+   ZH: 让 AI 帮你连数据库、写 SQL。
+engramory#plugin [memory] | stars=190 dl=1670 | npm=dsh-engramory | install=dsh plugin --profile web add dsh-engramory
+   EN: Long-term memory for DeepSeek Harness kept as plain markdown, one fact per file, readable in any editor. The `MEMORY.md` index has a hard 200-line / 25 KB cap enforced by `ctx.tools.guard()`: a write 
+   ZH: 给 DeepSeek Harness 的长期记忆，以纯 markdown 保存：一条事实一个文件，任何编辑器都能打开。索引 `MEMORY.md` 有 200 行 / 25KB 的硬上限，由 `ctx.tools.guard()` 强制执行——让已超限的索引继续变大的写入会被拒绝，而缩小它的重写一律放行，于是过大的索引可以一步步压缩下来。插件不会自行写入记忆，记什么由你和模型决定。同一个记忆库也被
+dsh-memory [memory] | stars=180 dl=694 | npm=dsh-git-memory | install=dsh plugin --profile web add dsh-git-memory
+   EN: Local Git-backed long-term memory for DeepSeek Harness with hybrid CJK/English retrieval, cited context, transactional sync, previews, and rollback.
+   ZH: 基于本地 Git 的 DeepSeek Harness 长期记忆，提供中英文混合检索、带引用的上下文、事务式同步、预览与回滚。
+dsh-chat-import [session] | stars=166 dl=17857 | npm=dsh-chat-import | install=dsh plugin --profile web add dsh-chat-import
+   EN: Import full-fidelity chat histories from 13 coding agents (Claude Code, Codex, ChatGPT, Cursor, Gemini, opencode, and more) as resumable DeepSeek Harness sessions, with reverse export back to Claude C
+   ZH: 把 13 家 coding agent（Claude Code、Codex、ChatGPT、Cursor、Gemini、opencode 等）的完整对话历史导入为可续聊的 DeepSeek Harness 会话，并支持反向导出回 Claude Code。
+dsh-agent-team-gui [workflow] | stars=176 dl=- | npm=- | install=dsh plugin --profile web add "https://github.com/toolclub/dsh-agent-team-gui/releases/download/v1.0.1/dsh-agent-team-gui-1.0.1.tgz"
+   EN: Persistent multi-model squads configured in Settings and selected in the Composer, with per-member model/tool policies; the main Agent dynamically plans each send as a bounded DAG with bounded reviewe
+   ZH: 持久化多模型小队在 Settings 中配置、从 Composer 选择，并支持逐成员模型与工具策略；主 Agent 为每次发送动态规划有界 DAG，并可执行有界的审阅/修复质量回路；Run Center 展示重试和基于 Harness 官方 usage 事件的逐成员 token 用量。
+dsh-plugin-bridge [session] | stars=165 dl=1479 | npm=dsh-plugin-bridge | install=dsh plugin --profile web add dsh-plugin-bridge
+   EN: Moves an existing DSH session to another agent preset through a previewable five-section handoff, preserving the source session and either pausing the target for confirmation or continuing immediately
+   ZH: 通过可预览的五段式交接，将已有 DSH 会话迁移到另一个 Agent Preset；保留源会话，并可让目标会话暂停等待确认或立即继续。
+marketingdashboard [tools] | stars=171 dl=- | npm=- | install=dsh plugin --profile web add github:theBigGavin/marketingdashboard
+   EN: Zero-key market data MCP server (dsh bundle): 5 MCP tools for A-share/HK/US quotes, sector rankings, futures, money flow and 7x24 news, with a three-tier upstream fallback.
+   ZH: 零密钥行情数据 MCP server（dsh bundle）：5 个 MCP 工具覆盖 A股/港股/美股行情、板块排行、期货、资金流与 7×24 快讯，三层上游降级兜底。
+notes#dsh-plugin [tools] | stars=164 dl=349 | npm=@zhaoolee/dsh-notes | install=dsh plugin --profile web add @zhaoolee/dsh-notes
+   EN: Export DSH conversations as Smartisan Notes-style PNGs, or create and update Markdown notes in a configured account-scoped workspace.
+   ZH: 将 DSH 对话导出为锤子便签风格 PNG，或在配置的账号工作区中新建和更新 Markdown 便签。
+dsh-undo-savepoint [dev] | stars=159 dl=1924 | npm=dsh-undo-savepoint | install=dsh plugin --profile web add dsh-undo-savepoint
+   EN: Undo/redo & rollback system for DSH: every config change is auto-snapshotted; undo/redo/restore to any version from the WebUI or the offline CLI/GUI tools (works even when DSH fails to boot).
+   ZH: DSH 撤销/回退系统：配置变更自动存档，一键撤销/恢复/回退到任意版本，支持 WebUI 与离线 CLI/GUI 工具（DSH 启动失败也能救）。
+dsh-lowtide#dsh-lowtide [workflow] | stars=156 dl=2013 | npm=dsh-lowtide | install=dsh plugin --profile web add dsh-lowtide
+   EN: Lowtide (as in low tide) runs task batches automatically in off-peak hours — a highly customizable task framework with four execution strategies, L1–L3 semi/full-auto adjudication, in-place task editi
+   ZH: lowtide（退潮）插件能够实现闲时自动批量跑任务——任务框架高度自定义，四种执行策略，L1–L3 半自动/全自动裁决，支持任务编辑与预检，Cordis 微内核集成，桌面网页端通用。
+dsh-crew [workflow] | stars=147 dl=2017 | npm=@zseven-w/dsh-crew | install=dsh plugin --profile web add @zseven-w/dsh-crew
+   EN: Dispatch work to DSH agents from Claude Code or Codex: native subagent progress, in-host worker sessions with per-tier presets, and a multimodal bridge for vision and image generation.
+   ZH: 从 Claude Code / Codex 派发任务给 DSH Agent：原生子代理进度、按能力分层预设的宿主内工作会话，以及为纯文本 Harness 提供视觉与图像生成的多模态桥。
+argo#dsh-plugin [tools] | stars=146 dl=- | npm=- | install=dsh plugin --profile web add github:taxueseek/argo#path:/packages/dsh-plugin
+   EN: Unified search with evidence verification for agents: 120+ engines with multilingual routing, vertical domains and structured modality cards, 10 MCP tools plus wide_research orchestration, and a fetch
+   ZH: 面向 agent 的统一搜索与证据核验：120+ 引擎多语言路由，垂直域与结构化模态卡，10 个 MCP 工具与 wide_research 编排，fetch 核验回填证据分的证据闭环。
+codex-guard#dsh [git] | stars=140 dl=- | npm=- | install=dsh plugin --profile web add github:Akimiya-z/codex-guard#path:/dsh
+   EN: Pre-submit pull-request hygiene checks inside DeepSeek Harness: scans the current diff for TODO leftovers, hardcoded secrets, and non-conventional commit subjects.
+   ZH: 在 DeepSeek Harness 内做提交前的 Pull Request 卫生检查：扫描当前改动中的 TODO 残留、硬编码密钥与非规范提交信息。
+ark-cli#ark-managed-agents [tools] | stars=132 dl=327 | npm=@volcengine/ark-managed-agents | install=dsh plugin --profile web add @volcengine/ark-managed-agents
+   EN: Adds a Managed Agents settings tab and MCP tools to dispatch long-running agent tasks to Ark cloud Managed Agents.
+   ZH: 新增 Managed Agents 设置页，并通过 MCP 工具向方舟云端 Managed Agents 派发长任务、取回轨迹与产物。
+dsh-research-report [workflow] | stars=128 dl=3609 | npm=dsh-research-report | install=dsh plugin --profile web add dsh-research-report
+   EN: Verifiable research-report engine for DeepSeek Harness with a content-addressed evidence ledger, versioned sealed reports where every claim carries a verification verdict and the manifest hash seals t
+   ZH: DeepSeek Harness 的可核查研究报告引擎：通过内容寻址的证据台账和版本化封存报告使每条结论携带核查结论，由 manifest 哈希封存目录，检索编排复用 ctx.web 与 ctx.jobs 接口。
+dsh-skill-mcp-panel [dev] | stars=132 dl=88 | npm=dsh-skill-mcp-panel | install=dsh plugin --profile web add dsh-skill-mcp-panel
+   EN: Manages DSH skills and MCP servers from the web settings: skill cards with hot enable/disable, workspace scopes, groups, batch migration and drag-and-drop import, plus stdio/HTTP MCP CRUD with connect
+   ZH: 在 DSH Web 设置中管理技能与 MCP 服务器：技能卡片热启停、工作区作用域、分组、批量迁移与拖拽导入，以及 stdio/HTTP MCP 增删改查、连接测试、密钥脱敏，并附带统一 dsh-panel 命令行。
+dsh-noema [memory] | stars=127 dl=1686 | npm=@zseven-w/dsh-noema | install=dsh plugin --profile web add @zseven-w/dsh-noema
+   EN: Long-term memory for DSH agents — durable, inspectable memories with recall, search, browse and knowledge-graph tools, import from ten other AI coding tools, and a settings page.
+   ZH: 为 DSH Agent 提供长期记忆——可检索、可检视的持久记忆，带回忆、搜索、浏览与知识图谱工具，支持从十个其他 AI 编码工具导入记忆，并附设置页。
+dsh_workflow [workflow] | stars=128 dl=- | npm=- | install=dsh plugin --profile web add github:icetomoyo/dsh_workflow
+   EN: UltraCode-style multi-agent orchestration: a generatable, savable, governable, observable, resumable workflow layer.
+   ZH: 把 UltraCode 式多 Agent 调度带给 DSH：可生成、可保存、可治理、可观察、可恢复的 Workflow 层。
+dsh-config-manager [tools] | stars=116 dl=14506 | npm=dsh-config-manager | install=dsh plugin --profile web add dsh-config-manager
+   EN: One-click backup, export, import and migration of a whole DSH config: settings, plugins, MCP, skills and workspaces. Secrets are excluded by default and, if you opt in, are AES-256-GCM encrypted rathe
+   ZH: 一键备份、导出、导入与迁移整套 DSH 配置：设置、插件、MCP、技能与工作区。密钥默认不导出；若选择包含，则以 AES-256-GCM 加密而非明文写出。导入先预览、自动备份并可回滚，profile 可保存多套配置，远程同步经私有 Git 仓库推送可移植配置且不含密钥。
+dsh-turn-rewind [session] | stars=115 dl=8705 | npm=@anionex/dsh-turn-rewind | install=dsh plugin --profile web add @anionex/dsh-turn-rewind
+   EN: Rewind conversation and workspace state, powered by a persistent Change Ledger.
+   ZH: 对话回退：基于持久 Change Ledger 回滚会话与工作区状态。
+DSH-EasyRewrite [session] | stars=115 dl=7105 | npm=dsh-easyrewrite | install=dsh plugin --profile web add dsh-easyrewrite
+   EN: Inline-edit and recall your own user messages in dsh web — lazily and seamlessly, with a version pager and per-session draft persistence.
+   ZH: 在 dsh web 中内联编辑与撤回自己的消息——惰性、无痕，带版本翻页器与会话级草稿持久化。
+dsh-mneme [memory] | stars=112 dl=13146 | npm=@modusensus/dsh-mneme | install=dsh plugin --profile web add @modusensus/dsh-mneme
+   EN: The memory that dreams — cross-session memory for DeepSeek Harness: recalls you across sessions, auto-consolidates in its sleep (autoDream), freezes conflicting memories for your review, and keeps a r
+   ZH: 会做梦的记忆 — DeepSeek Harness 跨会话记忆插件：跨会话记住你与项目、深夜 autoDream 自动巩固记忆、冲突记忆先冻结待你裁决、全程可回放审计。默认离线：SQLite 配人工可编辑的 Markdown 镜像，提供本地语义检索、实体图谱、交互式记忆库面板及外部 API 与 CLI。
+odai#odai-dsh-plugin [workflow] | stars=113 dl=5172 | npm=odai-dsh-plugin | install=dsh plugin --profile web add odai-dsh-plugin
+   EN: Profile-wide DSH governance and routing with a Web Control Center for responsibility and evidence inspection, plus compaction, scoped semantic memory, safety continuity, and verified delivery; compati
+   ZH: 面向整个 DSH profile 的治理与路由 bundle，提供用于职责与证据检查的 Web Control Center，以及压缩、本地作用域语义记忆、安全连续性与真实验收；兼容 DSH 0.1.5-rc.1。
+dsh-meow-memory [memory] | stars=107 dl=7258 | npm=meow-memory | install=dsh plugin --profile web add meow-memory
+   EN: Project-scoped cross-session memory: seven-layer SQLite store (soul/user/project/fact/lesson/rules/topic) on node:sqlite, cache-friendly first-message injection plus per-message keyword hits, memory_r
+   ZH: 项目级跨会话记忆：node:sqlite 七层存储（soul/user/project/fact/lesson/rules/topic），首条消息缓存友好注入 + 每条消息关键词命中，memory_remember/search/find_similar/read/update/project 工具，空闲窗口自动整理记忆（dream，峰时抑制）。prompt 文案按语言数据文件加载——框架支持多语
+dsh-network-settings [dev] | stars=107 dl=1018 | npm=dsh-network-settings | install=dsh plugin --profile web add dsh-network-settings
+   EN: Visualize the DSH process network path on Windows or WSL with layered DNS/TCP/TLS/HTTP probes, detect stale proxy configuration, and apply snapshot-guarded repairs.
+   ZH: 可视化 DSH 进程在 Windows 或 WSL 上的网络链路（DNS/TCP/TLS/HTTP 分层探测），检测失效的代理配置，并提供带快照回滚的安全修复。
+dsh-memento [memory] | stars=102 dl=4360 | npm=dsh-memento | install=dsh plugin --profile web add dsh-memento
+   EN: Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection, plus the dsh-memory-
+   ZH: 有界、分层、带审批门、可审计的跨会话记忆：`ctx.memory` 服务 + 零依赖 SQLite 存储 + `memory` 工具与冻结快照注入，并预演 dsh-memory-protocol v1——适配器注册表与可分发的一致性套件。
+DSH-Creator [workflow] | stars=99 dl=818 | npm=jacky-creator | install=dsh plugin --profile web add jacky-creator
+   EN: Local-first content production and operations workspace for DSH: manage ideas, scripts, media assets, schedules, goals, publishing status, and post-publication reviews.
+   ZH: 面向 DSH 的本地内容生产与运营工作台：管理灵感、脚本、媒体资产、档期、目标、发布状态和发布后复盘。
+StrataGate-AgentMemory [memory] | stars=92 dl=7102 | npm=stratagate-dsh | install=dsh plugin --profile web add stratagate-dsh
+   EN: Recent conversations stay vivid. Older ones fade into summaries, not oblivion. StrataGate gives DeepSeek Harness six-layer, time-decaying memory, while lasting events and relationships settle into a k
+   ZH: 近期对话保持清晰，久远记忆逐渐化为摘要，而不是消失。StrataGate 为 DeepSeek Harness 带来六层时间衰减记忆，并将长期事件与关系沉淀进知识图谱。还可以把其他 AI 中的已有记忆一起带过来，不必从头开始。
+billion-context-dsh [memory] | stars=98 dl=- | npm=- | install=dsh plugin --profile web add github:Tyan66666/billion-context-dsh
+   EN: Model-driven context compression (Active Context Pruning) for DeepSeek Harness: the model decides when and what to compress.
+   ZH: 模型驱动的上下文压缩（Active Context Pruning）：由模型决定何时压缩、压缩什么。
+dsh-remote [tools] | stars=85 dl=10131 | npm=dsh-remote | install=dsh plugin --profile web add dsh-remote
+   EN: Multi-machine remote workspace: manage many SSH hosts, pick a local or remote workspace in the native Add-workspace flow (system folder chooser / local path / remote dir browse), mirror a remote works
+   ZH: 多机远程工作区：管理多台 SSH 主机，在原生「添加工作区」流程里选本机系统文件夹或远程目录，把远程工作区镜像成真实本地文件夹并用 rw_* 工具操作。选择器是居中弹窗，默认落在本机页签，远程路径自动预填 `/` 并逐级自动补全目录。
+dsh-automation [workflow] | stars=95 dl=- | npm=- | install=dsh plugin --profile web add github:titanwings/dsh-automation
+   EN: Scheduled coding runs in fresh agent sessions with auditable history.
+   ZH: 定时任务：让 Coding 任务按计划在全新 Agent Session 中运行，保留可审计历史。
+dsh-capability-menu [tools] | stars=85 dl=795 | npm=@daweifu/capability-menu | install=dsh plugin --profile web add @daweifu/capability-menu
+   EN: Prevents request context bloat in DeepSeek Harness: catalogs MCP tools and skills under ctx.capability, exposes them in exposed/progressive/blocked tiers, and invokes low-frequency ones on demand via 
+   ZH: 解决海量 MCP 工具/技能塞满请求、挤占上下文的问题：统一编目能力（ctx.capability），以常驻/按需/禁用三档控制暴露与执行，低频能力按需经 meta_search/meta_invoke 检索执行，并附可视化「能力菜单」设置页。
+dsh-maze [session] | stars=78 dl=1312 | npm=dsh-maze | install=dsh plugin --profile web add dsh-maze
+   EN: Execution maze for DSH sessions: the agent's real path — main advance, failed or dead-end detours, backtracks, request retries and subagent branches — drawn on one wall-clock timeline, with three trac
+   ZH: 执行迷宫：把智能体真实的执行过程——主干推进、失败或扑空的支路、折返、请求重试与子代理分支——画在同一根墙钟时间轴上；泳道下方是与它共用时间轴的三条数据轨道（工具调用密度、Token 脉冲、上下文压力），再下方是确定性的执行分析面板（工具结果矩阵、失败恢复链、耗时分布）；可在会话页签里实时生长，也可上传最多 5 个 session log 做同轴对比。
+dsh-rewind [session] | stars=75 dl=14186 | npm=dsh-rewind-plugin | install=dsh plugin --profile web add dsh-rewind-plugin
+   EN: In-place conversation rewind in the same session window without forking (Claude Code /rewind semantics): a per-message ↶ button cuts the model context back to any user message, with an optional Claude
+   ZH: 同一会话窗口内的 in-place 对话回退（不 fork，Claude Code /rewind 语义）：每条消息的 ↶ 按钮把模型上下文回退到任意用户消息，可选用磁盘持久化的 before-backups 还原工作区文件。
+opencontext#dsh-opencontext [memory] | stars=76 dl=702 | npm=dsh-opencontext | install=dsh plugin --profile web add dsh-opencontext
+   EN: DeepSeek Harness integration for OpenContext with durable cross-session memory, automatic prompt capture and recall, session summaries, structured insights, and document retrieval.
+   ZH: 为 DeepSeek Harness 接入 OpenContext，提供跨会话持久记忆、提示词自动捕获与召回、会话摘要、结构化洞察和文档检索。
+custom-first-control-prompt [dev] | stars=74 dl=1475 | npm=@wm-coders/dsh-custom-first-control-prompt | install=dsh plugin --profile web add @wm-coders/dsh-custom-first-control-prompt
+   EN: Inject deployment-configured system-prompt sections and reference exchanges into every conversation request via stream interception, with a web settings panel.
+   ZH: 通过流拦截将部署级系统提示词段落与参考对话注入每次对话请求，附带 Web 设置面板。
+dsh-auto-memory [memory] | stars=71 dl=9168 | npm=@a9i5k4/dsh-auto-memory | install=dsh plugin --profile web add @a9i5k4/dsh-auto-memory
+   EN: Proactive associative memory for DSH: zero-prompt recall injected at a fixed boundary, three-layer auto-consolidation, skill crystallization, and Astra-style context management - handoff ledgers and a
+   ZH: 主动联想记忆 + Astra 式上下文管理：自动唤回（固定边界注入，前缀缓存友好）/自动沉淀/技能固化/交接账本与 PLAN 白板跨窗口续命/水位感知（窗口自动适配当前模型）。本地 Markdown 存储，模型无关，零依赖；词法 0GB 兜底，可选语义档。
+causal-memory#dsh-plugin [memory] | stars=79 dl=- | npm=- | install=dsh plugin --profile web add github:JingxuanC/causal-memory#path:/dsh-plugin
+   EN: Causal memory for dsh: a zero-dependency MCP stdio bridge that mounts the 17 tools of the causal-memory server under clean names (no mcp__ prefix) — decision → outcome edges with typed relations (caus
+   ZH: 因果记忆插件：零依赖的 MCP stdio 桥，把 causal-memory 服务的 17 个工具以干净名（无 mcp__ 前缀）挂载——本地 SQLite 记录「决策 → 结果」因果边（caused / enabled / prevented），压缩后记忆仍存活——另注入一段常驻系统提示词。需先将 causal-memory 服务端装到 PATH（pip install causal-memo
+dsh-openmaic [tools] | stars=75 dl=- | npm=- | install=dsh plugin --profile web add github:THU-MAIC/dsh-openmaic
+   EN: OpenMAIC: classrooms, slides, interactive widgets, and Socratic teaching.
+   ZH: OpenMAIC 教学：课堂、幻灯片、交互组件与苏格拉底式教学。
+dsh-archive-manager [session] | stars=64 dl=22709 | npm=@michengai/dsh-archive-manager | install=dsh plugin --profile web add @michengai/dsh-archive-manager
+   EN: Adds an archived-sessions page in Settings to search, restore, and delete archived DeepSeek Harness sessions by workspace.
+   ZH: 在设置里增加已归档会话页，可按工作区搜索、恢复和删除已归档会话。
+dsh-prompt-enhancer [tools] | stars=72 dl=- | npm=- | install=dsh plugin --profile web add github:Fishsb/dsh-prompt-enhancer
+   EN: One-click prompt enhancement (5 modes, memory chain, multi-model fallback) plus voice recognition (cloud Qwen3-ASR / offline SenseVoice, auto-stop on silence) for the composer, with one-click DSH serv
+   ZH: 一键提示词增强（5 模式·记忆链·模型链）+ 语音识别（云端 Qwen3-ASR / 本地 SenseVoice 离线，说完自动停），附服务异常一键重启。
+forkprobe [dev] | stars=72 dl=- | npm=- | install=dsh plugin --profile web add github:Jayden-X-L/forkprobe
+   EN: Compare multiple skills on the same task and pick the winner.
+   ZH: 同一任务并行试跑多个技能，对比结果选出最优。
+dsh-mcp-panel [dev] | stars=61 dl=8167 | npm=dsh-mcp-panel | install=dsh plugin --profile web add dsh-mcp-panel
+   EN: Read-only runtime management panel for the official DSH MCP client: connection status, registered tools, errors, and reconnect counts through the /mcp command and a Settings tab, with sanitized displa
+   ZH: 官方 MCP 客户端（dsh-mcp-client）的只读运行时管理面板：/mcp 命令与设置页 MCP 页签展示连接状态、已注册工具、错误与重连计数，脱敏展示并提供启停 patch 建议。
+mstar-harness#dsh [workflow] | stars=60 dl=6002 | npm=@mstar-harness/dsh | install=dsh plugin --profile web add @mstar-harness/dsh
+   EN: Skill-driven harness/loop engineering workflow agent plugin.
+   ZH: 技能驱动的 harness/loop 工程化工作流插件。
+dsh-skills-manager [dev] | stars=57 dl=21834 | npm=@michengai/dsh-skills-manager | install=dsh plugin --profile web add @michengai/dsh-skills-manager
+   EN: Manages local DeepSeek Harness skills in Settings and shows shared Agent skills as read-only.
+   ZH: 在设置里管理本地 DSH 技能，并只读查看公共 Agent 技能。
+SpecFusion [tools] | stars=67 dl=- | npm=- | install=dsh plugin --profile web add github:wxkingstar/SpecFusion
+   EN: Search 65,600+ API docs from 20 Chinese open platforms through five read-only tools and a runtime skill.
+   ZH: 通过五个只读工具和一个运行时 Skill，搜索 20 个中国开放平台的 65,600+ 篇 API 文档。
+dsh-session-manager [session] | stars=65 dl=- | npm=- | install=dsh plugin --profile web add github:dream12347/dsh-session-manager
+   EN: DSH session manager: delete with trash/restore/purge, restore archived sessions, recent-activity stats, continue/pause, open log folder, unread markers, fork into a new chat, workspace grouping and so
+   ZH: DSH 会话管理插件：删除（回收站可恢复或彻底清除）、恢复归档会话、活动统计、继续/暂停、打开日志目录、未读标记、新聊天中继续、工作区分组与排序、上下文压缩阈值设置。
+dsh-multica-runtime [dev] | stars=65 dl=- | npm=- | install=dsh plugin --profile web add github:forrestchang/dsh-multica-runtime
+   EN: Run the dsh runtime on Multica.
+   ZH: 让 dsh 运行时跑在 Multica 上。

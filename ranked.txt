@@ -1,0 +1,1001 @@
+=== TOP 60 BY NPM DOWNLOADS (all categories) ===
+ 432532 dl |  4108 stars | [market] dsh-market
+        npm=dshmarket
+        dsh plugin --profile web add dshmarket
+        Browse, search and install community plugins from inside DeepSeek Harness settings, with category filters, one-click updates, enable/disable, theme switching and configur
+ 339588 dl |  3648 stars | [ui] DSH-better-sidebar
+        npm=dsh-better-sidebar
+        dsh plugin --profile web add dsh-better-sidebar
+        Full sidebar workbench with file rendering and editing, terminal, Git, and subagents; third-party plugins can register new tabs.
+ 251033 dl |  7725 stars | [remote] dsh-web#packages/dsh-remote-web-ui
+        npm=@linxin666/dsh-remote-web-ui
+        dsh plugin --profile web add @linxin666/dsh-remote-web-ui
+        Remote control of a dsh web workspace from phone or PC: QR-code pairing through a token-gated channel, SSE real-time sync, and separate mobile and full desktop GUI modes.
+ 249082 dl |  7725 stars | [ui] dsh-web#packages/dsh-task-board
+        npm=@linxin666/dsh-client-ui-task-board
+        dsh plugin --profile web add @linxin666/dsh-client-ui-task-board
+        Task board for the dsh web GUI: a sidebar multi-column kanban whose cards run in real DSH agent sessions and can also be scheduled with cron expressions, executed host-si
+ 244307 dl |  7725 stars | [skill] dsh-web#packages/dsh-skill-explorer
+        npm=@linxin666/dsh-client-ui-skill-explorer
+        dsh plugin --profile web add @linxin666/dsh-client-ui-skill-explorer
+        Skill center for the dsh web GUI: browse all loaded skills grouped by source, enable or disable model invocation, create new skills, and delete into a recoverable trash.
+ 239521 dl |  7725 stars | [git] dsh-web#packages/dsh-git-graph
+        npm=@linxin666/dsh-client-ui-git-graph
+        dsh plugin --profile web add @linxin666/dsh-client-ui-git-graph
+        Git branch selector and Git graph for the dsh web GUI: switch branches and explore branch-lane and commit history from the conversation header.
+ 132931 dl |  3985 stars | [vision] modlens
+        npm=@liustack/modlens
+        dsh plugin --profile web add @liustack/modlens
+        Vision bridge for text-only models: paste an image, get structured JSON evidence (OCR, layout, semantics).
+ 110640 dl |  1429 stars | [usage] dsh-context
+        npm=dsh-context
+        dsh plugin --profile web add dsh-context
+        DSH context insight panel: Context dashboard + /context command + Context browser — one-stop context lifecycle management with categorized composition, content details, e
+  88416 dl |  7725 stars | [ui] dsh-web#packages/dsh-web-all
+        npm=@linxin666/dsh-web-all
+        dsh plugin --profile web add @linxin666/dsh-web-all
+        Plugin and skin collection for the DSH Web UI: task board, Git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center.
+  81324 dl |   361 stars | [docs] dsh-univer-office
+        npm=dsh-univer-office
+        dsh plugin --profile web add dsh-univer-office
+        Give DeepSeek Harness a real office environment. Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with con
+  75176 dl |   310 stars | [usage] dsh-cost-meter
+        npm=dsh-cost-meter
+        dsh plugin --profile web add dsh-cost-meter
+        Per-session and daily API cost, budget with usage %, official balance, history dashboard, and one-click official price sync with peak/off-peak pricing.
+  69694 dl |  1720 stars | [workflow] dsh-agent-teams
+        npm=@nanmicoder/dsh-agent-teams
+        dsh plugin --profile web add @nanmicoder/dsh-agent-teams
+        AgentTeams multi-agent teams.
+  58958 dl | 23874 stars | [memory] hindsight#coding-agents
+        npm=@vectorize-io/hindsight-coding-agents
+        dsh plugin --profile web add @vectorize-io/hindsight-coding-agents
+        Hindsight, agent memory that learns: long-term project memory with auto recall and retain, knowledge pages, deep reflection, and per-repo memory banks.
+  49640 dl |  1106 stars | [vision] dsh-vision-router
+        npm=dsh-vision-router
+        dsh plugin --profile web add dsh-vision-router
+        Free vision for text-only agents: built-in keyless vision chain plus pixel tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots); paste an
+  47794 dl |  1382 stars | [notify] dsh-im
+        npm=@xmanrui/dsh-im
+        dsh plugin --profile web add @xmanrui/dsh-im
+        Connect IM bots to DeepSeek Harness via QR codes or bot credentials (9 channels: Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, and WhatsApp).
+  46278 dl |  3086 stars | [ui] dsh-TUI
+        npm=@deepseek-harness-tui/dsh-tui
+        dsh plugin --profile web add @deepseek-harness-tui/dsh-tui
+        Claude Code-style full-screen terminal UI: pixel-whale header, live status line, and streaming thought expansion.
+  40478 dl |   500 stars | [browser] modsearch
+        npm=@liustack/modsearch
+        dsh plugin --profile web add @liustack/modsearch
+        Web search bridge for text-only agents: ask the web or X, get structured JSON evidence (search, fetch, citations).
+  37357 dl |   383 stars | [memory] dsh-mnemon
+        npm=dsh-mnemon
+        dsh plugin --profile web add dsh-mnemon
+        Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime 
+  32306 dl |  1199 stars | [notify] dsh-pocket
+        npm=dsh-pocket
+        dsh plugin --profile web add dsh-pocket
+        Remote phone access to the DSH Web UI: scan a QR code for LAN or public (cloudflared tunnel) access with real-time sync, a mobile-adaptive layout, and a settings tab.
+  30467 dl |   175 stars | [theme] dsh-dream-skin
+        npm=dsh-dream-skin
+        dsh plugin --profile web add dsh-dream-skin
+        One-command skin plugin: 8 original themes, translucent wallpaper with opacity/blur, per-user accent, and shareable theme-pack import/export, favorites and surprise-me — 
+  30332 dl |   882 stars | [vision] dsh-vision-toolkit
+        npm=@anionex/dsh-vision-toolkit
+        dsh plugin --profile web add @anionex/dsh-vision-toolkit
+        Vision for text-only models: paste an image and the model switches to a Vision Toolkit variant for image Q&A, multi-image comparison, long-screenshot OCR, screenshot-to-U
+  29992 dl |  2641 stars | [ui] DeepSeek-Balance-Whale-Widget
+        npm=dsh-whale-widget
+        dsh plugin --profile web add dsh-whale-widget
+        A fixed-corner whale widget for the DSH web GUI — balance, today's usage and per-turn cost with peak/off-peak pricing, editable balance-alert and daily-budget bubbles, a 
+  28161 dl |     1 stars | [usage] dsh-token-usage-stats
+        npm=dsh-token-usage-stats
+        dsh plugin --profile web add dsh-token-usage-stats
+        DeepSeek-styled cross-session token usage, request count, and tiered cost analytics dashboard.
+  27808 dl |   139 stars | [market] dsh-find-plugin
+        npm=dsh-find-plugin
+        dsh plugin --profile web add dsh-find-plugin
+        Find plugins without leaving the agent: search this curated registry by keyword or category, with ready-to-run install commands.
+  24361 dl |     6 stars | [dev] my-dsh-plugins#dsh-my-guardian
+        npm=dsh-my-guardian
+        dsh plugin --profile web add dsh-my-guardian
+        Plugin governance: new/updated plugins stage in a candidate area first, then hot-mount after startup — success promotes, failure auto-disables, repeated failures freeze, 
+  23193 dl |   669 stars | [fun] dsh-pet#dsh-pet
+        npm=dsh-pet
+        dsh plugin --profile web add dsh-pet
+        Desktop pet for the DSH Web UI with 25 transparent animations, screen wandering, click reactions and drag, plus a reproducible asset-generation pipeline.
+  22709 dl |    64 stars | [session] dsh-archive-manager
+        npm=@michengai/dsh-archive-manager
+        dsh plugin --profile web add @michengai/dsh-archive-manager
+        Adds an archived-sessions page in Settings to search, restore, and delete archived DeepSeek Harness sessions by workspace.
+  22399 dl |    53 stars | [usage] dsh-ui-usage-billing
+        npm=@kenz1117/dsh-ui-usage-billing
+        dsh plugin --profile web add @kenz1117/dsh-ui-usage-billing
+        Sidebar billing dashboard: real usage aggregated from session logs (per-model and per-day calls/tokens/cache), cost estimated in CNY from a current multi-provider pricing
+  22103 dl | 37940 stars | [memory] OpenViking#examples/dsh-memory-plugin
+        npm=@openviking/dsh-memory-plugin
+        dsh plugin --profile web add @openviking/dsh-memory-plugin
+        OpenViking memory and context bundle for DeepSeek Harness: pre-step auto-recall and profile injection, session capture, `viking://` URI guarding, and recall/write memory 
+  21834 dl |    57 stars | [dev] dsh-skills-manager
+        npm=@michengai/dsh-skills-manager
+        dsh plugin --profile web add @michengai/dsh-skills-manager
+        Manages local DeepSeek Harness skills in Settings and shows shared Agent skills as read-only.
+  21003 dl |   301 stars | [theme] dsh-wallpaper-engine
+        npm=dsh-plugin-wallpaper-engine
+        dsh plugin --profile web add dsh-plugin-wallpaper-engine
+        Requires DeepSeek Harness 0.1.5-rc.1+ (DSH Desktop >= 2.0.7) and dsh-better-sidebar >= 0.19.0 - update both before installing or updating this plugin. Plays local Wallpap
+  20351 dl |     6 stars | [remote] dsh-server-deck
+        npm=dsh-server-deck
+        dsh plugin --profile web add dsh-server-deck
+        Server card dashboard for DSH: per-host status, CPU, memory, disk and latency, with one-click xterm.js SSH terminals; imports ~/.ssh/config and mounts as a better-sidebar
+  19575 dl |    81 stars | [ui] dsh-codex-ui
+        npm=@michengai/dsh-codex-ui
+        dsh plugin --profile web add @michengai/dsh-codex-ui
+        Rebuilds the DeepSeek Harness web sidebar, workspace tree, search, and turn navigation in a Codex-style layout.
+  19177 dl |   463 stars | [ui] dsh-genui
+        npm=@changfenhuang/dsh-genui
+        dsh plugin --profile web add @changfenhuang/dsh-genui
+        Interactive UI components rendered inline in replies: layout, charts, forms, quizzes, mermaid, 3D scenes, and an action event loop back to the model.
+  18892 dl |     9 stars | [ui] dsh-tui-pi
+        npm=@aiwayds/dsh-tui-pi
+        dsh plugin --profile web add @aiwayds/dsh-tui-pi
+        Full-featured TUI for DeepSeek Harness: streaming conversation, powerline status bar, real-time think/tool/todo panels, subagent dual-view, theme hot-switch — all as pure
+  18040 dl |   201 stars | [browser] dsh-free-search
+        npm=dsh-free-search
+        dsh plugin --profile web add dsh-free-search
+        Free, keyless web search for DSH: 7 engines (DuckDuckGo/Bing/SearXNG free + Exa/Perplexity/DeepSeek paid), auto-failover, settings-page UI with API key inputs and officia
+  17857 dl |   166 stars | [session] dsh-chat-import
+        npm=dsh-chat-import
+        dsh plugin --profile web add dsh-chat-import
+        Import full-fidelity chat histories from 13 coding agents (Claude Code, Codex, ChatGPT, Cursor, Gemini, opencode, and more) as resumable DeepSeek Harness sessions, with r
+  17415 dl | 66211 stars | [docs] archify#integrations/deepseek-harness
+        npm=@tt-a1i/archify-dsh
+        dsh plugin --profile web add @tt-a1i/archify-dsh
+        Generate validated, self-contained interactive architecture, workflow, sequence, data-flow, and lifecycle diagrams from repositories or system descriptions.
+  16081 dl |    54 stars | [skill] dsh-agency-agents
+        npm=@michengai/dsh-agency-agents
+        dsh plugin --profile web add @michengai/dsh-agency-agents
+        Adds a summonable domain-expert roster that runs as subagents while the parent session keeps the task and final answer.
+  15876 dl |    11 stars | [security] dsh-vault
+        npm=dsh-vault
+        dsh plugin --profile web add dsh-vault
+        Encrypted local credentials vault for the Harness: a web settings page and vault_* tools to store, search and copy passwords, API keys, TOTP secrets and card data, with h
+  15813 dl |     9 stars | [memory] dsh-memory-eternal
+        npm=dsh-memory-eternal
+        dsh plugin --profile web add dsh-memory-eternal
+        A self-contained second brain for DeepSeek Harness — auto-captures durable dialogue knowledge into a local Markdown vault (custom dedup, CJK search, git-friendly), with a
+  15089 dl |    19 stars | [workflow] dsh-automation
+        npm=@michengai/dsh-automation
+        dsh plugin --profile web add @michengai/dsh-automation
+        Runs scheduled coding tasks in isolated DeepSeek Harness sessions, managed from Settings or the agent.
+  14649 dl |    75 stars | [model] dsh-codex-subscription
+        npm=dsh-codex-subscription
+        dsh plugin --profile web add dsh-codex-subscription
+        ChatGPT OAuth provider for Codex models with subscription web search, quota and safe reset, image tools, Fast mode, and model-aware context; no API key or Codex CLI.
+  14506 dl |   116 stars | [tools] dsh-config-manager
+        npm=dsh-config-manager
+        dsh plugin --profile web add dsh-config-manager
+        One-click backup, export, import and migration of a whole DSH config: settings, plugins, MCP, skills and workspaces. Secrets are excluded by default and, if you opt in, a
+  14506 dl |    16 stars | [notify] dsh-im-connect
+        npm=@michengai/dsh-im-connect
+        dsh plugin --profile web add @michengai/dsh-im-connect
+        Connects WeChat, WeCom, DingTalk, Feishu, Lark, QQ, and Telegram to a local DeepSeek Harness agent, with each IM chat as a separate workspace channel.
+  14466 dl |    23 stars | [tools] dsh-mcp-connector
+        npm=dsh-mcp-connector
+        dsh plugin --profile web add dsh-mcp-connector
+        MCP Connector for DeepSeek Harness with a directory of over one hundred connectors. Connect to MCP servers, search tools across connections, manage and troubleshoot conne
+  14186 dl |    75 stars | [session] dsh-rewind
+        npm=dsh-rewind-plugin
+        dsh plugin --profile web add dsh-rewind-plugin
+        In-place conversation rewind in the same session window without forking (Claude Code /rewind semantics): a per-message ↶ button cuts the model context back to any user me
+  14139 dl |   166 stars | [remote] dsh-bridge
+        npm=@wenbin_wb/dsh-bridge
+        dsh plugin --profile web add @wenbin_wb/dsh-bridge
+        Remote and mobile access for DeepSeek Harness: provides LAN QR code connection, Cloudflare/custom tunnels, WeChat, QQ, Feishu, Telegram bot integration, and security auth
+  14098 dl |    67 stars | [browser] dsh-browser
+        npm=dsh-builtin-browser
+        dsh plugin --profile web add dsh-builtin-browser
+        Shared real browser for DSH: a native Electron window the human can watch and take over, driven by the agent over CDP with 20 browser_* tools (open/snapshot/execute/fill/
+  13882 dl |   112 stars | [model] dsh-codex-connect
+        npm=dsh-codex-connect
+        dsh plugin --profile web add dsh-codex-connect
+        Connect ChatGPT OAuth and OpenAI Codex models to DeepSeek Harness, with opt-in search and image tools.
+  13728 dl |    72 stars | [usage] deepseek-harness-control-center
+        npm=deepseek-harness-wallet
+        dsh plugin --profile web add deepseek-harness-wallet
+        DeepSeek Harness control center for official balance monitoring, per-session costs and tokens, third-party token totals, completion alerts, official recharge, flexible la
+  13146 dl |   112 stars | [memory] dsh-mneme
+        npm=@modusensus/dsh-mneme
+        dsh plugin --profile web add @modusensus/dsh-mneme
+        The memory that dreams — cross-session memory for DeepSeek Harness: recalls you across sessions, auto-consolidates in its sleep (autoDream), freezes conflicting memories 
+  12964 dl |     2 stars | [docs] dsh-code-server-app
+        npm=dsh-code-server-app
+        dsh plugin --profile web add dsh-code-server-app
+        Package and install code-server (the web version of VSCode) as a plugin within dsh to quickly achieve professional file editing.
+  12936 dl |    50 stars | [dev] huaweicloud-devkit
+        npm=huaweicloud-devkit
+        dsh plugin --profile web add huaweicloud-devkit
+        HuaweiCloud DevKit gives AI agents complete command of Huawei Cloud — build, deploy, operate, always governed, always secure.
+  12183 dl |    11 stars | [tools] GraphFlow
+        npm=@roarpeng/graphflow
+        dsh plugin --profile web add @roarpeng/graphflow
+        Local-first code knowledge graph for coding agents: 10 MCP tools for layered context compression, DAG planning, incremental AST indexing, a cross-session skill flywheel, 
+  12159 dl |   273 stars | [remote] dsh-mobile
+        npm=dsh-mobile
+        dsh plugin --profile web add dsh-mobile
+        Access DeepSeek Harness from the Android app or a mobile browser with secure LAN and remote connections, persistent device pairing, and a customizable mobile interface.
+  12110 dl |    39 stars | [identity] fn-os-apps#dsh-codex-auth-plugin
+        npm=@tnnevol/dsh-codex-auth
+        dsh plugin --profile web add @tnnevol/dsh-codex-auth
+        ChatGPT account sign-in for DeepSeek Harness through a Codex browser OAuth flow with no API key and no workspace selection: subscribes the login to pi-ai's Codex provider
+  12077 dl |     1 stars | [vision] dsh-vision-bridge
+        npm=@goodandready/dsh-vision-bridge
+        dsh plugin --profile web add @goodandready/dsh-vision-bridge
+        Routes images to a vision model of your choice - auto-rewrite, explicit tools, or hybrid - so a text-only chat model does not fail a turn that contains a picture.
+  11807 dl |   101 stars | [ui] dsh-auto-continue
+        npm=dsh-client-auto-continue
+        dsh plugin --profile web add dsh-client-auto-continue
+        Auto-resumes interrupted DSH Web requests: sends a queued 「继续」 after network, timeout or host-crash failures, with error classification, adaptive backoff, templated conti
+  11300 dl |  4671 stars | [browser] BrowserSkill#dsh-plugin-browserskill
+        npm=@wxg-prc-cpg/browser-skill-dsh-plugin
+        dsh plugin --profile web add @wxg-prc-cpg/browser-skill-dsh-plugin
+        BrowserSkill bridge for controlling visible Chrome and Edge Agent Windows from DeepSeek Harness, with native browser tools, accessibility and VOM observations, screenshot
+
+=== TOP 8 PER CATEGORY BY DOWNLOADS ===
+
+--- agi (AGI 架构探索) ---
+  11254 dl |   218 stars | [agi] dsh-memory
+        npm=@furongjun1999/dsh-memory
+        dsh plugin --profile web add @furongjun1999/dsh-memory
+        White-box AGI architecture exploration: metacognition (self-cognition loop), continual learning (knowledge flywheel), world model (condition space, spatiotemporal memory 
+   3259 dl |     4 stars | [agi] dsh-engram
+        npm=@kenz1117/dsh-engram
+        dsh plugin --profile web add @kenz1117/dsh-engram
+        Cross-session long-term memory under the "memory palace" metaphor: dual-scope SQLite stores (user + per-git-origin project), hybrid FTS5 + local-vector retrieval with RRF
+   3016 dl |     3 stars | [agi] dsh-pua
+        npm=@michengai/dsh-pua
+        dsh plugin --profile web add @michengai/dsh-pua
+        Adds /pua to steer the agent to try another approach and verify results before claiming completion, with 15 company styles, persona modes, global and per-conversation set
+    939 dl |     5 stars | [agi] dsh-gungnir#dsh-plugin
+        npm=dsh-gungnir
+        dsh plugin --profile web add dsh-gungnir
+        Evidence-driven goal verification plugin for DeepSeek Harness. Locks goals via /ultragoal and verifies completion against command exit codes and generated artifacts, prev
+    651 dl |     3 stars | [agi] dsh-answer-reviewer
+        npm=dsh-answer-reviewer
+        dsh plugin --profile web add dsh-answer-reviewer
+        Agentic answer reviewer for DeepSeek Harness: each final assistant turn is re-reviewed by a separate LLM graded 1-100; below-threshold scores steer the agent back with co
+    648 dl |     2 stars | [agi] dsh-loop-continue
+        npm=dsh-loop-continue
+        dsh plugin --profile web add dsh-loop-continue
+        Resumes an agent turn that ended after narrating its next action without calling a tool: the guard replays the turn log on agent/turn-stopping, asks a judge model one tru
+    175 dl |     3 stars | [agi] dsh-heartbeat
+        npm=@kanadego/dsh-heartbeat
+        dsh plugin --profile web add @kanadego/dsh-heartbeat
+        Heartbeat loop for DeepSeek Harness: every 20 minutes (by default) the agent wakes on its own to keep a local profile of your interests and preferences, search the web fo
+
+--- ui (UI 增强) ---
+ 339588 dl |  3648 stars | [ui] DSH-better-sidebar
+        npm=dsh-better-sidebar
+        dsh plugin --profile web add dsh-better-sidebar
+        Full sidebar workbench with file rendering and editing, terminal, Git, and subagents; third-party plugins can register new tabs.
+ 249082 dl |  7725 stars | [ui] dsh-web#packages/dsh-task-board
+        npm=@linxin666/dsh-client-ui-task-board
+        dsh plugin --profile web add @linxin666/dsh-client-ui-task-board
+        Task board for the dsh web GUI: a sidebar multi-column kanban whose cards run in real DSH agent sessions and can also be scheduled with cron expressions, executed host-si
+  88416 dl |  7725 stars | [ui] dsh-web#packages/dsh-web-all
+        npm=@linxin666/dsh-web-all
+        dsh plugin --profile web add @linxin666/dsh-web-all
+        Plugin and skin collection for the DSH Web UI: task board, Git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center.
+  46278 dl |  3086 stars | [ui] dsh-TUI
+        npm=@deepseek-harness-tui/dsh-tui
+        dsh plugin --profile web add @deepseek-harness-tui/dsh-tui
+        Claude Code-style full-screen terminal UI: pixel-whale header, live status line, and streaming thought expansion.
+  29992 dl |  2641 stars | [ui] DeepSeek-Balance-Whale-Widget
+        npm=dsh-whale-widget
+        dsh plugin --profile web add dsh-whale-widget
+        A fixed-corner whale widget for the DSH web GUI — balance, today's usage and per-turn cost with peak/off-peak pricing, editable balance-alert and daily-budget bubbles, a 
+  19575 dl |    81 stars | [ui] dsh-codex-ui
+        npm=@michengai/dsh-codex-ui
+        dsh plugin --profile web add @michengai/dsh-codex-ui
+        Rebuilds the DeepSeek Harness web sidebar, workspace tree, search, and turn navigation in a Codex-style layout.
+  19177 dl |   463 stars | [ui] dsh-genui
+        npm=@changfenhuang/dsh-genui
+        dsh plugin --profile web add @changfenhuang/dsh-genui
+        Interactive UI components rendered inline in replies: layout, charts, forms, quizzes, mermaid, 3D scenes, and an action event loop back to the model.
+  18892 dl |     9 stars | [ui] dsh-tui-pi
+        npm=@aiwayds/dsh-tui-pi
+        dsh plugin --profile web add @aiwayds/dsh-tui-pi
+        Full-featured TUI for DeepSeek Harness: streaming conversation, powerline status bar, real-time think/tool/todo panels, subagent dual-view, theme hot-switch — all as pure
+
+--- usage (用量与计费) ---
+ 110640 dl |  1429 stars | [usage] dsh-context
+        npm=dsh-context
+        dsh plugin --profile web add dsh-context
+        DSH context insight panel: Context dashboard + /context command + Context browser — one-stop context lifecycle management with categorized composition, content details, e
+  75176 dl |   310 stars | [usage] dsh-cost-meter
+        npm=dsh-cost-meter
+        dsh plugin --profile web add dsh-cost-meter
+        Per-session and daily API cost, budget with usage %, official balance, history dashboard, and one-click official price sync with peak/off-peak pricing.
+  28161 dl |     1 stars | [usage] dsh-token-usage-stats
+        npm=dsh-token-usage-stats
+        dsh plugin --profile web add dsh-token-usage-stats
+        DeepSeek-styled cross-session token usage, request count, and tiered cost analytics dashboard.
+  22399 dl |    53 stars | [usage] dsh-ui-usage-billing
+        npm=@kenz1117/dsh-ui-usage-billing
+        dsh plugin --profile web add @kenz1117/dsh-ui-usage-billing
+        Sidebar billing dashboard: real usage aggregated from session logs (per-model and per-day calls/tokens/cache), cost estimated in CNY from a current multi-provider pricing
+  13728 dl |    72 stars | [usage] deepseek-harness-control-center
+        npm=deepseek-harness-wallet
+        dsh plugin --profile web add deepseek-harness-wallet
+        DeepSeek Harness control center for official balance monitoring, per-session costs and tokens, third-party token totals, completion alerts, official recharge, flexible la
+   8509 dl |   159 stars | [usage] dsh-usage-stats
+        npm=@ychris12138/dsh-usage-stats
+        dsh plugin --profile web add @ychris12138/dsh-usage-stats
+        Multi-provider usage dashboard with provider/model token breakdowns, calendar drill-downs, account balances, and OpenCode Go / Z.ai subscription quota tracking.
+   4138 dl |     3 stars | [usage] dsh-usage-meter-harness
+        npm=@faith1688/dsh-usage-meter-harness
+        dsh plugin --profile web add @faith1688/dsh-usage-meter-harness
+        Real-time usage, cost and balance meter for DeepSeek Harness: official-API balance, cost accuracy within ¥0.02, per-turn / per-session / per-model cost ledger, live color
+   3934 dl |     9 stars | [usage] dsh-quota-panel
+        npm=dsh-quota-panel
+        dsh plugin --profile web add dsh-quota-panel
+        Bottom-right quota capsule that auto-discovers every configured provider (DeepSeek, OpenRouter, SiliconFlow, GLM, one-api/new-api, coding plans) and shows balance or roll
+
+--- theme (主题与外观) ---
+  30467 dl |   175 stars | [theme] dsh-dream-skin
+        npm=dsh-dream-skin
+        dsh plugin --profile web add dsh-dream-skin
+        One-command skin plugin: 8 original themes, translucent wallpaper with opacity/blur, per-user accent, and shareable theme-pack import/export, favorites and surprise-me — 
+  21003 dl |   301 stars | [theme] dsh-wallpaper-engine
+        npm=dsh-plugin-wallpaper-engine
+        dsh plugin --profile web add dsh-plugin-wallpaper-engine
+        Requires DeepSeek Harness 0.1.5-rc.1+ (DSH Desktop >= 2.0.7) and dsh-better-sidebar >= 0.19.0 - update both before installing or updating this plugin. Plays local Wallpap
+   9631 dl |    40 stars | [theme] dsh-catppuccin-theme
+        npm=@nonamelego/dsh-catppuccin
+        dsh plugin --profile web add @nonamelego/dsh-catppuccin
+        Catppuccin themes plus a toggleable glassmorphism skin for the DSH Web GUI: Latte, Frappé, Macchiato and Mocha registered into the native theme runtime, one-click switchi
+   8192 dl |    80 stars | [theme] beautiCode#deepseek-harness
+        npm=beauticode-dsh
+        dsh plugin --profile web add beauticode-dsh
+        Local image and MP4 video backgrounds for DSH Web: a sidebar Background panel, saved themes including a built-in window-frame preset, mute toggle, last-background restore
+   5169 dl |    11 stars | [theme] dsh-theme-mineradio
+        npm=dsh-theme-mineradio
+        dsh plugin --profile web add dsh-theme-mineradio
+        Mineradio glassmorphism theme for the DSH web UI: champagne-gold glass panes, a fluid or wallpaper backdrop, and a one-switch toggle that restores the stock look exactly.
+   4803 dl |    32 stars | [theme] dsh-any-background
+        npm=dsh-any-background
+        dsh plugin --profile web add dsh-any-background
+        Custom theme plugin with video and image wallpapers, free positioning, and scale/fill modes. Extracts wallpaper colours and switches text to light or dark automatically. 
+   3846 dl |    14 stars | [theme] dsh-ui-appearance
+        npm=dsh-ui-appearance
+        dsh plugin --profile web add dsh-ui-appearance
+        Appearance customization for the DeepSeek Harness WebUI: theme palette, wallpaper and video backgrounds, translucency and glassmorphism.
+   3407 dl |     6 stars | [theme] deepseek-harness-background
+        npm=deepseek-harness-background
+        dsh plugin --profile web add deepseek-harness-background
+        Custom background image for the DSH Web UI: upload a picture or paste an image URL behind the whole app surface, with opacity, theme-aware scrim, panel transparency, fros
+
+--- model (模型与账号接入) ---
+  14649 dl |    75 stars | [model] dsh-codex-subscription
+        npm=dsh-codex-subscription
+        dsh plugin --profile web add dsh-codex-subscription
+        ChatGPT OAuth provider for Codex models with subscription web search, quota and safe reset, image tools, Fast mode, and model-aware context; no API key or Codex CLI.
+  13882 dl |   112 stars | [model] dsh-codex-connect
+        npm=dsh-codex-connect
+        dsh plugin --profile web add dsh-codex-connect
+        Connect ChatGPT OAuth and OpenAI Codex models to DeepSeek Harness, with opt-in search and image tools.
+  10755 dl |     3 stars | [model] dsh-subscriptions
+        npm=@goodandready/dsh-subscriptions
+        dsh plugin --profile web add @goodandready/dsh-subscriptions
+        Registers ChatGPT Codex, Claude, Grok and Antigravity subscriptions as DeepSeek Harness LLM providers through OAuth, so no API key is needed for them.
+  10600 dl |   371 stars | [model] dsh-plugin-subscriptions
+        npm=dsh-plugin-subscriptions
+        dsh plugin --profile web add dsh-plugin-subscriptions
+        Use ChatGPT (Codex), Claude, and Grok subscriptions as DeepSeek Harness LLM providers, with Settings login, model catalogs, usage, plus image_generate, video_generate, an
+  10532 dl |   277 stars | [model] dsh-commandcode-provider
+        npm=@mars-sea/dsh-commandcode-provider
+        dsh plugin --profile web add @mars-sea/dsh-commandcode-provider
+        Unofficial Command Code LLM provider: registers a `commandcode` route with a live model catalog and reasoning-effort support.
+   9335 dl |     3 stars | [model] dsh-key-rotation
+        npm=@goodandready/dsh-key-rotation
+        dsh plugin --profile web add @goodandready/dsh-key-rotation
+        Keeps a pool of API keys per provider with auto-created clone routes, switches to the next key on quota or rate-limit errors, probes cooled keys for recovery, and exposes
+   8740 dl |    70 stars | [model] dsh-agy-link
+        npm=dsh-agy-link
+        dsh plugin --profile web add dsh-agy-link
+        Google Antigravity (agy CLI) models for DSH — streaming chat with Gemini/Claude/GPT-OSS subscriptions, native tool cards, thinking turns, and in-GUI Google OAuth login.
+   8349 dl |    23 stars | [model] dsh-coding-subscription-oauth
+        npm=dsh-coding-subscription-oauth
+        dsh plugin --profile web add dsh-coding-subscription-oauth
+        Coding-subscription OAuth for SuperGrok/Grok Build, ChatGPT Plus Codex, Kimi Code and Claude Code, plus an opt-in loopback OpenAI/Anthropic gateway: local login without p
+
+--- identity (身份与通信) ---
+  12110 dl |    39 stars | [identity] fn-os-apps#dsh-codex-auth-plugin
+        npm=@tnnevol/dsh-codex-auth
+        dsh plugin --profile web add @tnnevol/dsh-codex-auth
+        ChatGPT account sign-in for DeepSeek Harness through a Codex browser OAuth flow with no API key and no workspace selection: subscribes the login to pi-ai's Codex provider
+   3777 dl |    17 stars | [identity] dsh-awiki
+        npm=@awiki/dsh-plugin
+        dsh plugin --profile web add @awiki/dsh-plugin
+        Provides DeepSeek Harness agents with native identities based on the open Agent Network Protocol (ANP), plus identity-based direct, group, mail, and Agent-to-Agent commun
+   2980 dl |    10 stars | [identity] dsh-ponytail
+        npm=@mengyuly/dsh-ponytail
+        dsh plugin --profile web add @mengyuly/dsh-ponytail
+        Port of ponytail: an always-on lazy-senior-developer coding persona with intensity levels, persistence of the default level, and review, audit, debt, gain and help skills
+    596 dl |     4 stars | [identity] dsh-catgirl-plugin
+        npm=dsh-catgirl-plugin
+        dsh plugin --profile web add dsh-catgirl-plugin
+        Token-efficient persona runtime for DeepSeek Harness with local catgirl rendering and progressive tool-schema disclosure.
+    467 dl |     1 stars | [identity] I-am-Yuike
+        npm=i-am-yuike
+        dsh plugin --profile web add i-am-yuike
+        Strips the harness-injected prefix and suffix system prompts so the agent runs on the preset's native prompt alone, for soft-jailbreak catgirl persona simulation: ships a
+    457 dl |     4 stars | [identity] dsh-auth-everying
+        npm=dsh-auth-everying
+        dsh plugin --profile web add dsh-auth-everying
+        Import local Claude, Codex, Grok, Gemini, Copilot, OpenCode, and CC Switch config into DeepSeek Harness with OAuth login for supported providers.
+    330 dl |     1 stars | [identity] dsh-remote-shell
+        npm=dsh-remote-shell
+        dsh plugin --profile web add dsh-remote-shell
+        Bundles the remote-shell skill for secure SSH, SFTP, Telnet, and WinRM remote operations, with an encrypted credential vault whose login and execution scripts never accep
+    322 dl |     2 stars | [identity] dsh-global-prompt
+        npm=dsh-global-prompt
+        dsh plugin --profile web add dsh-global-prompt
+        Settings panel for global and per-workspace AGENTS.md, with identity and persona injection, runtime-context toggle, and result notifications.
+
+--- session (会话与消息) ---
+  22709 dl |    64 stars | [session] dsh-archive-manager
+        npm=@michengai/dsh-archive-manager
+        dsh plugin --profile web add @michengai/dsh-archive-manager
+        Adds an archived-sessions page in Settings to search, restore, and delete archived DeepSeek Harness sessions by workspace.
+  17857 dl |   166 stars | [session] dsh-chat-import
+        npm=dsh-chat-import
+        dsh plugin --profile web add dsh-chat-import
+        Import full-fidelity chat histories from 13 coding agents (Claude Code, Codex, ChatGPT, Cursor, Gemini, opencode, and more) as resumable DeepSeek Harness sessions, with r
+  14186 dl |    75 stars | [session] dsh-rewind
+        npm=dsh-rewind-plugin
+        dsh plugin --profile web add dsh-rewind-plugin
+        In-place conversation rewind in the same session window without forking (Claude Code /rewind semantics): a per-message ↶ button cuts the model context back to any user me
+   8705 dl |   115 stars | [session] dsh-turn-rewind
+        npm=@anionex/dsh-turn-rewind
+        dsh plugin --profile web add @anionex/dsh-turn-rewind
+        Rewind conversation and workspace state, powered by a persistent Change Ledger.
+   7386 dl |    11 stars | [session] dsh-session-manager
+        npm=dsh-session-manager
+        dsh plugin --profile web add dsh-session-manager
+        Session manager for the DeepSeek Harness Web UI: delete sessions, archive sessions, move sessions across workspaces, and migrate a session’s Agent preset. Suggestions are
+   7242 dl |    33 stars | [session] dsh-recall-plugin
+        npm=dsh-recall-plugin
+        dsh plugin --profile web add dsh-recall-plugin
+        Recall any user message: rolls the conversation (official session fork) and workspace files (per-message shadow git snapshots) back to before it, with a diff-preview conf
+   7105 dl |   115 stars | [session] DSH-EasyRewrite
+        npm=dsh-easyrewrite
+        dsh plugin --profile web add dsh-easyrewrite
+        Inline-edit and recall your own user messages in dsh web — lazily and seamlessly, with a version pager and per-session draft persistence.
+   4828 dl |    22 stars | [session] dsh-archived-chats
+        npm=dsh-archived-chats
+        dsh plugin --profile web add dsh-archived-chats
+        Session Archive for DeepSeek Harness safely bulk-archives eligible workspace conversations, groups archived chats by workspace with full-text search and native read-only 
+
+--- memory (记忆) ---
+  58958 dl | 23874 stars | [memory] hindsight#coding-agents
+        npm=@vectorize-io/hindsight-coding-agents
+        dsh plugin --profile web add @vectorize-io/hindsight-coding-agents
+        Hindsight, agent memory that learns: long-term project memory with auto recall and retain, knowledge pages, deep reflection, and per-repo memory banks.
+  37357 dl |   383 stars | [memory] dsh-mnemon
+        npm=dsh-mnemon
+        dsh plugin --profile web add dsh-mnemon
+        Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime 
+  22103 dl | 37940 stars | [memory] OpenViking#examples/dsh-memory-plugin
+        npm=@openviking/dsh-memory-plugin
+        dsh plugin --profile web add @openviking/dsh-memory-plugin
+        OpenViking memory and context bundle for DeepSeek Harness: pre-step auto-recall and profile injection, session capture, `viking://` URI guarding, and recall/write memory 
+  15813 dl |     9 stars | [memory] dsh-memory-eternal
+        npm=dsh-memory-eternal
+        dsh plugin --profile web add dsh-memory-eternal
+        A self-contained second brain for DeepSeek Harness — auto-captures durable dialogue knowledge into a local Markdown vault (custom dedup, CJK search, git-friendly), with a
+  13146 dl |   112 stars | [memory] dsh-mneme
+        npm=@modusensus/dsh-mneme
+        dsh plugin --profile web add @modusensus/dsh-mneme
+        The memory that dreams — cross-session memory for DeepSeek Harness: recalls you across sessions, auto-consolidates in its sleep (autoDream), freezes conflicting memories 
+   9547 dl |     2 stars | [memory] dsh-tiddlywiki
+        npm=dsh-tiddlywiki
+        dsh plugin --profile web add dsh-tiddlywiki
+        Runs TiddlyWiki 5 as the DSH persistent knowledge base: ten tiddlywiki_* agent tools (filtered search, read/write/batch/rename/delete, recent, tags, git sync with conflic
+   9168 dl |    71 stars | [memory] dsh-auto-memory
+        npm=@a9i5k4/dsh-auto-memory
+        dsh plugin --profile web add @a9i5k4/dsh-auto-memory
+        Proactive associative memory for DSH: zero-prompt recall injected at a fixed boundary, three-layer auto-consolidation, skill crystallization, and Astra-style context mana
+   8915 dl |    11 stars | [memory] dsh-knowledge
+        npm=@lemoncat7/dsh-knowledge
+        dsh plugin --profile web add @lemoncat7/dsh-knowledge
+        Provides local and remote knowledge bases with project- and session-scoped recall, controlled write-back, and an embedded Web management console.
+
+--- tools (工具与能力) ---
+  14506 dl |   116 stars | [tools] dsh-config-manager
+        npm=dsh-config-manager
+        dsh plugin --profile web add dsh-config-manager
+        One-click backup, export, import and migration of a whole DSH config: settings, plugins, MCP, skills and workspaces. Secrets are excluded by default and, if you opt in, a
+  14466 dl |    23 stars | [tools] dsh-mcp-connector
+        npm=dsh-mcp-connector
+        dsh plugin --profile web add dsh-mcp-connector
+        MCP Connector for DeepSeek Harness with a directory of over one hundred connectors. Connect to MCP servers, search tools across connections, manage and troubleshoot conne
+  12183 dl |    11 stars | [tools] GraphFlow
+        npm=@roarpeng/graphflow
+        dsh plugin --profile web add @roarpeng/graphflow
+        Local-first code knowledge graph for coding agents: 10 MCP tools for layered context compression, DAG planning, incremental AST indexing, a cross-session skill flywheel, 
+  10131 dl |    85 stars | [tools] dsh-remote
+        npm=dsh-remote
+        dsh plugin --profile web add dsh-remote
+        Multi-machine remote workspace: manage many SSH hosts, pick a local or remote workspace in the native Add-workspace flow (system folder chooser / local path / remote dir 
+   7081 dl |     0 stars | [tools] dsh-live-canvas
+        npm=@goodandready/dsh-live-canvas
+        dsh plugin --profile web add @goodandready/dsh-live-canvas
+        Renders HTML, React (JSX/TSX), Vue, SVG, Mermaid and Markdown written by the agent in an isolated iframe sandbox with SSE hot-reload, and adds a DOM click inspector, side
+   6976 dl |     2 stars | [tools] dsh-data-cleaning-agent
+        npm=dsh-data-cleaning-agent
+        dsh plugin --profile web add dsh-data-cleaning-agent
+        Data cleaning and data enrichment for CSV/XLSX/JSON enterprise lists in DeepSeek Harness, including spreadsheet cleaning, deduplication, profiling, optional Qichacha MCP 
+   6690 dl |    16 stars | [tools] oss-prompt-optimizer
+        npm=oss-prompt-optimizer
+        dsh plugin --profile web add oss-prompt-optimizer
+        One-click optimization of a raw instruction into a professional prompt: three output styles, situation-aware role/task/goal profiling, self-iterating learning (session me
+   6147 dl |    20 stars | [tools] dsh-zotero
+        npm=dsh-zotero
+        dsh plugin --profile web add dsh-zotero
+        Zotero as an evidence store for agents: search your library, inspect metadata and notes, retrieve evidence passages, open source PDFs, and generate citations and bibliogr
+
+--- wsl (WSL 与 Windows 互操作) ---
+   2910 dl |    50 stars | [wsl] dsh-wsl-workspace
+        npm=dsh-wsl-workspace
+        dsh plugin --profile web add dsh-wsl-workspace
+        Add a WSL workspace from the web GUI without needing to install dsh or related tools again inside WSL. Bash commands and file read/write operations run within the local W
+    550 dl |     0 stars | [wsl] dsh-wsl-expose
+        npm=dsh-wsl-expose
+        dsh plugin --profile web add dsh-wsl-expose
+        Expose the DSH Web GUI over IPv6 or IPv4 from WSL2 through a reverse proxy (Lucky): /wan up sets up the socat relay, Windows portproxy, firewall, and trusted-host fence, 
+    323 dl |     0 stars | [wsl] dsh-wsl-workspace-picker
+        npm=dsh-wsl-workspace-picker
+        dsh plugin --profile web add dsh-wsl-workspace-picker
+        Enhanced workspace directory browser for the web UI: one-click access to /mnt Windows drives under WSL, full breadcrumb ancestry and an always-visible path input.
+
+--- browser (浏览器与网页) ---
+  40478 dl |   500 stars | [browser] modsearch
+        npm=@liustack/modsearch
+        dsh plugin --profile web add @liustack/modsearch
+        Web search bridge for text-only agents: ask the web or X, get structured JSON evidence (search, fetch, citations).
+  18040 dl |   201 stars | [browser] dsh-free-search
+        npm=dsh-free-search
+        dsh plugin --profile web add dsh-free-search
+        Free, keyless web search for DSH: 7 engines (DuckDuckGo/Bing/SearXNG free + Exa/Perplexity/DeepSeek paid), auto-failover, settings-page UI with API key inputs and officia
+  14098 dl |    67 stars | [browser] dsh-browser
+        npm=dsh-builtin-browser
+        dsh plugin --profile web add dsh-builtin-browser
+        Shared real browser for DSH: a native Electron window the human can watch and take over, driven by the agent over CDP with 20 browser_* tools (open/snapshot/execute/fill/
+  11300 dl |  4671 stars | [browser] BrowserSkill#dsh-plugin-browserskill
+        npm=@wxg-prc-cpg/browser-skill-dsh-plugin
+        dsh plugin --profile web add @wxg-prc-cpg/browser-skill-dsh-plugin
+        BrowserSkill bridge for controlling visible Chrome and Edge Agent Windows from DeepSeek Harness, with native browser tools, accessibility and VOM observations, screenshot
+  10997 dl |    21 stars | [browser] dsh-browser
+        npm=@anweat/dsh-browser
+        dsh plugin --profile web add @anweat/dsh-browser
+        Self-contained browser runtime: Playwright (chromium) + OpenCLI as plugin-local dependencies (global reuse fallback), exposes a `browser` service and 9 interactive browse
+   9083 dl |    67 stars | [browser] dsh-web-search-pro
+        npm=dsh-web-search-pro
+        dsh plugin --profile web add dsh-web-search-pro
+        Persistent enhanced web search: multi-engine routing (DeepSeek/Exa/DDG/Bing/Jina + GitHub/Bilibili/YouTube/V2EX/Xiaohongshu/Twitter/Reddit/RSS), SQLite+LRU cache, userscr
+   3280 dl |    17 stars | [browser] dsh-tinyfish-search
+        npm=dsh-tinyfish-search
+        dsh plugin --profile web add dsh-tinyfish-search
+        TinyFish-backed web search provider for the built-in web_search tool: each search is one GET to the TinyFish Search API, no model call.
+   3064 dl |     2 stars | [browser] dsh-verify
+        npm=dsh-verify
+        dsh plugin --profile web add dsh-verify
+        Independent browser acceptance testing for agent deliverables: JSON spec in, real-Chromium verdict out.
+
+--- vision (视觉与多模态) ---
+ 132931 dl |  3985 stars | [vision] modlens
+        npm=@liustack/modlens
+        dsh plugin --profile web add @liustack/modlens
+        Vision bridge for text-only models: paste an image, get structured JSON evidence (OCR, layout, semantics).
+  49640 dl |  1106 stars | [vision] dsh-vision-router
+        npm=dsh-vision-router
+        dsh plugin --profile web add dsh-vision-router
+        Free vision for text-only agents: built-in keyless vision chain plus pixel tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots); paste an
+  30332 dl |   882 stars | [vision] dsh-vision-toolkit
+        npm=@anionex/dsh-vision-toolkit
+        dsh plugin --profile web add @anionex/dsh-vision-toolkit
+        Vision for text-only models: paste an image and the model switches to a Vision Toolkit variant for image Q&A, multi-image comparison, long-screenshot OCR, screenshot-to-U
+  12077 dl |     1 stars | [vision] dsh-vision-bridge
+        npm=@goodandready/dsh-vision-bridge
+        dsh plugin --profile web add @goodandready/dsh-vision-bridge
+        Routes images to a vision model of your choice - auto-rewrite, explicit tools, or hybrid - so a text-only chat model does not fail a turn that contains a picture.
+   9882 dl |    78 stars | [vision] dsh-imagegen
+        npm=@dickpy/dsh-imagegen
+        dsh plugin --profile web add @dickpy/dsh-imagegen
+        AI image generation for the DSH Web GUI: text-to-image and image-to-image through a configurable OpenAI-compatible endpoint (gpt-image-2 / gpt-image-1 / dall-e-3), with a
+   4577 dl |    14 stars | [vision] dsh-vision-proxy
+        npm=dsh-vision-proxy
+        dsh plugin --profile web add dsh-vision-proxy
+        DeepSeek brain + automatic image transcription: attach images in the GUI and each one is transcribed via the official deepseek-v4-flash-vision-exp by default (a pure-text
+   4037 dl |     7 stars | [vision] dsh-tool-vision
+        npm=dsh-tool-vision
+        dsh plugin --profile web add dsh-tool-vision
+        Send local images or HTTP(S) image URLs to a configured OpenAI-compatible vision endpoint with the inspect_image tool and return its text response to the conversation.
+   3628 dl |     7 stars | [vision] dsh-free-vision
+        npm=dsh-free-vision
+        dsh plugin --profile web add dsh-free-vision
+        Free vision bridge for text-only models: image understanding, OCR, UI and debug analysis via free-tier providers (Qwen3-VL-Flash, Doubao, DeepSeek-OCR) with a settings GU
+
+--- voice (语音与音频) ---
+   6382 dl |     6 stars | [voice] dsh-voice
+        npm=@goodandready/dsh-voice
+        dsh plugin --profile web add @goodandready/dsh-voice
+        Voice input for the web UI: dictation chunked by pauses and voice messages, each with its own provider fallback chain (Deepgram, Groq, HuggingFace, local whisper.cpp, or 
+   5708 dl |     3 stars | [voice] dsh-audiogen
+        npm=dsh-audiogen
+        dsh plugin --profile web add dsh-audiogen
+        AI audio generation for the DeepSeek Harness web GUI — multi-vendor TTS, music, sound effects and voice design with a sidebar panel, model comparison, resource library an
+   5025 dl |     2 stars | [voice] dsh-tts
+        npm=@goodandready/dsh-tts
+        dsh plugin --profile web add @goodandready/dsh-tts
+        Speaks agent replies in the DeepSeek Harness web UI through a provider fallback chain (OpenAI, ElevenLabs, Google, Azure, Groq, Deepgram, OpenRouter, Edge, Piper, eSpeak)
+   4506 dl |     2 stars | [voice] dsh-voco
+        npm=@flowingspring/dsh-voco
+        dsh plugin --profile web add @flowingspring/dsh-voco
+        Continuous voice conversations for DSH with hands-free listening, push-to-talk, speech recognition, TTS replies, and background Agent delegation.
+   4466 dl |    12 stars | [voice] dsh-voice-mode#dsh-voice-mode
+        npm=dsh-voice-mode
+        dsh plugin --profile web add dsh-voice-mode
+        Full-duplex voice mode for the DeepSeek Harness Web UI: toggle (2s-pause auto-send) or hold-to-talk dictation into an editable draft with zipformer2 streaming ASR, option
+   3900 dl |    19 stars | [voice] dsh-ears
+        npm=dsh-ears
+        dsh plugin --profile web add dsh-ears
+        Voice input plugin for DeepSeek Harness (dsh): a microphone button in the composer turns speech into a draft transcript, with a choice of speech-recognition backends, opt
+   3529 dl |     7 stars | [voice] dsh-plugin-xiaomi-mimo-tts
+        npm=dsh-xiaomi-tts
+        dsh plugin --profile web add dsh-xiaomi-tts
+        Adds Xiaomi MiMo text-to-speech controls for finalized assistant messages, with preset voices and custom voice design.
+   3187 dl |    32 stars | [voice] dsh-voice-scribe
+        npm=dsh-voice-scribe
+        dsh plugin --profile web add dsh-voice-scribe
+        Voice input for the web UI: tap Alt (or Alt+Space) to start/stop dictation, browser Web Speech (zero-config) or OpenAI-compatible cloud ASR, optional polish through DSH-c
+
+--- docs (文档与渲染) ---
+  81324 dl |   361 stars | [docs] dsh-univer-office
+        npm=dsh-univer-office
+        dsh plugin --profile web add dsh-univer-office
+        Give DeepSeek Harness a real office environment. Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with con
+  17415 dl | 66211 stars | [docs] archify#integrations/deepseek-harness
+        npm=@tt-a1i/archify-dsh
+        dsh plugin --profile web add @tt-a1i/archify-dsh
+        Generate validated, self-contained interactive architecture, workflow, sequence, data-flow, and lifecycle diagrams from repositories or system descriptions.
+  12964 dl |     2 stars | [docs] dsh-code-server-app
+        npm=dsh-code-server-app
+        dsh plugin --profile web add dsh-code-server-app
+        Package and install code-server (the web version of VSCode) as a plugin within dsh to quickly achieve professional file editing.
+   7327 dl |    20 stars | [docs] dsh-office-tools
+        npm=dsh-office-tools
+        dsh plugin --profile web add dsh-office-tools
+        Workspace-safe Office tools for agents: create/read Word, create/read/update Excel, and create/read PowerPoint decks with PNG/JPG/GIF image placement.
+   5768 dl |     3 stars | [docs] dsh-pdf-edit
+        npm=dsh-pdf-edit
+        dsh plugin --profile web add dsh-pdf-edit
+        PDF document editing plugin for precise text editing in PDF files.
+   4931 dl |     2 stars | [docs] dsh-qingagent
+        npm=dsh-qingagent
+        dsh plugin --profile web add dsh-qingagent
+        Writing bridge to the open-source QingAgent client: the agent drafts and revises documents through qing_ prefixed host tools, typeset on a rice-paper panel with mermaid, 
+   4279 dl |     6 stars | [docs] dsh-ppt
+        npm=dsh-ppt
+        dsh plugin --profile web add dsh-ppt
+        Presentation skill and tools: one sentence or one document to an HTML slideshow plus editable PPTX, seven layouts (incl. quote and native PPTX tables), speaker notes (HTM
+   2960 dl |   124 stars | [docs] dsh-industry-research
+        npm=dsh-industry-research
+        dsh plugin --profile web add dsh-industry-research
+        Deterministic industry research reports for DeepSeek Harness — company and industry research flows produce structured, verifiable reports from staged evidence.
+
+--- skill (技能包) ---
+ 244307 dl |  7725 stars | [skill] dsh-web#packages/dsh-skill-explorer
+        npm=@linxin666/dsh-client-ui-skill-explorer
+        dsh plugin --profile web add @linxin666/dsh-client-ui-skill-explorer
+        Skill center for the dsh web GUI: browse all loaded skills grouped by source, enable or disable model invocation, create new skills, and delete into a recoverable trash.
+  16081 dl |    54 stars | [skill] dsh-agency-agents
+        npm=@michengai/dsh-agency-agents
+        dsh plugin --profile web add @michengai/dsh-agency-agents
+        Adds a summonable domain-expert roster that runs as subagents while the parent session keeps the task and final answer.
+   8785 dl |    11 stars | [skill] dsh-prompt-library
+        npm=@sunjuntao/dsh-prompt-library
+        dsh plugin --profile web add @sunjuntao/dsh-prompt-library
+        DSH Prompt Library plugin: prompt CRUD, tags & categories, import/export, AI polish, one-click clip selected text, sidebar and assistant bubble reminders.
+   7224 dl |     5 stars | [skill] lunheng-article-pipeline-dsh
+        npm=lunheng-article-pipeline
+        dsh plugin --profile web add lunheng-article-pipeline
+        DeepSeek Harness bundle registering one skill that turns long-form production (academic papers, industry analysis, business commentary) into a 9-role pipeline: T1 literat
+   5458 dl |    19 stars | [skill] dsh-skill-hub
+        npm=dsh-skill-hub
+        dsh plugin --profile web add dsh-skill-hub
+        In-GUI skill hub for DeepSeek Harness: browse, search, toggle, inspect, diagnose and scaffold local skills from the official ctx.skills registry, plus a skill market with
+   5324 dl |    71 stars | [skill] dsh-mattpocock-skills-deck
+        npm=dsh-mattpocock-skills-deck
+        dsh plugin --profile web add dsh-mattpocock-skills-deck
+        Matt Pocock skills deck: installs with all 25 engineering and productivity skills bundled (mattpocock/skills v1.2.3, zero manual setup: triage, grilling, wayfinder, hando
+   4597 dl |    55 stars | [skill] gongwen-skill
+        npm=gongwen-skill
+        dsh plugin --profile web add gongwen-skill
+        Chinese government document processing toolkit: GB/T 9704 format check, auto-fix, content revision (red annotation + strikethrough), template generation, Markdown-to-docx
+   3971 dl |   147 stars | [skill] dsh-reverse-skill
+        npm=@dhicoc/dsh-reverse-skill
+        dsh plugin --profile web add @dhicoc/dsh-reverse-skill
+        Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
+
+--- workflow (工作流与自动化) ---
+  69694 dl |  1720 stars | [workflow] dsh-agent-teams
+        npm=@nanmicoder/dsh-agent-teams
+        dsh plugin --profile web add @nanmicoder/dsh-agent-teams
+        AgentTeams multi-agent teams.
+  15089 dl |    19 stars | [workflow] dsh-automation
+        npm=@michengai/dsh-automation
+        dsh plugin --profile web add @michengai/dsh-automation
+        Runs scheduled coding tasks in isolated DeepSeek Harness sessions, managed from Settings or the agent.
+  11012 dl |    28 stars | [workflow] Vibe-Mathematics
+        npm=dsh-vibe-math
+        dsh plugin --profile web add dsh-vibe-math
+        Multi-agent math problem-solving & verification framework: brainstorm → solver iteration → multi-verifier debate → Verified knowledge base, with checkpoint resume and man
+  10502 dl |   436 stars | [workflow] dsh-image-gen
+        npm=dsh-image-gen
+        dsh plugin --profile web add dsh-image-gen
+        Native conversational image generation for DeepSeek Harness: ask the agent to create an image, and it handles generation and keeps the result directly in the conversation
+   8896 dl |     7 stars | [workflow] dsh-claude
+        npm=@norman-else/dsh-claude
+        dsh plugin --profile web add @norman-else/dsh-claude
+        Runs Claude Code as a DSH conversation while preserving its native agent loop, tools, skills, hooks, and MCP integrations.
+   6743 dl |    46 stars | [workflow] dsh-taskboard
+        npm=dsh-taskboard
+        dsh plugin --profile web add dsh-taskboard
+        Task board for DSH: create tasks with project and model assignment, run them manually or on cron schedules; new sessions in a project automatically pick up its todo tasks
+   6499 dl |     2 stars | [workflow] dsh-cron
+        npm=@goodandready/dsh-cron
+        dsh plugin --profile web add @goodandready/dsh-cron
+        Scheduled cron tasks, background automation and agent execution for DeepSeek Harness.
+   6002 dl |    60 stars | [workflow] mstar-harness#dsh
+        npm=@mstar-harness/dsh
+        dsh plugin --profile web add @mstar-harness/dsh
+        Skill-driven harness/loop engineering workflow agent plugin.
+
+--- git (Git 与代码评审) ---
+ 239521 dl |  7725 stars | [git] dsh-web#packages/dsh-git-graph
+        npm=@linxin666/dsh-client-ui-git-graph
+        dsh plugin --profile web add @linxin666/dsh-client-ui-git-graph
+        Git branch selector and Git graph for the dsh web GUI: switch branches and explore branch-lane and commit history from the conversation header.
+   9625 dl |    12 stars | [git] DSH_VsCodeMode
+        npm=dsh-vscode-mode
+        dsh plugin --profile web add dsh-vscode-mode
+        VSCode-style editing experience for DeepSeek Harness: a Monaco-based central file editor (tabs, Ctrl+P quick open, status bar) and interactive diff review of agent edit/w
+   8991 dl |     1 stars | [git] AgentsGitFlowController
+        npm=agents-gitflow-guard
+        dsh plugin --profile web add agents-gitflow-guard
+        Branch-role guard for AI coding agents: configurable integration/preview/production/archive roles, blocking direct push, force-push and delete on protected branches and a
+   5723 dl |     6 stars | [git] dsh-diff-approval
+        npm=dsh-diff-approval
+        dsh plugin --profile web add dsh-diff-approval
+        Pending-change review for DeepSeek Harness: every `edit`, `write` and `str_replace_editor` change is collected automatically into the file list, where a single change blo
+   3632 dl |     0 stars | [git] dsh-git-panel
+        npm=dsh-git-panel
+        dsh plugin --profile web add dsh-git-panel
+        Git sidebar panel with commit graphs, ahead/behind tracking, branch operations, and one-click chat context injection.
+   3499 dl |     1 stars | [git] dsh-code-review
+        npm=@michengai/dsh-code-review
+        dsh plugin --profile web add @michengai/dsh-code-review
+        Adds /review, /review-status, and /review-cancel to spawn an independent native subagent that inspects a chosen Git scope (base branch, uncommitted changes, a commit, or 
+   3276 dl |    13 stars | [git] dsh-github
+        npm=@perrylink/dsh-github
+        dsh plugin --profile web add @perrylink/dsh-github
+        Official-grade GitHub CI integration: a composite action.yml, a polling PR review bot with idempotent inline comments and a status-check gate, plus PR/issues tools with e
+   3132 dl |    14 stars | [git] dsh-git-worktree
+        npm=dsh-git-worktree
+        dsh plugin --profile web add dsh-git-worktree
+        Git worktree Session Targets with isolated task sessions, Ready for Review, reversible Local Preview, human-confirmed delivery, environment retention and recovery, and sa
+
+--- notify (通知与集成) ---
+  47794 dl |  1382 stars | [notify] dsh-im
+        npm=@xmanrui/dsh-im
+        dsh plugin --profile web add @xmanrui/dsh-im
+        Connect IM bots to DeepSeek Harness via QR codes or bot credentials (9 channels: Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, and WhatsApp).
+  32306 dl |  1199 stars | [notify] dsh-pocket
+        npm=dsh-pocket
+        dsh plugin --profile web add dsh-pocket
+        Remote phone access to the DSH Web UI: scan a QR code for LAN or public (cloudflared tunnel) access with real-time sync, a mobile-adaptive layout, and a settings tab.
+  14506 dl |    16 stars | [notify] dsh-im-connect
+        npm=@michengai/dsh-im-connect
+        dsh plugin --profile web add @michengai/dsh-im-connect
+        Connects WeChat, WeCom, DingTalk, Feishu, Lark, QQ, and Telegram to a local DeepSeek Harness agent, with each IM chat as a separate workspace channel.
+  10369 dl |    32 stars | [notify] deepseek-harness-acp
+        npm=@openma/deepseek-harness-acp
+        dsh plugin --profile web add @openma/deepseek-harness-acp
+        ACP profile plugin and standalone stdio server for using the full DSH agent from Zed and other ACP clients while sharing DSH credentials and sessions.
+   7585 dl |    38 stars | [notify] dsh-lark-bot
+        npm=dsh-lark-bot
+        dsh plugin --profile web add dsh-lark-bot
+        Feishu/Lark bridge for DeepSeek Harness: scan-to-connect PersonalAgent binding, streaming cards, git-worktree project workspaces, parallel per-scope tasks, multi-role age
+   5674 dl |     2 stars | [notify] dsh-notify-me
+        npm=dsh-notify-me
+        dsh plugin --profile web add dsh-notify-me
+        Message alerts and desktop notification for DSH — a system toast, a sound and a tab-title marker when the agent needs your input (approval, plan review, question) or a re
+   5194 dl |     3 stars | [notify] dsh-message-gateway
+        npm=dsh-message-gateway
+        dsh plugin --profile web add dsh-message-gateway
+        Multi-platform message gateway and WeCom AI bot bridge with session context compression and smartsheet creation.
+   5175 dl |    49 stars | [notify] dsh-notifier
+        npm=dsh-notifier
+        dsh plugin --profile web add dsh-notifier
+        Multi-channel notifications and phone control for DSH: one `notify()` API across 27 channels, event-driven pushes, phone approvals and questions, phone task takeover (`/t
+
+--- dev (开发与运行时) ---
+  24361 dl |     6 stars | [dev] my-dsh-plugins#dsh-my-guardian
+        npm=dsh-my-guardian
+        dsh plugin --profile web add dsh-my-guardian
+        Plugin governance: new/updated plugins stage in a candidate area first, then hot-mount after startup — success promotes, failure auto-disables, repeated failures freeze, 
+  21834 dl |    57 stars | [dev] dsh-skills-manager
+        npm=@michengai/dsh-skills-manager
+        dsh plugin --profile web add @michengai/dsh-skills-manager
+        Manages local DeepSeek Harness skills in Settings and shows shared Agent skills as read-only.
+  12936 dl |    50 stars | [dev] huaweicloud-devkit
+        npm=huaweicloud-devkit
+        dsh plugin --profile web add huaweicloud-devkit
+        HuaweiCloud DevKit gives AI agents complete command of Huawei Cloud — build, deploy, operate, always governed, always secure.
+   8226 dl |     6 stars | [dev] dsh-service
+        npm=@gehennawu/dsh-service
+        dsh plugin --profile web add @gehennawu/dsh-service
+        Self-hosted DSH Web operations panel for safe restart and upgrade, health diagnostics, model-usage statistics and provider quota lookup, backup and session management, ta
+   8167 dl |    61 stars | [dev] dsh-mcp-panel
+        npm=dsh-mcp-panel
+        dsh plugin --profile web add dsh-mcp-panel
+        Read-only runtime management panel for the official DSH MCP client: connection status, registered tools, errors, and reconnect counts through the /mcp command and a Setti
+   8144 dl |    47 stars | [dev] dsh-win32
+        npm=dsh-win32
+        dsh plugin --profile web add dsh-win32
+        Diagnoses and repairs DeepSeek Harness on native Windows around the official persistent PowerShell and Workspace Write stack, creates the desktop shortcut, and keeps earl
+   7890 dl |    39 stars | [dev] fn-os-apps#dsh-fnos-plugin
+        npm=@tnnevol/dsh-fnos
+        dsh plugin --profile web add @tnnevol/dsh-fnos
+        fnOS 飞牛 NAS integration for DeepSeek Harness, working through the fnOS browser SDK when the Web UI runs inside an fnOS app frame: follows the NAS theme while DSH is set t
+   7774 dl |    17 stars | [dev] dsh-update-checker
+        npm=dsh-update-checker
+        dsh plugin --profile web add dsh-update-checker
+        Update management for DeepSeek Harness and its plugins: semver-aware dual-source (npm/GitHub) checks for the main program and every installed plugin, a locale-aware banne
+
+--- security (安全与权限) ---
+  15876 dl |    11 stars | [security] dsh-vault
+        npm=dsh-vault
+        dsh plugin --profile web add dsh-vault
+        Encrypted local credentials vault for the Harness: a web settings page and vault_* tools to store, search and copy passwords, API keys, TOTP secrets and card data, with h
+   6446 dl |   112 stars | [security] dsh-permission-rules
+        npm=dsh-permission-rules
+        dsh plugin --profile web add dsh-permission-rules
+        Claude Code-style declarative permission rules: ordered allow/deny/ask YAML rules matching tool names, arguments, workspace paths, and agent identity on the tools/pre-exe
+   6287 dl |    12 stars | [security] upstream-radar
+        npm=upstream-radar
+        dsh plugin --profile web add upstream-radar
+        Watches DSH and plugin releases, retests exact published artifacts in disposable runners, publishes machine-readable compatibility evidence, and reconciles managed issues
+   5719 dl |     8 stars | [security] dsh-auto-approval-llm
+        npm=@quill507/dsh-auto-approval-llm
+        dsh plugin --profile web add @quill507/dsh-auto-approval-llm
+        LLM-assisted auto approval with countdown fallback for the Auto permission preset: static rules, risk tiers, breaker and file audit.
+   5608 dl |    61 stars | [security] dsh-passwords
+        npm=dsh-passwords
+        dsh plugin --profile web add dsh-passwords
+        Turns DeepSeek Harness into a server-grade multi-tenant platform: remote access + auto HTTPS, subuser permissions & token/daily quotas, sandbox enforcement, encrypted aut
+   4685 dl |   181 stars | [security] dsh-auto-review
+        npm=dsh-auto-review
+        dsh plugin --profile web add dsh-auto-review
+        Second-model auto-review on the approval answerer chain: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default.
+   4517 dl |     3 stars | [security] dsh-rule-engine
+        npm=dsh-rule-engine
+        dsh plugin --profile web add dsh-rule-engine
+        Rules execution engine for dsh: parses AGENTS.md, hard-blocks rule-violating tool calls, text-based B/D rule auditing, /guard command, version-guard for versioned files, 
+   4504 dl |    14 stars | [security] dsh-auth-gate
+        npm=dsh-auth-gate
+        dsh plugin --profile web add dsh-auth-gate
+        Login gate for the dsh web surface: password or shared-token authentication, session cookies, rate limiting, and a user-management CLI (dsh.bundle manifest since 0.4.1, o
+
+--- remote (远程与移动端) ---
+ 251033 dl |  7725 stars | [remote] dsh-web#packages/dsh-remote-web-ui
+        npm=@linxin666/dsh-remote-web-ui
+        dsh plugin --profile web add @linxin666/dsh-remote-web-ui
+        Remote control of a dsh web workspace from phone or PC: QR-code pairing through a token-gated channel, SSE real-time sync, and separate mobile and full desktop GUI modes.
+  20351 dl |     6 stars | [remote] dsh-server-deck
+        npm=dsh-server-deck
+        dsh plugin --profile web add dsh-server-deck
+        Server card dashboard for DSH: per-host status, CPU, memory, disk and latency, with one-click xterm.js SSH terminals; imports ~/.ssh/config and mounts as a better-sidebar
+  14139 dl |   166 stars | [remote] dsh-bridge
+        npm=@wenbin_wb/dsh-bridge
+        dsh plugin --profile web add @wenbin_wb/dsh-bridge
+        Remote and mobile access for DeepSeek Harness: provides LAN QR code connection, Cloudflare/custom tunnels, WeChat, QQ, Feishu, Telegram bot integration, and security auth
+  12159 dl |   273 stars | [remote] dsh-mobile
+        npm=dsh-mobile
+        dsh plugin --profile web add dsh-mobile
+        Access DeepSeek Harness from the Android app or a mobile browser with secure LAN and remote connections, persistent device pairing, and a customizable mobile interface.
+   6671 dl |     5 stars | [remote] dsh-lanmode
+        npm=@goodandready/dsh-lanmode
+        dsh plugin --profile web add @goodandready/dsh-lanmode
+        LAN and reverse-proxy access to the DeepSeek Harness web UI: returns the settings service on pages that are not localhost, fills in the web APIs a browser withholds over 
+   5892 dl |    35 stars | [remote] dsh-Remote#plugin
+        npm=dsh-remote-plugin
+        dsh plugin --profile web add dsh-remote-plugin
+        Mobile remote-control suite: bundle plugin with native sidebar entry and admin drawer, self-healing bearer-token gateway over LAN/Tailscale, Android app (sessions/approva
+   5803 dl |     8 stars | [remote] dsh-wechat
+        npm=dsh-wechat
+        dsh plugin --profile web add dsh-wechat
+        Bridges WeChat private chats into DeepSeek Harness as an in-process plugin over Tencent's iLink bot protocol, with two-way text, image, file and voice messaging, in-WeCha
+   4421 dl |    17 stars | [remote] dsh-remote-ssh
+        npm=@zhangfengshun/dsh-remote-ssh
+        dsh plugin --profile web add @zhangfengshun/dsh-remote-ssh
+        VSCode Remote-SSH-style development for DSH — connect to HPC and servers over SSH, read and edit remote files in the built-in Files tab, auto-SSH terminal, remote workspa
+
+--- market (插件市场与管理) ---
+ 432532 dl |  4108 stars | [market] dsh-market
+        npm=dshmarket
+        dsh plugin --profile web add dshmarket
+        Browse, search and install community plugins from inside DeepSeek Harness settings, with category filters, one-click updates, enable/disable, theme switching and configur
+  27808 dl |   139 stars | [market] dsh-find-plugin
+        npm=dsh-find-plugin
+        dsh plugin --profile web add dsh-find-plugin
+        Find plugins without leaving the agent: search this curated registry by keyword or category, with ready-to-run install commands.
+  10670 dl |     4 stars | [market] dshhub-market
+        npm=dshhub-market
+        dsh plugin --profile web add dshhub-market
+        Passcode marketplace inside DeepSeek Harness: enter a six-character code to unlock and install plugins shared by creators, plus themes, backup, updates and diagnostics.
+   8793 dl |   148 stars | [market] dsh-skin-market
+        npm=dsh-skin-market
+        dsh plugin --profile web add dsh-skin-market
+        Native skin marketplace and lifecycle manager that discovers community skins, displays previews and compatibility status, and provides verified one-click or manual instal
+   6487 dl |    85 stars | [market] dsh-plugin-hub
+        npm=@noob-stupid/dsh-plugin-console
+        dsh plugin --profile web add @noob-stupid/dsh-plugin-console
+        A plugin management panel: one-click enable/disable for installed plugins plus a GitHub dsh-plugin marketplace with details and one-click installs.
+   4816 dl |     4 stars | [market] dsh-plugin-mall
+        npm=@1e0zj/dsh-plugin-mall
+        dsh plugin --profile web add @1e0zj/dsh-plugin-mall
+        Open plugin marketplace: live GitHub dsh-plugin topic search with per-repo package.json verification (dsh.bundle/dsh.client manifest badges and a verified-only filter), n
+   3983 dl |     1 stars | [market] dsh-plugin-center
+        npm=@max-null/dsh-plugin-center
+        dsh plugin --profile web add @max-null/dsh-plugin-center
+        Plugin center for DeepSeek Harness: installed-plugin metadata, a community market with stars and versions, one-click install and update, and a What's New dialog.
+   3779 dl |     2 stars | [market] dsh-plugin-marketplace
+        npm=dsh-plugin-marketplace
+        dsh plugin --profile web add dsh-plugin-marketplace
+        Browse and search GitHub dsh-plugin repositories from Web UI Settings, sort by stars, and install plugins through the DSH CLI.
+
+--- fun (娱乐) ---
+  23193 dl |   669 stars | [fun] dsh-pet#dsh-pet
+        npm=dsh-pet
+        dsh plugin --profile web add dsh-pet
+        Desktop pet for the DSH Web UI with 25 transparent animations, screen wandering, click reactions and drag, plus a reproducible asset-generation pipeline.
+   8508 dl |    22 stars | [fun] dsh-tavern-v2
+        npm=dsh-tavern
+        dsh plugin --profile web add dsh-tavern
+        Tavern management panel for DeepSeek Harness: character cards, worldbooks and presets with per-session isolation, memory summaries, a character relationship web, one-clic
+   6596 dl |    11 stars | [fun] dsh-music-player
+        npm=dsh-music-player
+        dsh plugin --profile web add dsh-music-player
+        Music, audiobook, radio and news player for DeepSeek Harness: streams your local music folder over HTTP, reads local .txt/.epub novels aloud with AI voices, plays online 
+   4162 dl |    91 stars | [fun] dsh-meme
+        npm=dsh-meme
+        dsh plugin --profile web add dsh-meme
+        Chat meme stickers: text-only send, mood auto-send, QQ/WeChat-style picker, auto-learn, custom packs.
+   3371 dl |     1 stars | [fun] dsh-codex-pet
+        npm=@michengai/dsh-codex-pet
+        dsh plugin --profile web add @michengai/dsh-codex-pet
+        An in-page pet for DSH Web with multi-session task notifications and controls to open tasks, stop turns, and respond to supported approval and question requests.
+   2534 dl |     1 stars | [fun] dsh-agentnoodle
+        npm=dsh-agentnoodle
+        dsh plugin --profile web add dsh-agentnoodle
+        Extensible AI-driven group-reaction narrative game framework for DeepSeek Harness: type one action and multiple NPCs each respond in their own chatroom message with avata
+   2497 dl |     9 stars | [fun] dsh-roleplay
+        npm=dsh-roleplay
+        dsh plugin --profile web add dsh-roleplay
+        Role-play conversations with character cards, in-chat character-card authoring and editing, and image generation through configurable backends.
+   2312 dl |    44 stars | [fun] dsh-emoji
+        npm=dsh-emoji
+        dsh plugin --profile web add dsh-emoji
+        Automatically add emojis to AI replies.

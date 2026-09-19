@@ -1,0 +1,269 @@
+﻿=== 桌宠类共 202 个，其中带余额/用量 = 22 个 ===
+
+### A. 桌宠 AND 余额/用量 ###
+dsh-custom-plugin  [ui]  stars=6 dl=2195
+  npm=@alexpeng/dsh-custom-plugin
+  install=dsh plugin --profile web add @alexpeng/dsh-custom-plugin
+  ZH: DSH Web GUI 便利套件，提供外观控制、时间线导航、项目文件夹、提示词、会话导出、Mermaid 渲染、引用回复，以及 DeepSeek 余额和每日 token 用量。
+  shots: (none)
+
+dsh-desk-pet  [ui]  stars=5 dl=503
+  npm=deepseek-desk-pet
+  install=dsh plugin --profile web add deepseek-desk-pet
+  ZH: 装在 DSH 页面之外的 macOS 桌宠：一个真的置顶窗口，全屏 Space 也盖得住；六种状态跟着本地 DSH 走，原生右键菜单里有免打扰与会话清单；自带的 skill 用你自己的画图工具和额度，把一张照片变成整套十八个姿势的皮肤。跑系统自带的 Python 与 ctypes，不用 Electron，零依赖。
+  shots: https://raw.githubusercontent.com/anneheartrecord/dsh-desk-pet/main/docs/media/diy-skin.png | https://raw.githubusercontent.com/anneheartrecord/dsh-desk-pet/main/docs/media/floats-above.png | https://raw.githubusercontent.com/anneheartrecord/dsh-desk-pet/main/docs/media/skins.png | https://raw.githubusercontent.com/anneheartrecord/dsh-desk-pet/main/docs/media/states.png
+
+dsh-pet-sprite  [ui]  stars=2 dl=-
+  npm=-
+  install=dsh plugin --profile web add github:BlackBearCC/dsh-pet-sprite
+  ZH: 聊天区里的像素小宠物：从蛋孵化三选一，也可用一句话描述让 LLM 画出自定义形象，自动在消息气泡间平台跳跃，支持 WASD 操控与拖拽，用已配置的模型角色扮演陪聊，养成系统（心情/电量/健康、等级、商店）由真实 token 消耗驱动。
+  shots: (none)
+
+dsh-macos-pet  [ui]  stars=1 dl=322
+  npm=dsh-macos-pet
+  install=dsh plugin --profile web add dsh-macos-pet
+  ZH: 分叉自 anneheartrecord/dsh-desk-pet 的 macOS 桌宠，一个真的置顶窗口，全屏 Space 也盖得住：姿势跟着本地 DSH 在六种状态之间走，右键菜单是真的 AppKit 菜单，里面有免打扰和会话清单，随包带七套皮肤。七套里有两套是仓库中的脚本用几何画出来的，不是生成的，所以做一套皮肤不需要图像模型、也不烧 API 额度；自带的 skill 仍用你自己的画图工具和额度，把一张照片扩写成十八个姿势。没有 Electron，也不用另装任何东西：窗口是用 macOS 自带的那个 Python 经 ctypes 驱动的。
+  shots: https://raw.githubusercontent.com/Dkrillex/dsh-macos-pet/HEAD/docs/media/floats-above.png | https://raw.githubusercontent.com/Dkrillex/dsh-macos-pet/HEAD/docs/media/states.png | https://raw.githubusercontent.com/Dkrillex/dsh-macos-pet/HEAD/docs/media/skins.png | https://raw.githubusercontent.com/Dkrillex/dsh-macos-pet/HEAD/docs/media/diy-skin.png
+
+dsh-office  [ui]  stars=5 dl=3012
+  npm=dsh-office
+  install=dsh plugin --profile web add dsh-office
+  ZH: 办公室工作区/会话仪表盘：悬浮 6 列精灵面板，可视化工作区、会话、token 用量与子代理，并提供 Agent Mail 与办公日志页签。飞书相关视图（消息流、会议日程、妙记逐字稿）另需自行安装并授权 `@larksuite/cli`。
+  shots: (none)
+
+dsh-no-setup-mode  [ui]  stars=1 dl=-
+  npm=-
+  install=dsh plugin --profile web add github:johnnycls/dsh-no-setup-mode
+  ZH: DSH 网页免设置模式：隐藏复杂界面、自动套用最佳设置（聊天模式、Full Access、账户余额），并提供一键人设角色扮演（女僕/管家）。
+  shots: (none)
+
+DeepSeek-Balance-Whale-Widget  [ui]  stars=2641 dl=29992
+  npm=dsh-whale-widget
+  install=dsh plugin --profile web add dsh-whale-widget
+  ZH: 右下角常驻的小鲸鱼挂件：余额、今日已用与每轮对话消耗（含峰谷价），余额预警与今日预算的泡泡内容都可编辑；泡泡点击序列模块化自定义，支持并列加权 A/B、随机台词与随机图片；内置 30+ 厂商模板（OpenAI / OpenRouter / Kimi / 硅基流动 / 方舟 / 智谱 / MiniMax 等），按模型查余额与订阅额度；另有任务结束音效、导入音频、自定义角色与资源管理。数据全在本机，无遥测。
+  shots: (none)
+
+dsh-whale-girl  [ui]  stars=5 dl=-
+  npm=-
+  install=dsh plugin --profile web add "https://github.com/nickkkkkk123123/dsh-whale-girl/releases/download/v0.2.5/dsh-whale-girl-0.2.5.tgz"
+  ZH: 会卖萌、会记账、会弹跳的鲸鱼娘桌宠：实时余额/用量/上下文占用、中键弹弓抛掷、彩蛋气泡、省电模式；安装包 346KB，零新进程。
+  shots: (none)
+
+dsh-valley-meter  [ui]  stars=2 dl=786
+  npm=dsh-valley-meter
+  install=dsh plugin --profile web add dsh-valley-meter
+  ZH: 峰谷电表——DeepSeek 用量小助手：输入框上方一枚极简余额徽章，框内只有「货币符号 + 余额数字」两组，官方余额每 5 秒实时刷新；点击符号即在新页签打开官方充值页；光标移入徽章时，符号身下浮现一枚圆形底色（左弧与徽章左端圆角完全重合），并展开 24 小时峰谷时间轴（橙=峰时、蓝=谷时、白色发光指针标当前本地时刻），谷时省钱时段一目了然；今日消耗独立计费；设置面板提供 10 套沉稳配色预置与谷/峰色自定义、详细/极简样式与各项读数开关；全中文界面。
+  shots: (none)
+
+DeepSeek-Balance-Whale-Widget-Bowl  [ui]  stars=17 dl=-
+  npm=-
+  install=dsh plugin --profile web add github:Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl
+  ZH: DSH Web 界面右下角的 DeepSeek 余额鲸鱼挂件：三套形象切换（默认 / 顶碗 / 拿碗）、余额与今日已用、每轮对话消耗提示、峰谷价换算、按压音效与随机台词。基于 MeteorNOX/DeepSeek-Balance-Whale-Widget 修改。
+  shots: https://raw.githubusercontent.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl/HEAD/assets/DSH2.png | https://raw.githubusercontent.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl/HEAD/assets/DSniang1.png | https://raw.githubusercontent.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl/HEAD/assets/DSniang-bowl.png | https://raw.githubusercontent.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl/HEAD/assets/DSniang-hold.png
+
+dsh-api-dashboard  [usage]  stars=9 dl=1722
+  npm=dsh-api-dashboard
+  install=dsh plugin --profile web add dsh-api-dashboard
+  ZH: DSH Web GUI 的多平台 API 余额与用量看板：在输入框下方显示 DeepSeek、智谱 GLM、Kimi、阶跃星辰、硅基流动、MiniMax、OpenRouter、Novita、xAI 的余额，估算本会话与子代理消耗并按 DeepSeek 峰谷计价，自动发现 DSH 设置里已配置的中转站，另有一个可拖拽的大肥鱼挂件。
+  shots: https://raw.githubusercontent.com/133563825as-ai/dsh-api-dashboard/HEAD/docs/screenshots/1-balance-bar.webp | https://raw.githubusercontent.com/133563825as-ai/dsh-api-dashboard/HEAD/docs/screenshots/2-subagent-row.webp | https://raw.githubusercontent.com/133563825as-ai/dsh-api-dashboard/HEAD/docs/screenshots/3-dashboard.webp | https://raw.githubusercontent.com/133563825as-ai/dsh-api-dashboard/HEAD/docs/screenshots/4-settings-basic.webp | https://raw.githubusercontent.com/133563825as-ai/dsh-api-dashboard/HEAD/docs/screenshots/5-settings-whale.png | https://raw.githubusercontent.com/133563825as-ai/dsh-api-dashboard/HEAD/docs/screenshots/6-whale-tab.webp
+
+dsh-token-pet  [usage]  stars=55 dl=661
+  npm=dsh-token-pet
+  install=dsh plugin --profile web add dsh-token-pet
+  ZH: DSH 悬浮桌面用量小宠物：用 12 个正式状态动作反馈请求、工具、上下文压缩、归档和提示词增强，展示实时上下文占用、跨会话终身用量账本、服务商/模型统计与小时 Token 趋势，通过纯快照面板读取和后台增量索引避免打开面板时扫描历史，并提供用户主动触发、可编辑预览和直接发送的提示词增强。
+  shots: https://raw.githubusercontent.com/Jimmy0123-ux/dsh-token-pet/HEAD/docs/media/actions-overview.webp | https://raw.githubusercontent.com/Jimmy0123-ux/dsh-token-pet/HEAD/docs/media/action-idle.webp | https://raw.githubusercontent.com/Jimmy0123-ux/dsh-token-pet/HEAD/docs/media/action-working.webp | https://raw.githubusercontent.com/Jimmy0123-ux/dsh-token-pet/HEAD/docs/media/action-warning.webp | https://raw.githubusercontent.com/Jimmy0123-ux/dsh-token-pet/HEAD/docs/media/action-tool-success.webp | https://raw.githubusercontent.com/Jimmy0123-ux/dsh-token-pet/HEAD/docs/media/action-tool-failure.webp | https://raw.githubusercontent.com/Jimmy0123-ux/dsh-token-pet/HEAD/docs/media/action-prompt-enhancing.webp | https://raw.githubusercontent.com/Jimmy0123-ux/dsh-token-pet/HEAD/docs/media/action-prompt-ready.webp
+
+dsh-personal-center  [usage]  stars=120 dl=1460
+  npm=dsh-personal-center
+  install=dsh plugin --profile web add dsh-personal-center
+  ZH: DeepSeek Harness 个人中心：跨会话用量统计、按模型成本估算、全局自定义指令、外观全局字号、数据驱动的桌面宠物（位图/矢量皮肤）与会话状态概览，纯本地离线运行。
+  shots: https://raw.githubusercontent.com/PolinniZhong/dsh-personal-center/main/docs/screenshots/light-profile.png | https://raw.githubusercontent.com/PolinniZhong/dsh-personal-center/main/docs/screenshots/dark-pet.png | https://raw.githubusercontent.com/PolinniZhong/dsh-personal-center/main/docs/screenshots/pet-emotions.gif | https://raw.githubusercontent.com/PolinniZhong/dsh-personal-center/main/docs/screenshots/dark-model-cost.png
+
+dsh-whale-report  [usage]  stars=31 dl=1571
+  npm=dsh-whale-report
+  install=dsh plugin --profile web add dsh-whale-report
+  ZH: 深迹 DeepTrace — 从会话日志生成日报/周报/月报/年报/自定义区间报告：成本与 Token 拆解、8 条确定性洞察、协作复盘、实时模型余额、PDF/PNG/HTML 导出；只读，绝不改写历史。
+  shots: (none)
+
+dsh-whale-meter  [usage]  stars=11 dl=654
+  npm=dsh-whale-meter
+  install=dsh plugin --profile web add dsh-whale-meter
+  ZH: 用量段位与战绩卡片：按本月 token 消耗评 🐟→🐳 五档段位，分位本地估算（零上报）；6 家厂商 46 个模型精准计价，支持国内厂商按输入长度分档；自动回填安装前的历史会话；8·17 调价前后同一份用量的新旧价对比。数据全在本机，无遥测。
+  shots: (none)
+
+dsh-usage-mini  [usage]  stars=0 dl=363
+  npm=dsh-usage-mini
+  install=dsh plugin --profile web add dsh-usage-mini
+  ZH: DSH Web 悬浮用量小窗，显示 Claude、Codex 订阅用量窗口与重置倒计时，以及 DeepSeek API 今日花费与余额；只展示，是 dsh-cost-meter 的伴侣。
+  shots: (none)
+
+dsh-opencode-go-usage  [usage]  stars=1 dl=-
+  npm=-
+  install=dsh plugin --profile web add github:wawo77/dsh-opencode-go-usage
+  ZH: DSH 网页界面的桌宠用量小窗：悬浮的骨骼动画角色用气泡报出套餐用量，按 DSH 里配置的 provider 自动匹配（OpenCode Go / Command Code / DeepSeek 官方），套餐制显示百分比、按量计费显示余额，取不到官方数字时降级为本地 token 统计；可拖动、滚轮缩放（90–260px），音效现场合成，HTTP 路由只开 loopback。
+  shots: https://raw.githubusercontent.com/wawo77/dsh-opencode-go-usage/HEAD/docs/pet.png | https://raw.githubusercontent.com/wawo77/dsh-opencode-go-usage/HEAD/docs/animation.png
+
+dsh-companion  [session]  stars=3 dl=-
+  npm=-
+  install=dsh plugin --profile web add github:beijingwahw/dsh-companion
+  ZH: 四模块会话伴侣：对话智能导出（Markdown/PDF/JSON/PNG 长图、隐私脱敏、批量 ZIP）、上下文交接摘要（模板保存与导入继承）、API 成本优化（官方动态计价、峰谷调度、日/月双档预算、模型路由）、全局对话检索与对话内搜索（Ctrl+F、CSS Custom Highlight API）。
+  shots: (none)
+
+dsh-whale-pet  [fun]  stars=2 dl=1273
+  npm=dsh-whale-pet-plugin
+  install=dsh plugin --profile web add dsh-whale-pet-plugin
+  ZH: DeepSeek Harness 的鲸鱼娘桌宠：浏览器悬浮桌宠与 Windows 桌面桌宠共享一套数据，实时余额木牌、任务通知、摸头互动、19 句预合成带情感的台词朗读，空闲节奏随是否在场自适应。
+  shots: https://raw.githubusercontent.com/dleaf6211-hash/dsh-whale-pet/HEAD/assets/screenshots/browser-balance.png | https://raw.githubusercontent.com/dleaf6211-hash/dsh-whale-pet/HEAD/assets/screenshots/browser-usage.png | https://raw.githubusercontent.com/dleaf6211-hash/dsh-whale-pet/HEAD/assets/screenshots/desktop-pet.png | https://raw.githubusercontent.com/dleaf6211-hash/dsh-whale-pet/HEAD/assets/screenshots/pat-moment.png | https://raw.githubusercontent.com/dleaf6211-hash/dsh-whale-pet/HEAD/assets/screenshots/settings-panel.png
+
+dafeiyu-buchibaifan  [fun]  stars=2 dl=1072
+  npm=@piaobo_gz/dafeiyu-buchibaifan
+  install=dsh plugin --profile web add @piaobo_gz/dafeiyu-buchibaifan
+  ZH: 桌面大肥鱼增强版桌宠：点击实时显示 DeepSeek 余额，浏览器外桌面问答，7 套专属动作，53 条玩梗。
+  shots: (none)
+
+dsh-pet-desktop  [fun]  stars=- dl=-
+  npm=-
+  install=dsh plugin --profile web add github:qiqibabyy/dsh-pet-desktop
+  ZH: 独立置顶窗口的桌面宠物：直接导入 ~/.codex/pets 的 Codex 宠物，含亲密度段位、会话活动气泡、贴边吸附拖拽、右键可达的智能鼠标穿透；已装 dsh-usage 时自动对齐其当日 token 台账。
+  shots: https://raw.githubusercontent.com/qiqibabyy/dsh-pet-desktop/HEAD/screenshots/tap-card.jpg | https://raw.githubusercontent.com/qiqibabyy/dsh-pet-desktop/HEAD/screenshots/settings.jpg
+
+dsh-whale-musume  [fun]  stars=72 dl=-
+  npm=-
+  install=dsh plugin --profile web add github:Sutera-Diffusus/dsh-whale-musume
+  ZH: 元气鲸鱼娘桌宠：摸头养成、按工具类型联动的工作状态、494 条台词、30 项成就、成长日记、拖拽惯性、主题适配与无障碍模式。关键词感知与余额关心默认关闭、需手动开启；可选的天气心情只在你填了城市后才会请求 Open-Meteo。无遥测。
+  shots: (none)
+
+### B. 其余桌宠（按下载量前 12） ###
+dsh-web#packages/dsh-web-all  [ui]  stars=7725 dl=88416
+  npm=@linxin666/dsh-web-all
+  install=dsh plugin --profile web add @linxin666/dsh-web-all
+  ZH: DSH Web UI 插件与皮肤合集：任务看板、git 图、右侧面板、远程移动端 UI、桌宠、实时 token 统计与皮肤中心。
+  shots: (none)
+
+dsh-TUI  [ui]  stars=3086 dl=46278
+  npm=@deepseek-harness-tui/dsh-tui
+  install=dsh plugin --profile web add @deepseek-harness-tui/dsh-tui
+  ZH: Claude Code 风格全屏终端 UI：像素鲸鱼顶栏、实时工作状态行、思考流式展开。
+  shots: (none)
+
+dsh-pet#dsh-pet  [fun]  stars=669 dl=23193
+  npm=dsh-pet
+  install=dsh plugin --profile web add dsh-pet
+  ZH: DSH Web UI 桌面宠物：25 个透明动画、屏幕漫游、点击反应与拖拽，附可复现的素材生成链。
+  shots: https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/main/assets/screenshots/dsh-pet-running-1.png | https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/main/assets/screenshots/dsh-pet-running-2.png
+
+dsh-genui  [ui]  stars=463 dl=19177
+  npm=@changfenhuang/dsh-genui
+  install=dsh plugin --profile web add @changfenhuang/dsh-genui
+  ZH: 助手回复内渲染交互式 UI 组件：布局、图表、表单、测验、mermaid、3D 场景与回传事件循环。
+  shots: https://raw.githubusercontent.com/omdsh-dev/dsh-genui/main/assets/showcase-panel.png | https://raw.githubusercontent.com/omdsh-dev/dsh-genui/main/assets/showcase-plot.png | https://raw.githubusercontent.com/omdsh-dev/dsh-genui/main/assets/showcase.png | https://raw.githubusercontent.com/omdsh-dev/dsh-genui/main/assets/demo-thumb.png
+
+dsh-tavern-v2  [fun]  stars=22 dl=8508
+  npm=dsh-tavern
+  install=dsh plugin --profile web add dsh-tavern
+  ZH: 酒馆管理面板：多角色卡、多世界书、多预设与会话级隔离，记忆总结、角色关系网、剧情选项一键发送，另有 NSFW 模式。完整效果需同时安装伴生插件 dsh-muv-engine 与 dsh-muv-table，用于渲染状态栏、剧情选项与变量表格。
+  shots: (none)
+
+lunheng-article-pipeline-dsh  [skill]  stars=5 dl=7224
+  npm=lunheng-article-pipeline
+  install=dsh plugin --profile web add lunheng-article-pipeline
+  ZH: DSH bundle 技能包：把深度长文生产（学术论文 / 行业分析 / 商业评论）拆成 9 角色流水线——T1 文献 / T2 数据 / T3 案例三线并行检索、T4 分析、T5 写作、T6 批判伙伴、T7 审计、T8 终检（主控亲执行）、T9 同行评审，跨 6 个阶段，含三角验证、M 门 23 项机械终检、G0-G14 独立审计（含中文 AI 痕迹闸）、审稿评分与期刊匹配，以及 4 个人在环节点。以 bundle 分发（`package.json#dsh.bundle.patch` + `lib/index.js` 入口注册技能），`dsh plugin add lunheng-article-pipeline` 即装；随包 T
+  shots: (none)
+
+dsh-live-canvas  [tools]  stars=0 dl=7081
+  npm=@goodandready/dsh-live-canvas
+  install=dsh plugin --profile web add @goodandready/dsh-live-canvas
+  ZH: 在隔离的 iframe 沙箱中实时渲染 Agent 生成的 HTML、React (JSX/TSX)、Vue、SVG、Mermaid 和 Markdown，支持 SSE 热重载，并提供 DOM 点击检查器、并排视觉对比、响应式设备矩阵和一键 Vite ZIP 导出。
+  shots: (none)
+
+dsh-plugin-lookatstudy  [ui]  stars=12 dl=5284
+  npm=dsh-plugin-lookatstudy
+  install=dsh plugin --profile web add dsh-plugin-lookatstudy
+  ZH: 学习页签（课程｜导师｜黑板三栏）：把 markdown 文件、本地文件夹或 GitHub 仓库变成导学课程，提供课时解锁、掌握度追踪、间隔重复和导师设计式课程导入。
+  shots: (none)
+
+dsh-gitbash-shell  [tools]  stars=12 dl=4993
+  npm=dsh-gitbash-shell
+  install=dsh plugin --profile web add dsh-gitbash-shell
+  ZH: Windows 插件：将宿主 shell 执行器换成 Git for Windows bash（全部 Agent 模式生效），并物化标准/极简/PTC/创造四个 Git Bash 预设变体（逐文件 sha256 标记、用户修改保留）；发布 gitBash 能力服务，让配套预设自动选用 Git Bash；若装有 dsh-better-sidebar，还会通过对方官方设置补丁口把其终端（UI 标签与模型 terminal_* 工具）一并切到 Git Bash。
+  shots: (none)
+
+dsh-qingagent  [docs]  stars=2 dl=4931
+  npm=dsh-qingagent
+  install=dsh plugin --profile web add dsh-qingagent
+  ZH: 青简写作桥：agent 通过 qing_ 前缀工具起草改稿，右侧宣纸面板排版呈现（mermaid、drawio、表格、公式）；每处修改先摆在纸上供审阅，提交才落稿。需本机运行开源的青简桌面客户端。
+  shots: https://raw.githubusercontent.com/void2anything/dsh-qingagent/HEAD/docs/assets/dsh-demo.gif | https://raw.githubusercontent.com/void2anything/dsh-qingagent/HEAD/docs/assets/dsh-diagram.webp | https://raw.githubusercontent.com/void2anything/dsh-qingagent/HEAD/docs/assets/dsh-table-math.webp | https://raw.githubusercontent.com/void2anything/dsh-qingagent/HEAD/docs/assets/dsh-review.webp | https://raw.githubusercontent.com/void2anything/dsh-qingagent/HEAD/docs/assets/dsh-onboarding.webp
+
+dsh-partner  [workflow]  stars=0 dl=4725
+  npm=@lemoncat7/dsh-partner
+  install=dsh plugin --profile web add @lemoncat7/dsh-partner
+  ZH: 提供隔离记忆、微信渠道、Skill、定时任务、伙伴挂念与依赖任务看板的长期 AI 伙伴。
+  shots: (none)
+
+dsh-deepread  [tools]  stars=53 dl=4131
+  npm=dsh-deepread
+  install=dsh plugin --profile web add dsh-deepread
+  ZH: 五种模式精读图书与文章（快速/深度/知识地图/费曼/全书），输出观点—证据—数据报告、四档置信度、Mermaid/XMind 思维导图，支持批量对比、预算预检与后台任务进度透明，可导出 MD/MM/HTML。
+  shots: (none)
+
+### C. 纯余额/用量件（非桌宠，按下载量前 10） ###
+dsh-cost-meter  [usage]  stars=310 dl=75176
+  npm=dsh-cost-meter
+  install=dsh plugin --profile web add dsh-cost-meter
+  ZH: 会话与当日 API 费用统计、预算图框（已用%）、官方余额、历史看板，支持峰谷计价与官方价格一键同步。
+  shots: (none)
+
+dsh-token-usage-stats  [usage]  stars=1 dl=28161
+  npm=dsh-token-usage-stats
+  install=dsh plugin --profile web add dsh-token-usage-stats
+  ZH: 仿 DeepSeek 官方 Token 统计，跨会话 Token 消耗、请求次数与峰谷分时费用统计看板。
+  shots: (none)
+
+dsh-ui-usage-billing  [usage]  stars=53 dl=22399
+  npm=@kenz1117/dsh-ui-usage-billing
+  install=dsh plugin --profile web add @kenz1117/dsh-ui-usage-billing
+  ZH: 侧边栏计费仪表盘：从会话日志聚合真实用量（按模型/按日统计调用、Token、缓存），按最新多厂商官方价格估算人民币费用，订阅套餐（coding/token/agent）通道豁免计费，并带各厂商健康状态圆点。
+  shots: (none)
+
+dsh-codex-subscription  [model]  stars=75 dl=14649
+  npm=dsh-codex-subscription
+  install=dsh plugin --profile web add dsh-codex-subscription
+  ZH: 通过 ChatGPT OAuth 在 DSH 中使用 Codex 模型，提供订阅联网搜索、额度与安全重置、图片工具、高速模式和模型感知上下文；无需 API Key 或 Codex CLI。
+  shots: https://raw.githubusercontent.com/WSL043/dsh-codex-subscription/HEAD/docs/assets/image-preview-annotations-en.png | https://raw.githubusercontent.com/WSL043/dsh-codex-subscription/HEAD/docs/assets/context-settings-en.png | https://raw.githubusercontent.com/WSL043/dsh-codex-subscription/HEAD/docs/assets/image-preview-annotations.png | https://raw.githubusercontent.com/WSL043/dsh-codex-subscription/HEAD/docs/assets/context-settings.png | https://raw.githubusercontent.com/WSL043/dsh-codex-subscription/HEAD/docs/assets/sketch-canvas.png
+
+deepseek-harness-control-center  [usage]  stars=72 dl=13728
+  npm=deepseek-harness-wallet
+  install=dsh plugin --profile web add deepseek-harness-wallet
+  ZH: DeepSeek Harness 监控、提醒、充值与会话控制中心：查看官方余额、本会话花费与 token、第三方 token 合计，提供完成提醒、官方充值、灵活布局及 Agent 辅助的会话控制。
+  shots: (none)
+
+fn-os-apps#dsh-codex-auth-plugin  [identity]  stars=39 dl=12110
+  npm=@tnnevol/dsh-codex-auth
+  install=dsh plugin --profile web add @tnnevol/dsh-codex-auth
+  ZH: 为 DeepSeek Harness 提供 ChatGPT 账号登录：走 Codex 浏览器 OAuth，无需 API Key、无需选择工作空间；把登录结果接到 pi-ai 的 Codex provider，可设置新会话默认的 Codex 模型与思考强度，并按账号自己的目录接口刷新模型列表，在输入区展示 5 小时与每周用量窗口。
+  shots: (none)
+
+dsh-plugin-subscriptions  [model]  stars=371 dl=10600
+  npm=dsh-plugin-subscriptions
+  install=dsh plugin --profile web add dsh-plugin-subscriptions
+  ZH: 把 ChatGPT（Codex）、Claude、Grok 订阅当作 DeepSeek Harness 的 LLM 提供方：设置页登录、模型目录、用量展示，以及 image_generate、video_generate 与 x_search 工具。
+  shots: https://raw.githubusercontent.com/V1ki/dsh-plugin-subscriptions/main/docs/images/subscriptions.png | https://raw.githubusercontent.com/V1ki/dsh-plugin-subscriptions/main/docs/images/model-picker.png | https://raw.githubusercontent.com/V1ki/dsh-plugin-subscriptions/main/docs/images/model-effort.png | https://raw.githubusercontent.com/V1ki/dsh-plugin-subscriptions/main/docs/images/speed-toggle.png | https://raw.githubusercontent.com/V1ki/dsh-plugin-subscriptions/main/docs/images/image-generate-inline.png | https://raw.githubusercontent.com/V1ki/dsh-plugin-subscriptions/main/docs/images/image-generate-providers.png | https://raw.githubusercontent.com/V1ki/dsh-plugin-subscriptions/main/docs/images/video-generate-inline.png
+
+dsh-key-rotation  [model]  stars=3 dl=9335
+  npm=@goodandready/dsh-key-rotation
+  install=dsh plugin --profile web add @goodandready/dsh-key-rotation
+  ZH: 为每个提供方维护 API Key 池并自动创建克隆路由，在配额或限流错误时切换到下一个 Key，主动探测冷却中的 Key 以便恢复，并在设置中提供 Key 池、冷却时间与切换状态码的编辑界面。
+  shots: (none)
+
+dsh-usage-stats  [usage]  stars=159 dl=8509
+  npm=@ychris12138/dsh-usage-stats
+  install=dsh plugin --profile web add @ychris12138/dsh-usage-stats
+  ZH: 多供应商用量看板：按供应商/模型统计 Token 与日期下钻，统一展示账户余额，并追踪 OpenCode Go / Z.ai 订阅额度。
+  shots: (none)
+
+dsh-service  [dev]  stars=6 dl=8226
+  npm=@gehennawu/dsh-service
+  install=dsh plugin --profile web add @gehennawu/dsh-service
+  ZH: 面向自托管 DSH Web 的运维面板：安全重启与升级、健康诊断、模型用量统计与供应商额度查询、备份和会话管理、任务通知、技能控制、子代理模型路由与 Linux 权限维护。
+  shots: https://raw.githubusercontent.com/gehennawu/dsh-service/HEAD/screenshots/overview.png | https://raw.githubusercontent.com/gehennawu/dsh-service/HEAD/screenshots/quota-lookup.png | https://raw.githubusercontent.com/gehennawu/dsh-service/HEAD/screenshots/model-usage.png | https://raw.githubusercontent.com/gehennawu/dsh-service/HEAD/screenshots/session-manager.png | https://raw.githubusercontent.com/gehennawu/dsh-service/HEAD/screenshots/health-diagnostics.png | https://raw.githubusercontent.com/gehennawu/dsh-service/HEAD/screenshots/skill-manager.png | https://raw.githubusercontent.com/gehennawu/dsh-service/HEAD/screenshots/backup-management.png | https://raw.githubusercontent.com/gehennawu/dsh-service/HEAD/screenshots/mobile-adaptation.png
+

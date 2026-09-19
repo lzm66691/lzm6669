@@ -1,0 +1,202 @@
+﻿=== 背景/壁纸/皮肤类共 316 个，按下载量前 40 ===
+
+ 432532 dl |  4108 ★ | [market] dsh-market
+   npm=dshmarket
+   dsh plugin --profile web add dshmarket
+   ZH: 在 DeepSeek Harness 设置页内浏览、搜索并安装社区插件，支持分类筛选、一键更新与停用，以及主题切换与配置备份。
+
+  88416 dl |  7725 ★ | [ui] dsh-web#packages/dsh-web-all
+   npm=@linxin666/dsh-web-all
+   dsh plugin --profile web add @linxin666/dsh-web-all
+   ZH: DSH Web UI 插件与皮肤合集：任务看板、git 图、右侧面板、远程移动端 UI、桌宠、实时 token 统计与皮肤中心。
+
+  30467 dl |   175 ★ | [theme] dsh-dream-skin
+   npm=dsh-dream-skin
+   dsh plugin --profile web add dsh-dream-skin
+   ZH: 一键换肤插件：8 套原创主题、背景壁纸（透明度/模糊）、强调色、主题包导入/导出+分享链接、收藏与随机，纯原生 token 系统接入。
+
+  21003 dl |   301 ★ | [theme] dsh-wallpaper-engine
+   npm=dsh-plugin-wallpaper-engine
+   dsh plugin --profile web add dsh-plugin-wallpaper-engine
+   ZH: 前置要求：DeepSeek Harness 0.1.5-rc.1+（DSH Desktop ≥ 2.0.7）且 dsh-better-sidebar ≥ 0.19.0，安装或更新本插件前请先更新两者。把本机 Wallpaper Engine 的 Video/Web 壁纸实时播放到聊天界面后方，Scene 壁纸由内置渲染器输出完整场景帧，支持内容分级/类型过滤、自定义壁纸上传与 iOS 液态玻璃设置窗口。
+
+  18892 dl |     9 ★ | [ui] dsh-tui-pi
+   npm=@aiwayds/dsh-tui-pi
+   dsh plugin --profile web add @aiwayds/dsh-tui-pi
+   ZH: DeepSeek Harness 的全功能 TUI：流式对话、powerline 状态栏、实时思考/工具/待办面板、子代理双视图、主题热切换——全部以纯 cordis 插件实现，不 fork、不 patch 上游一行代码。
+
+  10670 dl |     4 ★ | [market] dshhub-market
+   npm=dshhub-market
+   dsh plugin --profile web add dshhub-market
+   ZH: DeepSeek Harness 口令插件市场：输入 6 位口令解锁并安装创作者分享的插件，附带主题、备份、更新与诊断。
+
+   9631 dl |    40 ★ | [theme] dsh-catppuccin-theme
+   npm=@nonamelego/dsh-catppuccin
+   dsh plugin --profile web add @nonamelego/dsh-catppuccin
+   ZH: DSH Web GUI 的 Catppuccin 主题插件：Latte、Frappé、Macchiato、Mocha 四套主题接入原生主题系统，一键切换并记住选择；另附可开关的玻璃质感皮肤，顶栏、侧边栏、输入框、统计行与轨迹视图的磨砂玻璃效果可自由调节。
+
+   8793 dl |   148 ★ | [market] dsh-skin-market
+   npm=dsh-skin-market
+   dsh plugin --profile web add dsh-skin-market
+   ZH: 原生皮肤市场与生命周期管理器，发现社区皮肤、展示预览与兼容状态，并提供已验证的一键安装或手动安装入口。
+
+   8192 dl |    80 ★ | [theme] beautiCode#deepseek-harness
+   npm=beauticode-dsh
+   dsh plugin --profile web add beauticode-dsh
+   ZH: 为 DSH Web 设置本地图片与 MP4 视频背景：侧栏「背景」面板、可保存主题（含内置「画窗」）、声音开关、恢复上次背景，以及 /bg、/bg-theme、/bg-clear 命令。
+
+   7890 dl |    39 ★ | [dev] fn-os-apps#dsh-fnos-plugin
+   npm=@tnnevol/dsh-fnos
+   dsh plugin --profile web add @tnnevol/dsh-fnos
+   ZH: 把 DeepSeek Harness 接进飞牛 fnOS：DSH 界面跑在 fnOS 应用框架里时通过 fnOS 浏览器 SDK 工作——DSH 设为跟随系统时读取并跟随 NAS 主题，在设置里列出和取消已授权的 NAS 目录，把文件与链接交给对应的 fnOS 应用打开，并把 DSH 页面标题同步到 fnOS 应用窗口。npm 安装：`dsh plugin --profile web add @tnnevol/dsh-fnos`。
+
+   7357 dl |   196 ★ | [dev] pi2dsh
+   npm=pi2dsh
+   dsh plugin --profile web add pi2dsh
+   ZH: Pi Host ABI 兼容引擎：装一次之后，npm 上的 Pi 扩展原包经 `dsh plugin add <pi-package>` 直接作为 DSH 原生插件挂载。已在官方 DSH 上端到端验证 pi-mcp-adapter（完整 MCP 管理面：OAuth、resources、prompts、MCP Apps、elicitation、sampling）、@tintinweb/pi-subagents、pi-code、pi-hermes-memory、pi-background-tasks；`pi2dsh inspect` 在安装前报告一个包的兼容情况。
+
+   7163 dl |    82 ★ | [ui] dsh-status-rotator
+   npm=dsh-status-rotator
+   dsh plugin --profile web add dsh-status-rotator
+   ZH: 把 dsh 回合状态行换成 1059 条中英文案的轮播：打字机输出、流动彩虹渐变、弹幕、12 个可开关的主题词库包、实时占位符与标签页标题轮换。两个 star 包默认关闭；星标者包每位星标者一条文案，由工作流每周刷新。
+
+   6499 dl |     2 ★ | [workflow] dsh-cron
+   npm=@goodandready/dsh-cron
+   dsh plugin --profile web add @goodandready/dsh-cron
+   ZH: 为 DeepSeek Harness 提供定时任务、后台自动化与 Agent 执行。
+
+   5757 dl |     2 ★ | [workflow] dsh-pre-duediligence
+   npm=dsh-pre-duediligence
+   dsh plugin --profile web add dsh-pre-duediligence
+   ZH: 访前尽调智能体：面向拜访前调查，提供企业尽调、客户尽调、客户背景调查、工商核验与风险信息整理；使用企查查 MCP，设有调用预算授权和主体确认。
+
+   5674 dl |     2 ★ | [notify] dsh-notify-me
+   npm=dsh-notify-me
+   dsh plugin --profile web add dsh-notify-me
+   ZH: 消息提醒 / 桌面通知 / 后台回复完成提醒：模型需要你操作（审批、方案确认、提问）或后台回复完成时，弹出系统通知与提示音，并标记标签页标题；设置页可开关提醒、调音量、切换中英文通知语言。
+
+   5169 dl |    11 ★ | [theme] dsh-theme-mineradio
+   npm=dsh-theme-mineradio
+   dsh plugin --profile web add dsh-theme-mineradio
+   ZH: Mineradio 玻璃拟态 DSH 网页主题：香槟金玻璃面板、流体或壁纸背景，一键开关即可还原原生界面。
+
+   4930 dl |     5 ★ | [dev] dsh-tray-launcher
+   npm=dsh-tray-launcher
+   dsh plugin --profile web add dsh-tray-launcher
+   ZH: Windows 系统托盘启动器：无窗口后台启动 dsh web（VBS/powershell 链），托盘菜单支持打开界面、日志、图标预设、开机自启与重启 Harness，一键安装与更新内置的 dsh-plugin-usage-meter，并可作为 dsh 插件安装使托盘随 Harness 一起启动。
+
+   4803 dl |    32 ★ | [theme] dsh-any-background
+   npm=dsh-any-background
+   dsh plugin --profile web add dsh-any-background
+   ZH: 自定义主题插件：支持视频与图片壁纸、自由拖动位置与拉伸填充模式；从壁纸提取主色并自动切换明暗字体；六个界面区域的模糊分别可调，分区不透明度可调；主题一键导出与导入。
+
+   4506 dl |     2 ★ | [voice] dsh-voco
+   npm=@flowingspring/dsh-voco
+   dsh plugin --profile web add @flowingspring/dsh-voco
+   ZH: 为 DSH 提供持续语音对话，支持免提监听、按住说话、语音识别、TTS 语音回复和后台 Agent 任务委派。
+
+   4279 dl |     6 ★ | [docs] dsh-ppt
+   npm=dsh-ppt
+   dsh plugin --profile web add dsh-ppt
+   ZH: 演示文稿技能与工具：一句话或一篇文档生成 HTML 放映与可编辑 PPTX，7 种页型（含金句与原生 PPTX 表格），演讲者备注（HTML 按 S 呼出 + PPTX 原生备注页），内置 5 套主题，可配置默认主题/语言，中英双语。
+
+   4172 dl |     3 ★ | [ui] dsh-theme
+   npm=@eternalnight/dsh-theme
+   dsh plugin --profile web add @eternalnight/dsh-theme
+   ZH: DeepSeek Harness 主题皮肤插件：内置主题 / 静态图片 / 动态视频（鼠标环绕跟随帧），侧边栏一键切换，设置页完整管理；导入持久化、默认皮肤不可删。
+
+   4131 dl |    53 ★ | [tools] dsh-deepread
+   npm=dsh-deepread
+   dsh plugin --profile web add dsh-deepread
+   ZH: 五种模式精读图书与文章（快速/深度/知识地图/费曼/全书），输出观点—证据—数据报告、四档置信度、Mermaid/XMind 思维导图，支持批量对比、预算预检与后台任务进度透明，可导出 MD/MM/HTML。
+
+   3848 dl |    15 ★ | [workflow] dsh-background-agents
+   npm=dsh-background-agents
+   dsh plugin --profile web add dsh-background-agents
+   ZH: 官方子代理接缝上的持久化后台子代理：任意会话中启动，Web 侧边栏看进度、随时留言与打断，支持按子代理限定工具、人格与委托深度。
+
+   3846 dl |    14 ★ | [theme] dsh-ui-appearance
+   npm=dsh-ui-appearance
+   dsh plugin --profile web add dsh-ui-appearance
+   ZH: DeepSeek Harness 外观自定义:主题调色、壁纸与视频背景、半透明与毛玻璃。
+
+   3623 dl |   160 ★ | [security] dsh-auto-mode
+   npm=@nanmicoder/dsh-auto-mode
+   dsh plugin --profile web add @nanmicoder/dsh-auto-mode
+   ZH: 在 Workspace Write 与 Full access 之间增加 Auto 权限档：日常操作留在官方 workspace-write 沙箱内，由当前会话模型复核升权与破坏性调用，精确的越界访问按次放行一次，意图不明时询问，命中关键路径则拒绝。
+
+   3494 dl |     6 ★ | [ui] dsh-mpkg-wallpaper
+   npm=dsh-mpkg-wallpaper
+   dsh plugin --profile web add dsh-mpkg-wallpaper
+   ZH: 在浏览器里直接加载 Wallpaper Engine 的 .mpkg 作为 DSH 网页背景：内嵌视频、多时段切换、统一磨砂虚化、本地壁纸库与轮换。
+
+   3407 dl |     6 ★ | [theme] deepseek-harness-background
+   npm=deepseek-harness-background
+   dsh plugin --profile web add deepseek-harness-background
+   ZH: DSH Web 自定义背景插件：上传本地图片或粘贴图片链接作为全界面背景，可调不透明度、明暗自适应遮罩、面板透明度、毛玻璃与壁纸模糊，实时预览、设置持久化；另附可选的 DeepSeek 官网风格会话时间线导航轨，支持重点书签与快速跳转。
+
+   3149 dl |     1 ★ | [theme] dsh-thirteen-bg
+   npm=dsh-thirteen-bg
+   dsh plugin --profile web add dsh-thirteen-bg
+   ZH: DeepSeek Harness Web 界面动态壁纸插件：支持 GIF / 动图 WebP / APNG 与静态 PNG/JPG 图片，以及 MP4 / WebM 视频背景，格式自动识别，自带压暗与亮度调节，可让界面色调跟随背景。
+
+   3141 dl |   198 ★ | [theme] dsh-liang-skin
+   npm=dsh-client-liang-intensity-skin
+   dsh plugin --profile web add dsh-client-liang-intensity-skin
+   ZH: 自适应推理等级滑块皮肤，将当前模型可用档位映射到 0–30 视觉强度，并同步人物、背景和界面配色。
+
+   3042 dl |     2 ★ | [dev] dsh-daemon
+   npm=@chenkai114/dsh-daemon
+   dsh plugin --profile web add @chenkai114/dsh-daemon
+   ZH: 将 DeepSeek Harness 的 web 服务（dsh web）注册为自启动、自愈的后台服务：LaunchAgent / systemd / cron 加 30 秒健康检查 watchdog，并提供 7 个 dsh_daemon_* 工具（安装/卸载/重装/状态/启动/停止/更新）。
+
+   2867 dl |    21 ★ | [ui] blue#blue
+   npm=@dsh-blue/blue
+   dsh plugin --profile web add @dsh-blue/blue
+   ZH: 插件树式终端界面：流式 markdown 会话流、工具卡片、模糊命令补全与主题热切换，每个界面组件都是可热替换的 Cordis 插件。
+
+   2845 dl |    18 ★ | [remote] dsh-plugin-hub#packages/dsh-lan-proxy
+   npm=@wingsky-1/dsh-lan-proxy
+   dsh plugin --profile web add @wingsky-1/dsh-lan-proxy
+   ZH: 局域网访问 dsh web UI：HTTP/HTTPS/WS 转发 + TLS（自签名/自定义证书）；HTTP 自适应 Brotli/gzip 与 WebSocket permessage-deflate 双压缩；WS 半开探活，移动端切后台不僵死；启动令牌自动注入，LAN 设备免手工拿 token；DNS 重绑定防护 + 回环-only 上游白名单。
+
+   2841 dl |     4 ★ | [ui] dsh-better-workspace
+   npm=dsh-better-workspace
+   dsh plugin --profile web add dsh-better-workspace
+   ZH: DSH 侧边栏「工作区」列表的层级树插件：工作区与会话名称中的 / 即虚拟分组（任意多级），添加工作区的目录流附带「所属分组」弹窗，重命名即时重排；每层行均支持右键操作与外观自定义（颜色、文字发光、字体粗细、原版图标库图标）。
+
+   2672 dl |     1 ★ | [ui] dsh-mobile-upgrade
+   npm=dsh-mobile-upgrade
+   dsh plugin --profile web add dsh-mobile-upgrade
+   ZH: 需要 DSH 0.1.5-rc.1。dsh web profile 的手机端体验修复：窄屏抽屉与设置标签、全宽模型菜单、卡住请求的网络状态芯片，以及把会话层级、subagent 与后台任务芯片收进一张可点开面板的窄屏头部收纳器。
+
+   2643 dl |    21 ★ | [theme] dsh-theme-firefly
+   npm=dsh-theme-firefly
+   dsh plugin --profile web add dsh-theme-firefly
+   ZH: 崩坏：星穹铁道「流萤」主题：立绘/动态壁纸、萤火绿霓虹配色、开屏变身动画、萤火氛围粒子、背景音乐、打字音效与按对话触发的表情包彩蛋。
+
+   2546 dl |     8 ★ | [tools] dsh-pdf-mineru
+   npm=dsh-pdf-mineru
+   dsh plugin --profile web add dsh-pdf-mineru
+   ZH: 基于 MinerU 的统一文档解析，支持自托管与官方云双 Provider、DSH 原生后台任务、不可变产物缓存与请求合并。
+
+   2289 dl |     2 ★ | [docs] dsh-plugin-dev-kb
+   npm=dsh-plugin-dev-kb
+   dsh plugin --profile web add dsh-plugin-dev-kb
+   ZH: 以 dsh-plugin-dev-kb 技能内置 DeepSeek Harness 官方文档离线镜像：站点中英 168 页 + 仓库补充文档 52 篇，带主题导航与全文检索，编写插件时随时查阅。
+
+   2262 dl |     8 ★ | [security] dsh-mask
+   npm=dsh-mask
+   dsh plugin --profile web add dsh-mask
+   ZH: DeepSeek Harness 的 PII 脱敏：请求前匿名化姓名、电话、邮箱、证件与密钥，展示层还原，明文不进入会话日志。
+
+   2195 dl |     6 ★ | [ui] dsh-custom-plugin
+   npm=@alexpeng/dsh-custom-plugin
+   dsh plugin --profile web add @alexpeng/dsh-custom-plugin
+   ZH: DSH Web GUI 便利套件，提供外观控制、时间线导航、项目文件夹、提示词、会话导出、Mermaid 渲染、引用回复，以及 DeepSeek 余额和每日 token 用量。
+
+   2192 dl |    18 ★ | [theme] dsh-joi-channel-theme
+   npm=dsh-joi-channel-theme
+   dsh plugin --profile web add dsh-joi-channel-theme
+   ZH: 轴伊 Joi 双衣装主题：Flowers 与 Library 是各自成套的明暗令牌体系，新会话页有立绘与趴在标题上的鲸鱼娘，输入框上方两只 Q 版角色随本回合状态换表情，侧栏字标换成二人合影，上下文占用由一颗渐熟的橘子表示；第三张卡可在保持插件安装的前提下切回 DeepSeek 原生外观。
+
